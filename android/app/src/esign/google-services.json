@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "637000729210",
+    "firebase_url": "https://etask-mobile.firebaseio.com",
+    "project_id": "etask-mobile",
+    "storage_bucket": "etask-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637000729210:android:d4184884c5402df0ce71c3",
+        "android_client_info": {
+          "package_name": "com.appvity.eplatform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuJUgpgt2AvETJPd6hU5CtWi-YwT3vHFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637000729210:android:4735e9b1318f7757ce71c3",
+        "android_client_info": {
+          "package_name": "com.appvity.esign"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuJUgpgt2AvETJPd6hU5CtWi-YwT3vHFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637000729210:android:fbc7c40084072d93ce71c3",
+        "android_client_info": {
+          "package_name": "com.appvity.etask_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuJUgpgt2AvETJPd6hU5CtWi-YwT3vHFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637000729210:android:930f25533ffe8d7dce71c3",
+        "android_client_info": {
+          "package_name": "com.appvity.p2p"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuJUgpgt2AvETJPd6hU5CtWi-YwT3vHFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637000729210:android:5187ec203ce8b44bce71c3",
+        "android_client_info": {
+          "package_name": "com.appvity.ptth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuJUgpgt2AvETJPd6hU5CtWi-YwT3vHFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

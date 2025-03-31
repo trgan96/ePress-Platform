@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">ePress Platform</string>
+
+    <!--    Object-->
+    <string name="Script" translatable="false" tools:ignore="ExtraTranslation">Kịch bản</string>
+    <string name="Topic" translatable="false" tools:ignore="ExtraTranslation">Đề tài</string>
+    <string name="ExternalProduction" translatable="false" tools:ignore="ExtraTranslation">PHSX Bên ngoài</string>
+    <string name="InternalProduction" translatable="false" tools:ignore="ExtraTranslation">PHSX Phim trường</string>
+    <string name="PostProduction" translatable="false" tools:ignore="ExtraTranslation">Duyệt thành phẩm</string>
+    <string name="BroadcastSchedule" translatable="false" tools:ignore="ExtraTranslation">Lịch phát sóng</string>
+    <string name="Task" translatable="false" tools:ignore="ExtraTranslation">Công việc</string>
+    <string name="eRequest" translatable="false" tools:ignore="ExtraTranslation">eRequest</string>
+    <string name="Statement" translatable="false" tools:ignore="ExtraTranslation">Bảng kê nhuận bút</string>
+    <string name="Royalties" translatable="false" tools:ignore="ExtraTranslation">Nhuận bút</string>
+    <string name="OnlineApproval" translatable="false" tools:ignore="ExtraTranslation">Quy trình online</string>
+
+    <!--    Action-->
+    <string name="withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+    <string name="mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="change_task_completed" translatable="false" tools:ignore="ExtraTranslation">%s change_task_completed %s </string>
+    <string name="change_status_task" translatable="false" tools:ignore="ExtraTranslation">%s change_status_task %s</string>
+    <string name="evaluate" translatable="false" tools:ignore="ExtraTranslation">%s change_status_task %s</string>
+    <string name="reevaluate" translatable="false" tools:ignore="ExtraTranslation">%s change_status_task %s</string>
+
+    <!--    Body-->
+    <!--    Script-->
+    <string name="Script_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="Script_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="Script_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="Script_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="Script_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="Script_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="Script_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="Script_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+    <!--    Topic-->
+    <string name="Topic_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="Topic_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="Topic_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="Topic_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="Topic_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="Topic_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="Topic_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="Topic_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+    <!--    ExternalProduction-->
+    <string name="ExternalProduction_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="ExternalProduction_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="ExternalProduction_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="ExternalProduction_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="ExternalProduction_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="ExternalProduction_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="ExternalProduction_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="ExternalProduction_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+    <!--    InternalProduction-->
+    <string name="InternalProduction_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="InternalProduction_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="InternalProduction_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="InternalProduction_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="InternalProduction_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="InternalProduction_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="InternalProduction_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="InternalProduction_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+    <!--    PostProduction-->
+    <string name="PostProduction_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="PostProduction_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="PostProduction_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="PostProduction_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="PostProduction_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="PostProduction_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="PostProduction_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="PostProduction_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+    <!--    BroadcastSchedule-->
+    <string name="BroadcastSchedule_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="BroadcastSchedule_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="BroadcastSchedule_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="BroadcastSchedule_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="BroadcastSchedule_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="BroadcastSchedule_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="BroadcastSchedule_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="BroadcastSchedule_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+    <!--    Task-->
+    <string name="Task_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao việc %s cho bạn. Ngày bắt đầu: %s.</string>
+    <string name="Task_change_status_task" translatable="false" tools:ignore="ExtraTranslation">%s đã chuyển trạng thái công việc do bạn tạo %s.</string>
+    <string name="Task_change_task_completed" translatable="false" tools:ignore="ExtraTranslation">%s đã hoàn tất công việc do bạn tạo %s.</string>
+    <string name="Task_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã nhắc đến bạn trong một bình luận của công việc %s.</string>
+    <!--    eRequest-->
+    <string name="eRequest_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="eRequest_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="eRequest_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="eRequest_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="eRequest_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="eRequest_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="eRequest_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="eRequest_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+
+    <!--    Royalties-->
+    <string name="Royalties_evaluate" translatable="false" tools:ignore="ExtraTranslation">%s đã đáng giá xong Nhuận Bút của bạn %s.</string>
+    <string name="Royalties_reevaluate" translatable="false" tools:ignore="ExtraTranslation">%s đang đánh giá lại Nhuận Bút của bạn %s.</string>
+    <string name="Royalties_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã nhắc đến bạn trong một bình luận của nhuận bút %s.</string>
+
+    <!--    Statement-->
+    <string name="Statement_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="Statement_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="Statement_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="Statement_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="Statement_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="Statement_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="Statement_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="Statement_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+
+    <!--    Online Approval-->
+    <string name="OnlineApproval_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã đề cập đến bạn trong một bình luận trong mục %s </string>
+    <string name="OnlineApproval_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao cho bạn mục %s</string>
+    <string name="OnlineApproval_approve" translatable="false" tools:ignore="ExtraTranslation">%s đã phê duyệt mục của bạn %s</string>
+    <string name="OnlineApproval_reject" translatable="false" tools:ignore="ExtraTranslation">%s đã từ chối mục của bạn %s</string>
+    <string name="OnlineApproval_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
+    <string name="OnlineApproval_recall" translatable="false" tools:ignore="ExtraTranslation">%s đã thu hồi mục của họ %s</string>
+    <string name="OnlineApproval_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
+    <string name="OnlineApproval_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
+
+</resources>

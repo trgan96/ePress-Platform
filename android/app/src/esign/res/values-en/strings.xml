@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">eSign</string>
+
+    <!--    Object-->
+    <string name="Script" translatable="false" tools:ignore="ExtraTranslation">Script</string>
+    <string name="Topic" translatable="false" tools:ignore="ExtraTranslation">Topic</string>
+    <string name="ExternalProduction" translatable="false" tools:ignore="ExtraTranslation">ExternalProduction</string>
+    <string name="InternalProduction" translatable="false" tools:ignore="ExtraTranslation">InternalProduction</string>
+    <string name="PostProduction" translatable="false" tools:ignore="ExtraTranslation">PostProduction</string>
+    <string name="BroadcastSchedule" translatable="false" tools:ignore="ExtraTranslation">BroadcastSchedule</string>
+    <string name="Task" translatable="false" tools:ignore="ExtraTranslation">Task</string>
+    <string name="eRequest" translatable="false" tools:ignore="ExtraTranslation">eRequest</string>
+    <string name="Statement" translatable="false" tools:ignore="ExtraTranslation">Statement</string>
+    <string name="Royalties" translatable="false" tools:ignore="ExtraTranslation">Royalty</string>
+    <string name="OnlineApproval" translatable="false" tools:ignore="ExtraTranslation">OnlineApproval</string>
+
+    <!--    Action-->
+    <string name="withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+    <string name="mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="change_task_completed" translatable="false" tools:ignore="ExtraTranslation">%s change_task_completed %s </string>
+    <string name="change_status_task" translatable="false" tools:ignore="ExtraTranslation">%s change_status_task %s</string>
+    <string name="evaluate" translatable="false" tools:ignore="ExtraTranslation">%s change_status_task %s</string>
+    <string name="reevaluate" translatable="false" tools:ignore="ExtraTranslation">%s change_status_task %s</string>
+
+    <!--    Body-->
+    <!--    Script-->
+    <string name="Script_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="Script_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="Script_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="Script_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="Script_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="Script_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="Script_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="Script_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+    <!--    Topic-->
+    <string name="Topic_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="Topic_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="Topic_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="Topic_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="Topic_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="Topic_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="Topic_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="Topic_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+    <!--    ExternalProduction-->
+    <string name="ExternalProduction_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="ExternalProduction_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="ExternalProduction_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="ExternalProduction_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="ExternalProduction_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="ExternalProduction_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="ExternalProduction_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="ExternalProduction_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+    <!--    InternalProduction-->
+    <string name="InternalProduction_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="InternalProduction_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="InternalProduction_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="InternalProduction_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="InternalProduction_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="InternalProduction_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="InternalProduction_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="InternalProduction_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+    <!--    PostProduction-->
+    <string name="PostProduction_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="PostProduction_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="PostProduction_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="PostProduction_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="PostProduction_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="PostProduction_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="PostProduction_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="PostProduction_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+    <!--    BroadcastSchedule-->
+    <string name="BroadcastSchedule_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="BroadcastSchedule_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="BroadcastSchedule_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="BroadcastSchedule_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="BroadcastSchedule_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="BroadcastSchedule_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="BroadcastSchedule_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="BroadcastSchedule_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+    <!--    Task-->
+    <!--    <string name="Task_assign" translatable="false" tools:ignore="ExtraTranslation">%s đã giao việc %s cho bạn. Ngày bắt đầu: %s.</string>-->
+    <!--    <string name="Task_change_status_task" translatable="false" tools:ignore="ExtraTranslation">%s đã chuyển trạng thái công việc do bạn tạo %s.</string>-->
+    <!--    <string name="Task_change_task_completed" translatable="false" tools:ignore="ExtraTranslation">%s đã hoàn tất công việc do bạn tạo %s.</string>-->
+    <!--    <string name="Task_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã nhắc đến bạn trong một bình luận của công việc %s.</string>-->
+    <!--    eRequest-->
+    <string name="eRequest_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="eRequest_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="eRequest_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="eRequest_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="eRequest_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="eRequest_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="eRequest_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="eRequest_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+    <!--    Royalties-->
+    <string name="Royalties_evaluate" translatable="false" tools:ignore="ExtraTranslation">%s evaluated your royalty %s.</string>
+    <string name="Royalties_reevaluate" translatable="false" tools:ignore="ExtraTranslation">%s re-evaluated your royalty %s.</string>
+    <string name="Royalties_mention" translatable="false" tools:ignore="ExtraTranslation">%s has mentioned you in a comment of royalty %s.</string>
+    <!--    Statement-->
+    <string name="Statement_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="Statement_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="Statement_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="Statement_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="Statement_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="Statement_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="Statement_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="Statement_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+
+    <!--    Online Approval-->
+    <string name="OnlineApproval_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="OnlineApproval_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="OnlineApproval_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="OnlineApproval_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="OnlineApproval_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="OnlineApproval_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="OnlineApproval_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="OnlineApproval_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+
+</resources>
