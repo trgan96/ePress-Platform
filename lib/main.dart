@@ -30,9 +30,9 @@ class WebViewExample extends StatefulWidget {
 class _WebViewExampleState extends State<WebViewExample> {
   late final WebViewController _controller;
   late final DarwinInitializationSettings initializationSettingsDarwin;
-  _WebViewExampleState(){
-    initializationSettingsDarwin =
-    DarwinInitializationSettings(
+
+  _WebViewExampleState() {
+    initializationSettingsDarwin = DarwinInitializationSettings(
       requestAlertPermission: false,
       requestBadgePermission: false,
       requestSoundPermission: false,
@@ -58,57 +58,55 @@ class _WebViewExampleState extends State<WebViewExample> {
   String iconPath = "";
 
   final DarwinNotificationDetails darwinNotificationDetails =
-  DarwinNotificationDetails(
-    categoryIdentifier: 'textCategory',
-  );
+      DarwinNotificationDetails(categoryIdentifier: 'textCategory');
 
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
       FlutterLocalNotificationsPlugin();
 
   List<DarwinNotificationCategory> darwinNotificationCategories =
-  <DarwinNotificationCategory>[
-    DarwinNotificationCategory(
-      'textCategory',
-      actions: <DarwinNotificationAction>[
-        DarwinNotificationAction.text(
-          'text_1',
-          'Action 1',
-          buttonTitle: 'Send',
-          placeholder: 'Placeholder',
+      <DarwinNotificationCategory>[
+        DarwinNotificationCategory(
+          'textCategory',
+          actions: <DarwinNotificationAction>[
+            DarwinNotificationAction.text(
+              'text_1',
+              'Action 1',
+              buttonTitle: 'Send',
+              placeholder: 'Placeholder',
+            ),
+          ],
         ),
-      ],
-    ),
-    DarwinNotificationCategory(
-      'textCategory',
-      actions: <DarwinNotificationAction>[
-        DarwinNotificationAction.plain('id_1', 'Action 1'),
-        DarwinNotificationAction.plain(
-          'id_2',
-          'Action 2 (destructive)',
-          options: <DarwinNotificationActionOption>{
-            DarwinNotificationActionOption.destructive,
+        DarwinNotificationCategory(
+          'textCategory',
+          actions: <DarwinNotificationAction>[
+            DarwinNotificationAction.plain('id_1', 'Action 1'),
+            DarwinNotificationAction.plain(
+              'id_2',
+              'Action 2 (destructive)',
+              options: <DarwinNotificationActionOption>{
+                DarwinNotificationActionOption.destructive,
+              },
+            ),
+            DarwinNotificationAction.plain(
+              'id_3',
+              'Action 3 (foreground)',
+              options: <DarwinNotificationActionOption>{
+                DarwinNotificationActionOption.foreground,
+              },
+            ),
+            DarwinNotificationAction.plain(
+              'id_4',
+              'Action 4 (auth required)',
+              options: <DarwinNotificationActionOption>{
+                DarwinNotificationActionOption.authenticationRequired,
+              },
+            ),
+          ],
+          options: <DarwinNotificationCategoryOption>{
+            DarwinNotificationCategoryOption.hiddenPreviewShowTitle,
           },
         ),
-        DarwinNotificationAction.plain(
-          'id_3',
-          'Action 3 (foreground)',
-          options: <DarwinNotificationActionOption>{
-            DarwinNotificationActionOption.foreground,
-          },
-        ),
-        DarwinNotificationAction.plain(
-          'id_4',
-          'Action 4 (auth required)',
-          options: <DarwinNotificationActionOption>{
-            DarwinNotificationActionOption.authenticationRequired,
-          },
-        ),
-      ],
-      options: <DarwinNotificationCategoryOption>{
-        DarwinNotificationCategoryOption.hiddenPreviewShowTitle,
-      },
-    )
-  ];
+      ];
 
   /// Create a [AndroidNotificationChannel] for heads up notifications
   late AndroidNotificationChannel channel;
@@ -124,7 +122,10 @@ class _WebViewExampleState extends State<WebViewExample> {
         AndroidInitializationSettings(iconPath);
 
     final InitializationSettings initializationSettings =
-        InitializationSettings(android: initializationSettingsAndroid, iOS: initializationSettingsDarwin);
+        InitializationSettings(
+          android: initializationSettingsAndroid,
+          iOS: initializationSettingsDarwin,
+        );
 
     await flutterLocalNotificationsPlugin.initialize(
       initializationSettings,
@@ -170,21 +171,16 @@ class _WebViewExampleState extends State<WebViewExample> {
     RemoteNotification? notification = message.notification;
     Map<String, dynamic> data = message.data;
     if (notification != null) {
-      print("aaaaaaaaaa showLocalNotification: $language");
       String object = Utils.getObject(this.language, notification.titleLocKey!);
       String body = Utils.getBody(this.language, notification.bodyLocKey!);
-      print("aaaaaaaaaa showLocalNotification: $object, $body");
       List<String> args = notification.bodyLocArgs;
-      print("aaaaaaaaaa showLocalNotification: ${args.length}");
       if (args.isEmpty || args.length < 2 || args[0].isEmpty || args[1].isEmpty)
         return;
       body = sprintf(body, args);
       String id = data["id"];
       String type = data["object"];
       String action = data["action"];
-      print("aaaaaaaaaa showLocalNotification: $id, $type, $action");
       String url = rootURL + Utils.getUrl(id, type, action);
-      print("aaaaaaaaaa showLocalNotification: $url");
 
       flutterLocalNotificationsPlugin.show(
         notification.hashCode,
@@ -205,7 +201,6 @@ class _WebViewExampleState extends State<WebViewExample> {
 
   void handleNotificationClick(NotificationResponse response) {
     String url = response.payload!;
-    print("aaaaaaaaaa url = " + (url));
     _controller.loadRequest(Uri.parse(url));
   }
 
@@ -251,20 +246,19 @@ class _WebViewExampleState extends State<WebViewExample> {
     );
     await setupFlutterNotifications();
     FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
-    print("aaaaaaaaaa updatedToken");
     if (!updatedToken) {
       updatedToken = true;
-      print("aaaaaaaaaa updatedToken1");
       if (Platform.isAndroid) {
         await FirebaseMessaging.instance.deleteToken().then(
-              (value) async => {getToken()},
+          (value) async => {getToken()},
         );
       } else {
         FirebaseMessaging firebaseMessaging = FirebaseMessaging.instance;
-        NotificationSettings setting = await firebaseMessaging.requestPermission();
-        print("setupFirebaseMessaging1: ${setting.authorizationStatus}") ;
+        NotificationSettings setting =
+            await firebaseMessaging.requestPermission();
+        print("setupFirebaseMessaging, setting.authorizationStatus: ${setting.authorizationStatus}");
         String? apnToken = await firebaseMessaging.getAPNSToken() ?? "";
-        print("apn token: $apnToken");
+        print("setupFirebaseMessaging, apn token: $apnToken");
         if (apnToken.isNotEmpty) {
           await FirebaseMessaging.instance.deleteToken().then(
                 (value) async => {getToken()},
@@ -273,42 +267,26 @@ class _WebViewExampleState extends State<WebViewExample> {
       }
     }
     FirebaseMessaging.onMessage.listen((mes) {
-      print("aaaaaaaaaa onMessage");
       if (Platform.isAndroid) showLocalNotification(mes);
     });
     FirebaseMessaging.instance.getInitialMessage().then((message) {
-      print("aaaaaaaaaa getInitialMessage");
       if (message != null) {
-        print("aaaaaaaaaa onMessageOpenedApp");
         //something
         Map<String, dynamic> data = message.data;
         String id = data["id"];
         String type = data["object"];
         String action = data["action"];
-
-        print("aaaaaaaaaa id = " + (id));
-        print("aaaaaaaaaa type = " + (type));
-        print("aaaaaaaaaa action = " + (action));
-
         String url = rootURL + Utils.getUrl(id, type, action);
-        print("aaaaaaaaaa url1 = " + (url));
         _controller.loadRequest(Uri.parse(url));
       }
     });
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-      print("aaaaaaaaaa onMessageOpenedApp");
       //something
       Map<String, dynamic> data = message.data;
       String id = data["id"];
       String type = data["object"];
       String action = data["action"];
-
-      print("aaaaaaaaaa id = " + (id));
-      print("aaaaaaaaaa type = " + (type));
-      print("aaaaaaaaaa action = " + (action));
-
       String url = rootURL + Utils.getUrl(id, type, action);
-      print("aaaaaaaaaa url1 = " + (url));
       _controller.loadRequest(Uri.parse(url));
     });
   }
@@ -337,7 +315,6 @@ class _WebViewExampleState extends State<WebViewExample> {
   }
 
   void getAccesstoken(String token) async {
-    print("getAccesstoken: " + token);
     if (cookie.isNotEmpty) {
       var url = Uri.parse('$rootURL/accesstoken');
       Map<String, String> headers = {
@@ -367,7 +344,6 @@ class _WebViewExampleState extends State<WebViewExample> {
       final bool? granted =
           await androidImplementation?.requestNotificationsPermission();
       if (granted == true) {
-        print("setupFirebaseMessaging");
         setupFirebaseMessaging();
       }
     } else {
@@ -381,8 +357,6 @@ class _WebViewExampleState extends State<WebViewExample> {
             MacOSFlutterLocalNotificationsPlugin
           >()
           ?.requestPermissions(alert: true, badge: true, sound: true);
-      print("setupFirebaseMessaging1: $granted");
-      print("setupFirebaseMessaging1: $granted_macOS");
       if (granted == true || granted_macOS == true) {
         setupFirebaseMessaging();
       }
@@ -391,7 +365,7 @@ class _WebViewExampleState extends State<WebViewExample> {
 
   void setupView() async {
     packageInfo = await PackageInfo.fromPlatform();
-    print("info: "+packageInfo.appName.toLowerCase());
+    print("info: " + packageInfo.appName.toLowerCase());
     switch (packageInfo.appName.toLowerCase()) {
       case "epress platform":
         iconPath = "@mipmap/ic_launcher_ptth";
@@ -411,10 +385,10 @@ class _WebViewExampleState extends State<WebViewExample> {
     }
     loadUrl = "$rootURL/login?returnUrl=$returnUrl";
     Future.delayed(
-      Duration(seconds: 10),
+      Duration(seconds: 30),
       () => setState(() => isLoading = false),
     );
-    setupWebview();
+    _controller.loadRequest(Uri.parse(loadUrl));
   }
 
   void setupWebview() {
@@ -429,7 +403,7 @@ class _WebViewExampleState extends State<WebViewExample> {
     }
 
     final WebViewController controller =
-    WebViewController.fromPlatformCreationParams(params);
+        WebViewController.fromPlatformCreationParams(params);
     // #enddocregion platform_features
     controller
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
@@ -437,20 +411,14 @@ class _WebViewExampleState extends State<WebViewExample> {
       ..setNavigationDelegate(
         NavigationDelegate(
           onProgress: (int progress) {
-            print("aaaaaaaaaa progress: " + progress.toString());
           },
           onPageStarted: (String url) {
-            print("aaaaaaaaaa onPageStarted: " + url);
           },
           onPageFinished: (String url) async {
-            print("aaaaaaaaaa onPageFinished: " + url.toString());
-
-            setState(() {
-              isLoading = false;
-            });
+            setState(() => isLoading = false);
             String cookies =
-            await controller.runJavaScriptReturningResult('document.cookie')
-            as String;
+                await controller.runJavaScriptReturningResult('document.cookie')
+                    as String;
             cookies = cookies.replaceAll("\"", "");
             cookies = cookies.replaceAll("\'", "");
             if (cookies.isNotEmpty &&
@@ -464,11 +432,10 @@ class _WebViewExampleState extends State<WebViewExample> {
               requestNotificationPermission();
             }
             String language =
-            await controller.runJavaScriptReturningResult(
-              "javascript:window.localStorage.getItem('language');",
-            )
-            as String;
-            print("language: $language");
+                await controller.runJavaScriptReturningResult(
+                      "javascript:window.localStorage.getItem('language');",
+                    )
+                    as String;
             if (language.isNotEmpty) {
               setState(() {
                 this.language = language.replaceAll("\"", "");
@@ -504,23 +471,20 @@ class _WebViewExampleState extends State<WebViewExample> {
             context,
           ).showSnackBar(SnackBar(content: Text(message.message)));
         },
-      )
-      ..loadRequest(Uri.parse(loadUrl));
-
+      );
     // #docregion platform_features
     if (controller.platform is AndroidWebViewController) {
       AndroidWebViewController.enableDebugging(true);
       (controller.platform as AndroidWebViewController)
           .setMediaPlaybackRequiresUserGesture(false);
-    } else {
-    }
+    } else {}
     _controller = controller;
   }
 
   @override
   void initState() {
     super.initState();
-    print("aaaaaaaaaa initState: $updatedToken");
+    setupWebview();
     setupView();
   }
 
@@ -549,7 +513,7 @@ class _WebViewExampleState extends State<WebViewExample> {
                   backgroundColor: Colors.white,
                   strokeWidth: 4.0,
                 ),
-                visible: isLoading,
+                visible:isLoading || loadUrl.isEmpty,
               ),
             ],
           ),

@@ -24,20 +24,15 @@ class MainActivity : FlutterActivity() {
         ).setMethodCallHandler { call, result ->
             if (call.method == "setLocale") {
                 val language = call.argument<String>("language") ?: "en"
-                Log.e("aaaaaaaaaa", "set language: "+language)
-                Log.e("aaaaaaaaaa", "sdk: "+Build.VERSION.SDK_INT)
                 when (language) {
                     "vi" -> {
-                        Log.e("aaaaaaaaaa", "setLocale vi")
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
                             getSystemService(
                                 LocaleManager::class.java
                             ).applicationLocales = LocaleList(Locale.forLanguageTag("vi-VN"))
                         }
                     }
-
                     "en" -> if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                        Log.e("aaaaaaaaaa", "setLocale en")
                         getSystemService(
                             LocaleManager::class.java
                         ).applicationLocales = LocaleList(Locale.forLanguageTag("en-US"))
