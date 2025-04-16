@@ -392,18 +392,21 @@ class _WebViewExampleState extends State<WebViewExample> {
   }
 
   void setupWebview() {
+    late final WebViewController controller;
     late final PlatformWebViewControllerCreationParams params;
     if (WebViewPlatform.instance is WebKitWebViewPlatform) {
       params = WebKitWebViewControllerCreationParams(
         allowsInlineMediaPlayback: true,
-        mediaTypesRequiringUserAction: const <PlaybackMediaTypes>{},
+        mediaTypesRequiringUserAction: const <PlaybackMediaTypes>{}
       );
+      WebKitWebViewController webKitController = new WebKitWebViewController(params);
+      webKitController.setInspectable(true);
+      controller = WebViewController.fromPlatform(webKitController);
     } else {
       params = const PlatformWebViewControllerCreationParams();
+      controller =
+          WebViewController.fromPlatformCreationParams(params);
     }
-
-    final WebViewController controller =
-        WebViewController.fromPlatformCreationParams(params);
     // #enddocregion platform_features
     controller
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
