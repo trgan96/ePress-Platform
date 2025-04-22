@@ -1,0 +1,113 @@
+"Script" = "Script";
+"Topic" = "Topic";
+"ExternalProduction" = "ExternalProduction";
+"InternalProduction" = "InternalProduction";
+"PostProduction" = "PostProduction";
+"BroadcastSchedule" = "BroadcastSchedule";
+"Task" = "Task";
+"eRequest" = "eRequest";
+"Statement" = "Statement";
+"Royalties" = "Royalty";
+"OnlineApproval" = "OnlineApproval";
+
+
+"withdraw" = "%@ withdrawn their item %s";
+"delegate" = "%@ delegated approval in item %s";
+"approve" = "%@ approved your item %s";
+"assign" = "%@ submitted item %s and need your approval.";
+"recall" = "%@ recalled their item %s";
+"reject" = "%@ rejected your item %s";
+"send_back" = "%@ sent back to you the item %s";
+"mention" = "%@ mentioned you in a comment in item %s ";
+"change_task_completed" = "%@ change_task_completed %s ";
+"change_status_task" = "%@ change_status_task %s";
+"evaluate" = "%@ change_status_task %s";
+"reevaluate" = "%@ change_status_task %s";
+
+"Script_mention" = "%@ mentioned you in a comment in item %s ";
+"Script_assign" = "%@ submitted item %s and need your approval.";
+"Script_approve" = "%@ approved your item %s";
+"Script_reject" = "%@ rejected your item %s";
+"Script_withdraw" = "%@ withdrawn their item %s";
+"Script_recall" = "%@ recalled their item %s";
+"Script_delegate" = "%@ delegated approval in item %s";
+"Script_send_back" = "%@ sent back to you the item %s";
+
+"Topic_mention" = "%@ mentioned you in a comment in item %s ";
+"Topic_assign" = "%@ submitted item %s and need your approval.";
+"Topic_approve" = "%@ approved your item %s";
+"Topic_reject" = "%@ rejected your item %s";
+"Topic_withdraw" = "%@ withdrawn their item %s";
+"Topic_recall" = "%@ recalled their item %s";
+"Topic_delegate" = "%@ delegated approval in item %s";
+"Topic_send_back" = "%@ sent back to you the item %s";
+
+"ExternalProduction_mention" = "%@ mentioned you in a comment in item %s ";
+"ExternalProduction_assign" = "%@ submitted item %s and need your approval.";
+"ExternalProduction_approve" = "%@ approved your item %s";
+"ExternalProduction_reject" = "%@ rejected your item %s";
+"ExternalProduction_withdraw" = "%@ withdrawn their item %s";
+"ExternalProduction_recall" = "%@ recalled their item %s";
+"ExternalProduction_delegate" = "%@ delegated approval in item %s";
+"ExternalProduction_send_back" = "%@ sent back to you the item %s";
+
+"InternalProduction_mention" = "%@ mentioned you in a comment in item %s ";
+"InternalProduction_assign" = "%@ submitted item %s and need your approval.";
+"InternalProduction_approve" = "%@ approved your item %s";
+"InternalProduction_reject" = "%@ rejected your item %s";
+"InternalProduction_withdraw" = "%@ withdrawn their item %s";
+"InternalProduction_recall" = "%@ recalled their item %s";
+"InternalProduction_delegate" = "%@ delegated approval in item %s";
+"InternalProduction_send_back" = "%@ sent back to you the item %s";
+
+"PostProduction_mention" = "%@ mentioned you in a comment in item %s ";
+"PostProduction_assign" = "%@ submitted item %s and need your approval.";
+"PostProduction_approve" = "%@ approved your item %s";
+"PostProduction_reject" = "%@ rejected your item %s";
+"PostProduction_withdraw" = "%@ withdrawn their item %s";
+"PostProduction_recall" = "%@ recalled their item %s";
+"PostProduction_delegate" = "%@ delegated approval in item %s";
+"PostProduction_send_back" = "%@ sent back to you the item %s";
+
+"BroadcastSchedule_mention" = "%@ mentioned you in a comment in item %s ";
+"BroadcastSchedule_assign" = "%@ submitted item %s and need your approval.";
+"BroadcastSchedule_approve" = "%@ approved your item %s";
+"BroadcastSchedule_reject" = "%@ rejected your item %s";
+"BroadcastSchedule_withdraw" = "%@ withdrawn their item %s";
+"BroadcastSchedule_recall" = "%@ recalled their item %s";
+"BroadcastSchedule_delegate" = "%@ delegated approval in item %s";
+"BroadcastSchedule_send_back" = "%@ sent back to you the item %s";
+
+"eRequest_mention" = "%@ mentioned you in a comment in item %s ";
+"eRequest_assign" = "%@ submitted item %s and need your approval.";
+"eRequest_approve" = "%@ approved your item %s";
+"eRequest_reject" = "%@ rejected your item %s";
+"eRequest_withdraw" = "%@ withdrawn their item %s";
+"eRequest_recall" = "%@ recalled their item %s";
+"eRequest_delegate" = "%@ delegated approval in item %s";
+"eRequest_send_back" = "%@ sent back to you the item %s";
+
+"Royalties_evaluate" = "%@ evaluated your royalty %s.";
+"Royalties_reevaluate" = "%@ re-evaluated your royalty %s.";
+"Royalties_mention" = "%@ has mentioned you in a comment of royalty %s.";
+
+"Statement_mention" = "%@ mentioned you in a comment in item %s ";
+"Statement_assign" = "%@ submitted item %s and need your approval.";
+"Statement_approve" = "%@ approved your item %s";
+"Statement_reject" = "%@ rejected your item %s";
+"Statement_withdraw" = "%@ withdrawn their item %s";
+"Statement_recall" = "%@ recalled their item %s";
+"Statement_delegate" = "%@ delegated approval in item %s";
+"Statement_send_back" = "%@ sent back to you the item %s";
+
+"OnlineApproval_mention" = "%@ mentioned you in a comment in item %s ";
+"OnlineApproval_assign" = "%@ submitted item %s and need your approval.";
+"OnlineApproval_approve" = "%@ approved your item %s";
+"OnlineApproval_reject" = "%@ rejected your item %s";
+"OnlineApproval_withdraw" = "%@ withdrawn their item %s";
+"OnlineApproval_recall" = "%@ recalled their item %s";
+"OnlineApproval_delegate" = "%@ delegated approval in item %s";
+"OnlineApproval_send_back" = "%@ sent back to you the item %s";
+
+</resources>
+

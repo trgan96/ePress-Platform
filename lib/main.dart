@@ -358,7 +358,7 @@ class _WebViewExampleState extends State<WebViewExample> {
           >()
           ?.requestPermissions(alert: true, badge: true, sound: true);
       if (granted == true || granted_macOS == true) {
-        setupFirebaseMessaging();
+        //setupFirebaseMessaging();
       }
     }
   }
