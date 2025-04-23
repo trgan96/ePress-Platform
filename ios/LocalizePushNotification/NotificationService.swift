@@ -17,9 +17,8 @@ class NotificationService: UNNotificationServiceExtension {
         bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
         
         if let bestAttemptContent = bestAttemptContent {
-            // Modify the notification content here...
-            bestAttemptContent.title = "\(bestAttemptContent.title) ............."
-            
+            bestAttemptContent.title = localized(value: bestAttemptContent.title, type: "title")
+            bestAttemptContent.body = localized(value: bestAttemptContent.body, type: "body")
             contentHandler(bestAttemptContent)
         }
     }
@@ -32,4 +31,46 @@ class NotificationService: UNNotificationServiceExtension {
         }
     }
 
+    private var appLanguage: String {
+        if let userDefault = UserDefaults(suiteName: "group.app.localized") {
+            if let currentLang = userDefault.string(forKey: LanguageManagerKeys.selectedLanguage) {
+                return currentLang
+            }
+            return Language.en.rawValue
+        } else {
+            return Language.en.rawValue
+        }
+    }
+    
+    private var appLocale: Locale {
+        Locale(identifier: appLanguage)
+    }
+    
+    private func localized(value: String, type: String = "") -> String {
+        guard let bundle = Bundle.main.path(forResource: appLanguage, ofType: "lproj") else {
+            return NSLocalizedString(value, comment: type)
+        }
+        if type == "title" {
+            let langBundle = Bundle(path: bundle)
+            return NSLocalizedString(value, tableName: nil, bundle: langBundle!, comment: type)
+        } else {
+            //type = "body"
+            let keys: [Substring] = value.split(separator: "-")
+            guard let key = keys.first else {
+                return ""
+            }
+            
+            guard let args2 = keys.last else {
+                return ""
+            }
+            let args1 = keys[1]
+            if key.isEmpty || args1.isEmpty || args2.isEmpty {
+                return ""
+            }
+            let langBundle = Bundle(path: bundle)
+            let body = NSLocalizedString(String(key).lowercased(), tableName: nil, bundle: langBundle!, comment: type)
+            return String(format: body, String(args1), String(args2))
+        }
+    }
+    
 }
