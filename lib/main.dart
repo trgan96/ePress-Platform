@@ -260,10 +260,9 @@ class _WebViewExampleState extends State<WebViewExample> {
         String? apnToken = await firebaseMessaging.getAPNSToken() ?? "";
         print("setupFirebaseMessaging, apn token: $apnToken");
         if (apnToken.isNotEmpty) {
-      //    await FirebaseMessaging.instance.deleteToken().then(
-          //      (value) async => {getToken()},
-     //     );
-          getToken();
+         await FirebaseMessaging.instance.deleteToken().then(
+               (value) async => {getToken()},
+         );
         }
       }
     }
@@ -419,6 +418,7 @@ class _WebViewExampleState extends State<WebViewExample> {
           onPageStarted: (String url) {
           },
           onPageFinished: (String url) async {
+            print("onPageFinished url: " + url);
             setState(() => isLoading = false);
             String cookies =
                 await controller.runJavaScriptReturningResult('document.cookie')

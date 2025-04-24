@@ -1,10 +1,8 @@
-
 import 'package:ptth/src/generated/l10n/app_localizations.dart';
 import 'package:ptth/src/generated/l10n/app_localizations_en.dart';
 import 'package:ptth/src/generated/l10n/app_localizations_vi.dart';
 
 class Utils {
-
   static AppLocalizations getAppLocalizations(String language) {
     return language == "vi" ? AppLocalizationsVi() : AppLocalizationsEn();
   }
@@ -241,8 +239,7 @@ class Utils {
     switch (type.toLowerCase()) {
       case "erequest":
         tabRouting = (action == "mention") ? "preview" : "overview";
-        redirect =
-            "/request-form-list/request/${id}/${tabRouting}";
+        redirect = "/request-form-list/request/${id}/${tabRouting}";
         break;
       case "script":
         tabRouting = (action == "mention") ? "preview" : "overview";
@@ -274,18 +271,29 @@ class Utils {
         break;
       case "royalties":
       case "royalty":
+        tabRouting = (action == "mention") ? "comment" : "overview";
+        redirect = "/royalties/${id}/${tabRouting}";
         break;
       case "statement":
+        tabRouting = (action == "mention") ? "comment" : "overview";
+        redirect = "/royalty-statement/${id}/${tabRouting}";
         break;
       case "task":
         break;
     }
-    if (type.toLowerCase() == 'onlineapproval') {
-      redirect = '/app/eRequest' + redirect;
-    } else {
-      redirect = '/app/ePress' + redirect;
+    switch (type.toLowerCase()) {
+      case 'onlineapproval':
+        redirect = '/app/eRequest' + redirect;
+        break;
+      case "royalties":
+      case "royalty":
+      case "statement":
+        redirect = '/app/eRoyalty' + redirect;
+        break;
+      default:
+        redirect = '/app/ePress' + redirect;
     }
-    print("aaaaaaaaaa redirect = "+redirect);
+    print("aaaaaaaaaa redirect = " + redirect);
     return redirect;
   }
 }
