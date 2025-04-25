@@ -35,7 +35,7 @@
         }
       }
     },
-    "BroadcastSchedule" : {
+    "broadcastschedule" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -75,13 +75,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_approve-%@-%@"
+                        "value" : "BroadcastSchedule_approve{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_approve-%@-%@"
+                        "value" : "BroadcastSchedule_approve{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -109,13 +109,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_assign-%@-%@"
+                        "value" : "BroadcastSchedule_assign{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_assign-%@-%@"
+                        "value" : "BroadcastSchedule_assign{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -143,13 +143,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_delegate-%@-%@"
+                        "value" : "BroadcastSchedule_delegate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_delegate-%@-%@"
+                        "value" : "BroadcastSchedule_delegate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -177,13 +177,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_mention-%@-%@"
+                        "value" : "BroadcastSchedule_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_mention-%@-%@"
+                        "value" : "BroadcastSchedule_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -211,13 +211,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_recall-%@-%@"
+                        "value" : "BroadcastSchedule_recall{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_recall-%@-%@"
+                        "value" : "BroadcastSchedule_recall{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -245,13 +245,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_reject-%@-%@"
+                        "value" : "BroadcastSchedule_reject{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_reject-%@-%@"
+                        "value" : "BroadcastSchedule_reject{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -279,13 +279,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_send_back-%@-%@"
+                        "value" : "BroadcastSchedule_send_back{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_send_back-%@-%@"
+                        "value" : "BroadcastSchedule_send_back{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -313,13 +313,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_withdraw-%@-%@"
+                        "value" : "BroadcastSchedule_withdraw{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "BroadcastSchedule_withdraw-%@-%@"
+                        "value" : "BroadcastSchedule_withdraw{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -375,7 +375,7 @@
         }
       }
     },
-    "eRequest" : {
+    "erequest" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -415,13 +415,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_approve-%@-%@"
+                        "value" : "eRequest_approve{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_approve-%@-%@"
+                        "value" : "eRequest_approve{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -449,13 +449,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_assign-%@-%@"
+                        "value" : "eRequest_assign{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_assign-%@-%@"
+                        "value" : "eRequest_assign{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -483,13 +483,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_delegate-%@-%@"
+                        "value" : "eRequest_delegate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_delegate-%@-%@"
+                        "value" : "eRequest_delegate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -517,13 +517,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_mention-%@-%@"
+                        "value" : "eRequest_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_mention-%@-%@"
+                        "value" : "eRequest_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -551,13 +551,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_recall-%@-%@"
+                        "value" : "eRequest_recall{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_recall-%@-%@"
+                        "value" : "eRequest_recall{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -585,13 +585,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_reject-%@-%@"
+                        "value" : "eRequest_reject{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_reject-%@-%@"
+                        "value" : "eRequest_reject{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -619,13 +619,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_send_back-%@-%@"
+                        "value" : "eRequest_send_back{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_send_back-%@-%@"
+                        "value" : "eRequest_send_back{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -653,13 +653,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_withdraw-%@-%@"
+                        "value" : "eRequest_withdraw{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "eRequest_withdraw-%@-%@"
+                        "value" : "eRequest_withdraw{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -681,7 +681,7 @@
         }
       }
     },
-    "ExternalProduction" : {
+    "externalproduction" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -721,13 +721,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_approve-%@-%@"
+                        "value" : "ExternalProduction_approve{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_approve-%@-%@"
+                        "value" : "ExternalProduction_approve{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -755,13 +755,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_assign-%@-%@"
+                        "value" : "ExternalProduction_assign{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_assign-%@-%@"
+                        "value" : "ExternalProduction_assign{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -789,13 +789,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_delegate-%@-%@"
+                        "value" : "ExternalProduction_delegate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_delegate-%@-%@"
+                        "value" : "ExternalProduction_delegate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -823,13 +823,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_mention-%@-%@"
+                        "value" : "ExternalProduction_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_mention-%@-%@"
+                        "value" : "ExternalProduction_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -857,13 +857,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_recall-%@-%@"
+                        "value" : "ExternalProduction_recall{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_recall-%@-%@"
+                        "value" : "ExternalProduction_recall{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -891,13 +891,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_reject-%@-%@"
+                        "value" : "ExternalProduction_reject{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_reject-%@-%@"
+                        "value" : "ExternalProduction_reject{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -925,13 +925,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_send_back-%@-%@"
+                        "value" : "ExternalProduction_send_back{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_send_back-%@-%@"
+                        "value" : "ExternalProduction_send_back{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -959,18 +959,18 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_withdraw-%@-%@"
+                        "value" : "ExternalProduction_withdraw{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "ExternalProduction_withdraw-%@-%@"
+                        "value" : "ExternalProduction_withdraw{;;}%@{;;}%@"
                       }
                     }
                   }
                 },
-    "InternalProduction" : {
+    "internalproduction" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -1010,13 +1010,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_approve-%@-%@"
+                        "value" : "InternalProduction_approve{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_approve-%@-%@"
+                        "value" : "InternalProduction_approve{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1044,13 +1044,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_assign-%@-%@"
+                        "value" : "InternalProduction_assign{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_assign-%@-%@"
+                        "value" : "InternalProduction_assign{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1078,13 +1078,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_delegate-%@-%@"
+                        "value" : "InternalProduction_delegate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_delegate-%@-%@"
+                        "value" : "InternalProduction_delegate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1112,13 +1112,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_mention-%@-%@"
+                        "value" : "InternalProduction_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_mention-%@-%@"
+                        "value" : "InternalProduction_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1146,13 +1146,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_recall-%@-%@"
+                        "value" : "InternalProduction_recall{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_recall-%@-%@"
+                        "value" : "InternalProduction_recall{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1180,13 +1180,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_reject-%@-%@"
+                        "value" : "InternalProduction_reject{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_reject-%@-%@"
+                        "value" : "InternalProduction_reject{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1214,13 +1214,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_send_back-%@-%@"
+                        "value" : "InternalProduction_send_back{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_send_back-%@-%@"
+                        "value" : "InternalProduction_send_back{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1248,13 +1248,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_withdraw-%@-%@"
+                        "value" : "InternalProduction_withdraw{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "InternalProduction_withdraw-%@-%@"
+                        "value" : "InternalProduction_withdraw{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1276,7 +1276,7 @@
         }
       }
     },
-    "OnlineApproval" : {
+    "onlineapproval" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -1316,13 +1316,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_approve-%@-%@"
+                        "value" : "OnlineApproval_approve{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_approve-%@-%@"
+                        "value" : "OnlineApproval_approve{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1350,13 +1350,13 @@
                       "en" : {
                         "stringUnit" : {
                           "state" : "translated",
-                          "value" : "OnlineApproval_assign-%@-%@"
+                          "value" : "OnlineApproval_assign{;;}%@{;;}%@"
                         }
                       },
                       "vi" : {
                         "stringUnit" : {
                           "state" : "translated",
-                          "value" : "OnlineApproval_assign-%@-%@"
+                          "value" : "OnlineApproval_assign{;;}%@{;;}%@"
                         }
                       }
                     }
@@ -1384,13 +1384,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_delegate-%@-%@"
+                        "value" : "OnlineApproval_delegate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_delegate-%@-%@"
+                        "value" : "OnlineApproval_delegate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1418,13 +1418,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_mention-%@-%@"
+                        "value" : "OnlineApproval_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_mention-%@-%@"
+                        "value" : "OnlineApproval_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1452,13 +1452,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_recall-%@-%@"
+                        "value" : "OnlineApproval_recall{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_recall-%@-%@"
+                        "value" : "OnlineApproval_recall{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1486,13 +1486,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_reject-%@-%@"
+                        "value" : "OnlineApproval_reject{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_reject-%@-%@"
+                        "value" : "OnlineApproval_reject{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1520,13 +1520,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_send_back-%@-%@"
+                        "value" : "OnlineApproval_send_back{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_send_back-%@-%@"
+                        "value" : "OnlineApproval_send_back{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1554,18 +1554,18 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_withdraw-%@-%@"
+                        "value" : "OnlineApproval_withdraw{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "OnlineApproval_withdraw-%@-%@"
+                        "value" : "OnlineApproval_withdraw{;;}%@{;;}%@"
                       }
                     }
                   }
                 },
-    "PostProduction" : {
+    "postproduction" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -1605,13 +1605,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_approve-%@-%@"
+                        "value" : "PostProduction_approve{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_approve-%@-%@"
+                        "value" : "PostProduction_approve{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1639,13 +1639,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_assign-%@-%@"
+                        "value" : "PostProduction_assign{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_assign-%@-%@"
+                        "value" : "PostProduction_assign{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1673,13 +1673,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_delegate-%@-%@"
+                        "value" : "PostProduction_delegate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_delegate-%@-%@"
+                        "value" : "PostProduction_delegate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1707,13 +1707,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_mention-%@-%@"
+                        "value" : "PostProduction_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_mention-%@-%@"
+                        "value" : "PostProduction_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1741,13 +1741,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_recall-%@-%@"
+                        "value" : "PostProduction_recall{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_recall-%@-%@"
+                        "value" : "PostProduction_recall{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1775,13 +1775,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_reject-%@-%@"
+                        "value" : "PostProduction_reject{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_reject-%@-%@"
+                        "value" : "PostProduction_reject{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1809,13 +1809,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_send_back-%@-%@"
+                        "value" : "PostProduction_send_back{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_send_back-%@-%@"
+                        "value" : "PostProduction_send_back{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1843,13 +1843,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_withdraw-%@-%@"
+                        "value" : "PostProduction_withdraw{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "PostProduction_withdraw-%@-%@"
+                        "value" : "PostProduction_withdraw{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1905,7 +1905,7 @@
         }
       }
     },
-    "Royalties" : {
+    "royalties" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -1922,6 +1922,40 @@
         }
       }
     },
+        "royalties_create" : {
+          "extractionState" : "manual",
+          "localizations" : {
+            "en" : {
+              "stringUnit" : {
+                "state" : "translated",
+                "value" : "%@ created your royalty %@."
+              }
+            },
+            "vi" : {
+              "stringUnit" : {
+                "state" : "translated",
+                "value" : "%@ đã tạo Nhuận Bút cho bạn %@."
+              }
+            }
+          }
+        },
+         "Royalties_create" : {
+                      "extractionState" : "manual",
+                      "localizations" : {
+                        "en" : {
+                          "stringUnit" : {
+                            "state" : "translated",
+                            "value" : "Royalties_create{;;}%@{;;}%@"
+                          }
+                        },
+                        "vi" : {
+                          "stringUnit" : {
+                            "state" : "translated",
+                            "value" : "Royalties_create{;;}%@{;;}%@"
+                          }
+                        }
+                      }
+                    },
     "royalties_evaluate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1945,13 +1979,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Royalties_evaluate-%@-%@"
+                        "value" : "Royalties_evaluate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Royalties_evaluate-%@-%@"
+                        "value" : "Royalties_evaluate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -1979,13 +2013,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Royalties_mention-%@-%@"
+                        "value" : "Royalties_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Royalties_mention-%@-%@"
+                        "value" : "Royalties_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2013,18 +2047,18 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Royalties_reevaluate-%@-%@"
+                        "value" : "Royalties_reevaluate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Royalties_reevaluate-%@-%@"
+                        "value" : "Royalties_reevaluate{;;}%@{;;}%@"
                       }
                     }
                   }
                 },
-    "Script" : {
+    "script" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -2064,13 +2098,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_approve-%@-%@"
+                        "value" : "Script_approve{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_approve-%@-%@"
+                        "value" : "Script_approve{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2098,13 +2132,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_assign-%@-%@"
+                        "value" : "Script_assign{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_assign-%@-%@"
+                        "value" : "Script_assign{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2132,13 +2166,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_delegate-%@-%@"
+                        "value" : "Script_delegate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_delegate-%@-%@"
+                        "value" : "Script_delegate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2166,13 +2200,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_mention-%@-%@"
+                        "value" : "Script_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_mention-%@-%@"
+                        "value" : "Script_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2200,13 +2234,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_recall-%@-%@"
+                        "value" : "Script_recall{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_recall-%@-%@"
+                        "value" : "Script_recall{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2234,13 +2268,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_reject-%@-%@"
+                        "value" : "Script_reject{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_reject-%@-%@"
+                        "value" : "Script_reject{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2268,13 +2302,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_send_back-%@-%@"
+                        "value" : "Script_send_back{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_send_back-%@-%@"
+                        "value" : "Script_send_back{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2302,13 +2336,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_withdraw-%@-%@"
+                        "value" : "Script_withdraw{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Script_withdraw-%@-%@"
+                        "value" : "Script_withdraw{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2330,7 +2364,7 @@
         }
       }
     },
-    "Statement" : {
+    "statement" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -2370,13 +2404,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_approve-%@-%@"
+                        "value" : "Statement_approve{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_approve-%@-%@"
+                        "value" : "Statement_approve{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2404,13 +2438,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_assign-%@-%@"
+                        "value" : "Statement_assign{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_assign-%@-%@"
+                        "value" : "Statement_assign{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2438,13 +2472,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_delegate-%@-%@"
+                        "value" : "Statement_delegate{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_delegate-%@-%@"
+                        "value" : "Statement_delegate{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2472,13 +2506,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_mention-%@-%@"
+                        "value" : "Statement_mention{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_mention-%@-%@"
+                        "value" : "Statement_mention{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2506,13 +2540,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_recall-%@-%@"
+                        "value" : "Statement_recall{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_recall-%@-%@"
+                        "value" : "Statement_recall{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2540,13 +2574,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_reject-%@-%@"
+                        "value" : "Statement_reject{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_reject-%@-%@"
+                        "value" : "Statement_reject{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2574,13 +2608,13 @@
                     "en" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_send_back-%@-%@"
+                        "value" : "Statement_send_back{;;}%@{;;}%@"
                       }
                     },
                     "vi" : {
                       "stringUnit" : {
                         "state" : "translated",
-                        "value" : "Statement_send_back-%@-%@"
+                        "value" : "Statement_send_back{;;}%@{;;}%@"
                       }
                     }
                   }
@@ -2608,18 +2642,18 @@
                 "en" : {
                   "stringUnit" : {
                     "state" : "translated",
-                    "value" : "Statement_withdraw-%@-%@"
+                    "value" : "Statement_withdraw{;;}%@{;;}%@"
                   }
                 },
                 "vi" : {
                   "stringUnit" : {
                     "state" : "translated",
-                    "value" : "Statement_withdraw-%@-%@"
+                    "value" : "Statement_withdraw{;;}%@{;;}%@"
                   }
                 }
               }
             },
-    "Task" : {
+    "task" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -2636,7 +2670,7 @@
         }
       }
     },
-    "Topic" : {
+    "topic" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -2676,13 +2710,13 @@
             "en" : {
               "stringUnit" : {
                 "state" : "translated",
-                "value" : "Topic_approve-%@-%@"
+                "value" : "Topic_approve{;;}%@{;;}%@"
               }
             },
             "vi" : {
               "stringUnit" : {
                 "state" : "translated",
-                "value" : "Topic_approve-%@-%@"
+                "value" : "Topic_approve{;;}%@{;;}%@"
               }
             }
           }
@@ -2710,13 +2744,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Topic_assign-%@-%@"
+            "value" : "Topic_assign{;;}%@{;;}%@"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Topic_assign-%@-%@"
+            "value" : "Topic_assign{;;}%@{;;}%@"
           }
         }
       }
@@ -2744,13 +2778,13 @@
                            "en" : {
                              "stringUnit" : {
                                "state" : "translated",
-                               "value" : "Topic_delegate-%@-%@"
+                               "value" : "Topic_delegate{;;}%@{;;}%@"
                              }
                            },
                            "vi" : {
                              "stringUnit" : {
                                "state" : "translated",
-                              "value" : "Topic_delegate-%@-%@"
+                              "value" : "Topic_delegate{;;}%@{;;}%@"
                              }
                            }
                          }
@@ -2778,13 +2812,13 @@
                        "en" : {
                          "stringUnit" : {
                            "state" : "translated",
-                           "value" : "Topic_mention-%@-%@"
+                           "value" : "Topic_mention{;;}%@{;;}%@"
                          }
                        },
                        "vi" : {
                          "stringUnit" : {
                            "state" : "translated",
-                          "value" : "Topic_mention-%@-%@"
+                          "value" : "Topic_mention{;;}%@{;;}%@"
                          }
                        }
                      }
@@ -2812,13 +2846,13 @@
                    "en" : {
                      "stringUnit" : {
                        "state" : "translated",
-                       "value" : "Topic_recall-%@-%@"
+                       "value" : "Topic_recall{;;}%@{;;}%@"
                      }
                    },
                    "vi" : {
                      "stringUnit" : {
                        "state" : "translated",
-                      "value" : "Topic_recall-%@-%@"
+                      "value" : "Topic_recall{;;}%@{;;}%@"
                      }
                    }
                  }
@@ -2846,13 +2880,13 @@
                "en" : {
                  "stringUnit" : {
                    "state" : "translated",
-                   "value" : "Topic_reject-%@-%@"
+                   "value" : "Topic_reject{;;}%@{;;}%@"
                  }
                },
                "vi" : {
                  "stringUnit" : {
                    "state" : "translated",
-                  "value" : "Topic_reject-%@-%@"
+                  "value" : "Topic_reject{;;}%@{;;}%@"
                  }
                }
              }
@@ -2880,13 +2914,13 @@
             "en" : {
               "stringUnit" : {
                 "state" : "translated",
-                "value" : "Topic_send_back-%@-%@"
+                "value" : "Topic_send_back{;;}%@{;;}%@"
               }
             },
             "vi" : {
               "stringUnit" : {
                 "state" : "translated",
-               "value" : "Topic_send_back-%@-%@"
+               "value" : "Topic_send_back{;;}%@{;;}%@"
               }
             }
           }
@@ -2914,13 +2948,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Topic_withdraw-%@-%@"
+            "value" : "Topic_withdraw{;;}%@{;;}%@"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-           "value" : "Topic_withdraw-%@-%@"
+           "value" : "Topic_withdraw{;;}%@{;;}%@"
           }
         }
       }

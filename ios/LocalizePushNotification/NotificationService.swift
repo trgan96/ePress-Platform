@@ -52,10 +52,10 @@ class NotificationService: UNNotificationServiceExtension {
         }
         if type == "title" {
             let langBundle = Bundle(path: bundle)
-            return NSLocalizedString(value, tableName: nil, bundle: langBundle!, comment: type)
+            return NSLocalizedString(value.lowercased(), tableName: nil, bundle: langBundle!, comment: type)
         } else {
             //type = "body"
-            let keys: [Substring] = value.split(separator: "-")
+            let keys: [Substring] = value.split(separator: "{;;}")
             guard let key = keys.first else {
                 return ""
             }
@@ -63,10 +63,12 @@ class NotificationService: UNNotificationServiceExtension {
             guard let args2 = keys.last else {
                 return ""
             }
+            
             let args1 = keys[1]
             if key.isEmpty || args1.isEmpty || args2.isEmpty {
                 return ""
             }
+            
             let langBundle = Bundle(path: bundle)
             let body = NSLocalizedString(String(key).lowercased(), tableName: nil, bundle: langBundle!, comment: type)
             return String(format: body, String(args1), String(args2))
