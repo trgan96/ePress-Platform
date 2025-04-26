@@ -11,9 +11,9 @@
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		8E5192E52DB7F8F800B9246C /* LocalizePushNotification.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8E5192DD2DB7F8F800B9246C /* LocalizePushNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8EAA85BC2DAE4FC6006581F4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8EAA85BB2DAE4FC6006581F4 /* Localizable.xcstrings */; };
 		8EAA85BD2DAE4FC6006581F4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8EAA85BB2DAE4FC6006581F4 /* Localizable.xcstrings */; };
+		8ED06C5B2DBB9BA3003AE47A /* LocalizePushNotification.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8E5192DD2DB7F8F800B9246C /* LocalizePushNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8EDCD2942DB885B100D668BA /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2912DB885B100D668BA /* LanguageManager.swift */; };
 		8EDCD2952DB885B100D668BA /* LanguageManagerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2922DB885B100D668BA /* LanguageManagerModels.swift */; };
 		8EDCD2992DB8860300D668BA /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2962DB8860300D668BA /* StringExtensions.swift */; };
@@ -40,7 +40,14 @@
 			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
 			remoteInfo = Runner;
 		};
-		8E5192E22DB7F8F800B9246C /* PBXContainerItemProxy */ = {
+		8ED06C5C2DBB9BA3003AE47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5192DC2DB7F8F800B9246C;
+			remoteInfo = LocalizePushNotification;
+		};
+		8ED06C5F2DBB9BAA003AE47A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
@@ -50,13 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8E5192E42DB7F8F800B9246C /* Embed Foundation Extensions */ = {
+		8ED06C5E2DBB9BA3003AE47A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8E5192E52DB7F8F800B9246C /* LocalizePushNotification.appex in Embed Foundation Extensions */,
+				8ED06C5B2DBB9BA3003AE47A /* LocalizePushNotification.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +341,7 @@
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
-				8E5192E42DB7F8F800B9246C /* Embed Foundation Extensions */,
+				8ED06C5E2DBB9BA3003AE47A /* Embed Foundation Extensions */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 				BCCA2CC1F2D0CB9D8B74D063 /* [CP] Embed Pods Frameworks */,
@@ -343,7 +350,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				8E5192E32DB7F8F800B9246C /* PBXTargetDependency */,
+				8ED06C5D2DBB9BA3003AE47A /* PBXTargetDependency */,
+				8ED06C602DBB9BAA003AE47A /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
@@ -581,10 +589,15 @@
 			target = 97C146ED1CF9000F007C117D /* Runner */;
 			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
 		};
-		8E5192E32DB7F8F800B9246C /* PBXTargetDependency */ = {
+		8ED06C5D2DBB9BA3003AE47A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
-			targetProxy = 8E5192E22DB7F8F800B9246C /* PBXContainerItemProxy */;
+			targetProxy = 8ED06C5C2DBB9BA3003AE47A /* PBXContainerItemProxy */;
+		};
+		8ED06C602DBB9BAA003AE47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
+			targetProxy = 8ED06C5F2DBB9BAA003AE47A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -674,7 +687,7 @@
 				CODE_SIGN_ENTITLEMENTS = Runner/RunnerProfile.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.6;
+				CURRENT_PROJECT_VERSION = 1.0.8;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
@@ -683,7 +696,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6;
+				MARKETING_VERSION = 8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -763,7 +776,7 @@
 				CODE_SIGN_ENTITLEMENTS = LocalizePushNotification/LocalizePushNotification.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -778,7 +791,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0.6;
+				MARKETING_VERSION = 1.0.8;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh.LocalizePushNotification;
@@ -808,7 +821,7 @@
 				CODE_SIGN_ENTITLEMENTS = LocalizePushNotification/LocalizePushNotification.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -823,7 +836,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0.6;
+				MARKETING_VERSION = 1.0.8;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh.LocalizePushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -850,7 +863,7 @@
 				CODE_SIGN_ENTITLEMENTS = LocalizePushNotification/LocalizePushNotification.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -865,7 +878,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0.6;
+				MARKETING_VERSION = 1.0.8;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh.LocalizePushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1005,7 +1018,7 @@
 				CODE_SIGN_ENTITLEMENTS = Runner/RunnerDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.6;
+				CURRENT_PROJECT_VERSION = 1.0.8;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
@@ -1014,7 +1027,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6;
+				MARKETING_VERSION = 8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1040,7 +1053,7 @@
 				CODE_SIGN_ENTITLEMENTS = Runner/RunnerRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.6;
+				CURRENT_PROJECT_VERSION = 1.0.8;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
@@ -1049,7 +1062,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6;
+				MARKETING_VERSION = 8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
