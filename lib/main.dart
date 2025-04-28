@@ -52,6 +52,7 @@ class _WebViewExampleState extends State<WebViewExample> {
   String teamId = "";
   String channelId = "";
   String language = 'en';
+  List<String> languages = ["vi", "en", "vi-VN", "en-US"];
   bool isLoading = true;
   bool updatedToken = false;
   late PackageInfo packageInfo;
@@ -256,13 +257,15 @@ class _WebViewExampleState extends State<WebViewExample> {
         FirebaseMessaging firebaseMessaging = FirebaseMessaging.instance;
         NotificationSettings setting =
             await firebaseMessaging.requestPermission();
-        print("setupFirebaseMessaging, setting.authorizationStatus: ${setting.authorizationStatus}");
+        print(
+          "setupFirebaseMessaging, setting.authorizationStatus: ${setting.authorizationStatus}",
+        );
         String? apnToken = await firebaseMessaging.getAPNSToken() ?? "";
         print("setupFirebaseMessaging, apn token: $apnToken");
         if (apnToken.isNotEmpty) {
-         await FirebaseMessaging.instance.deleteToken().then(
-               (value) async => {getToken()},
-         );
+          await FirebaseMessaging.instance.deleteToken().then(
+            (value) async => {getToken()},
+          );
         }
       }
     }
@@ -397,15 +400,16 @@ class _WebViewExampleState extends State<WebViewExample> {
     if (WebViewPlatform.instance is WebKitWebViewPlatform) {
       params = WebKitWebViewControllerCreationParams(
         allowsInlineMediaPlayback: true,
-        mediaTypesRequiringUserAction: const <PlaybackMediaTypes>{}
+        mediaTypesRequiringUserAction: const <PlaybackMediaTypes>{},
       );
-      WebKitWebViewController webKitController = new WebKitWebViewController(params);
+      WebKitWebViewController webKitController = new WebKitWebViewController(
+        params,
+      );
       webKitController.setInspectable(true);
       controller = WebViewController.fromPlatform(webKitController);
     } else {
       params = const PlatformWebViewControllerCreationParams();
-      controller =
-          WebViewController.fromPlatformCreationParams(params);
+      controller = WebViewController.fromPlatformCreationParams(params);
     }
     // #enddocregion platform_features
     controller
@@ -413,10 +417,8 @@ class _WebViewExampleState extends State<WebViewExample> {
       ..runJavaScript('document.cookie')
       ..setNavigationDelegate(
         NavigationDelegate(
-          onProgress: (int progress) {
-          },
-          onPageStarted: (String url) {
-          },
+          onProgress: (int progress) {},
+          onPageStarted: (String url) {},
           onPageFinished: (String url) async {
             print("onPageFinished url: " + url);
             setState(() => isLoading = false);
@@ -441,10 +443,13 @@ class _WebViewExampleState extends State<WebViewExample> {
                     )
                     as String;
             if (language.isNotEmpty) {
-              setState(() {
-                this.language = language.replaceAll("\"", "");
-              });
-              AndroidConfig.setAndroidLocale(this.language);
+              language = language.replaceAll("\"", "");
+              if (languages.contains(language)) {
+                setState(() {
+                  this.language = language;
+                });
+                AndroidConfig.setAndroidLocale(this.language);
+              }
             }
           },
           onWebResourceError: (WebResourceError error) {
@@ -476,12 +481,17 @@ class _WebViewExampleState extends State<WebViewExample> {
           ).showSnackBar(SnackBar(content: Text(message.message)));
         },
       );
+
     // #docregion platform_features
     if (controller.platform is AndroidWebViewController) {
       AndroidWebViewController.enableDebugging(true);
-      (controller.platform as AndroidWebViewController)
-          .setMediaPlaybackRequiresUserGesture(false);
-    } else {}
+      AndroidWebViewController androidWebViewController = (controller.platform as AndroidWebViewController);
+      androidWebViewController.setMediaPlaybackRequiresUserGesture(false);
+      androidWebViewController.setAllowFileAccess(true);
+    }
+    if (controller.platform  is WebKitWebViewController) {
+      (controller.platform as WebKitWebViewController).setAllowsBackForwardNavigationGestures(true);
+    }
     _controller = controller;
   }
 
@@ -510,14 +520,18 @@ class _WebViewExampleState extends State<WebViewExample> {
           body: Stack(
             alignment: Alignment.center,
             children: [
-              SafeArea(child: WebViewWidget(controller: _controller), bottom: false, /*minimum : EdgeInsets.only(bottom: 20.0)*/),
+              SafeArea(
+                child: WebViewWidget(controller: _controller),
+                bottom: false,
+                /*minimum : EdgeInsets.only(bottom: 20.0)*/
+              ),
               Visibility(
                 child: CircularProgressIndicator(
                   valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
                   backgroundColor: Colors.white,
                   strokeWidth: 4.0,
                 ),
-                visible:isLoading || loadUrl.isEmpty,
+                visible: isLoading || loadUrl.isEmpty,
               ),
             ],
           ),
