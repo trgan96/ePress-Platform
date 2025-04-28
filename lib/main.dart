@@ -510,7 +510,7 @@ class _WebViewExampleState extends State<WebViewExample> {
           body: Stack(
             alignment: Alignment.center,
             children: [
-              SafeArea(child: WebViewWidget(controller: _controller)),
+              SafeArea(child: WebViewWidget(controller: _controller), bottom: false, /*minimum : EdgeInsets.only(bottom: 20.0)*/),
               Visibility(
                 child: CircularProgressIndicator(
                   valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
