@@ -1,6 +1,7 @@
 import 'dart:convert' as convert;
 import 'dart:io';
 
+import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -11,12 +12,15 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:ptth/android_config.dart';
 import 'package:ptth/src/generated/l10n/app_localizations.dart';
 import 'package:ptth/utils.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sprintf/sprintf.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:webview_flutter_android/webview_flutter_android.dart';
 import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart';
 
 import 'firebase_options.dart';
+import 'model/User.dart';
+import 'dart:convert';
 
 void main() => runApp(WebViewExample());
 
@@ -28,6 +32,7 @@ class WebViewExample extends StatefulWidget {
 }
 
 class _WebViewExampleState extends State<WebViewExample> {
+  late final  SharedPreferences _prefs;
   late final WebViewController _controller;
   late final DarwinInitializationSettings initializationSettingsDarwin;
 
@@ -57,6 +62,7 @@ class _WebViewExampleState extends State<WebViewExample> {
   bool updatedToken = false;
   late PackageInfo packageInfo;
   String iconPath = "";
+  User user = new User("", "");
 
   final DarwinNotificationDetails darwinNotificationDetails =
       DarwinNotificationDetails(categoryIdentifier: 'textCategory');
@@ -213,30 +219,49 @@ class _WebViewExampleState extends State<WebViewExample> {
     print("updateToken $accessToken");
 
     if (cookie.isNotEmpty) {
-      var url = Uri.parse('$rootURL/api/v2/ups/users/$userId');
+      var url = Uri.parse('$rootURL/api/v2/ups/users/$userId/device/add');
       Map<String, String> headers = {
         "Content-Type": "application/json",
         "charset": "utf-8",
         "Cookie": cookie,
         "Authorization": "Bearer $accessToken",
       };
-      Map<String, String> body = {"exDeviceID": token};
+      Map<String, String> body = {"fcmToken": token};
       print("updateToken ${convert.json.encode(body)}");
       var response = await http.patch(
         url,
         headers: headers,
         body: convert.json.encode(body),
       );
-      print("updateToken ${response.statusCode}");
-      print("updateToken ${response.body}");
-      print('Request updateToken with status: ${response.statusCode}.');
+    }
+  }
+
+  Future<void> removeToken(String token, String userId) async {
+    print("removeToken $userId");
+    print("removeToken $cookie");
+    print("removeToken $accessToken");
+
+    if (cookie.isNotEmpty) {
+      var url = Uri.parse('$rootURL/api/v2/ups/users/$userId/device/remove');
+      Map<String, String> headers = {
+        "Content-Type": "application/json",
+        "charset": "utf-8"
+      };
+      Map<String, String> body = {"fcmToken": token};
+      print("removeToken ${convert.json.encode(body)}");
+      var response = await http.patch(
+        url,
+        headers: headers,
+        body: convert.json.encode(body),
+      );
     }
   }
 
   void getToken() async {
-    await FirebaseMessaging.instance.getToken().then(
-      (value) => getAccesstoken(value!),
-    );
+    await FirebaseMessaging.instance.getToken().then((value) {
+      print("getToken $value");
+      getAccesstoken(value!);
+    });
   }
 
   @pragma('vm:entry-point')
@@ -250,22 +275,12 @@ class _WebViewExampleState extends State<WebViewExample> {
     if (!updatedToken) {
       updatedToken = true;
       if (Platform.isAndroid) {
-        await FirebaseMessaging.instance.deleteToken().then(
-          (value) async => {getToken()},
-        );
+        getToken();
       } else {
         FirebaseMessaging firebaseMessaging = FirebaseMessaging.instance;
-        NotificationSettings setting =
-            await firebaseMessaging.requestPermission();
-        print(
-          "setupFirebaseMessaging, setting.authorizationStatus: ${setting.authorizationStatus}",
-        );
         String? apnToken = await firebaseMessaging.getAPNSToken() ?? "";
-        print("setupFirebaseMessaging, apn token: $apnToken");
         if (apnToken.isNotEmpty) {
-          await FirebaseMessaging.instance.deleteToken().then(
-            (value) async => {getToken()},
-          );
+          getToken();
         }
       }
     }
@@ -310,11 +325,56 @@ class _WebViewExampleState extends State<WebViewExample> {
       if (response.statusCode == 200) {
         var jsonResponse =
             convert.jsonDecode(response.body) as Map<String, dynamic>;
-        updateToken(token, jsonResponse["_id"]);
+        final String id = jsonResponse["_id"];
+        final String email = jsonResponse["email"];
+        checkLocalUserInfo(id, email, token);
       } else {
         print('Request failed with status: ${response.statusCode}.');
       }
     }
+  }
+
+  Future<void> checkLocalUserInfo(String userId, String email, String token) async {
+    if (!user.unknow()) {
+      if (user.userId == userId) {
+        if (user.token != token || user.token.isEmpty) {
+          user.token = token;
+          setLocalUserInfo(1);
+          removeToken(token, userId);
+          updateToken(token, user.userId);
+        }
+      } else {
+        final oldToken = user.token;
+        if (oldToken.isNotEmpty) {
+          final oldUserId = user.userId;
+          await removeToken(oldToken, oldUserId);
+        }
+        user.userId = userId;
+        user.token = token;
+        setLocalUserInfo(2);
+        updateToken(token, userId);
+      }
+      return;
+    }
+    user.userId = userId;
+    user.token = token;
+    setLocalUserInfo(3);
+    updateToken(token, userId);
+  }
+
+  void getLocalUserInfo() {
+    final Map<String, dynamic> info = json.decode(
+      _prefs.getString("User") ??
+          "{\"userId\":\"\", \"token\": \"\"}",
+    );
+    user.setData(User.fromJson(info));
+  }
+
+  void setLocalUserInfo(int i) {
+    _prefs.setString("User", user.toJson()).then((complete) {
+      print("setLocalUserInfo $complete, $i");
+    });
+    _prefs.commit();
   }
 
   void getAccesstoken(String token) async {
@@ -420,22 +480,37 @@ class _WebViewExampleState extends State<WebViewExample> {
           onProgress: (int progress) {},
           onPageStarted: (String url) {},
           onPageFinished: (String url) async {
+            if (url.contains("/oauth2/v2.0/logoutsession")) {
+              final String token = this.user.token;
+              final String userId = this.user.userId;
+              await removeToken(token, userId);
+              this.user.clear;
+              setLocalUserInfo(4);
+              this.updatedToken = false;
+              this.cookie = "";
+              setState(() => isLoading = true);
+            }
+            if (url.contains("https://www.appvity.com") && this.cookie.isEmpty) {
+              controller.loadRequest(Uri.parse(this.loadUrl));
+            }
             print("onPageFinished url: " + url);
             setState(() => isLoading = false);
-            String cookies =
+            String cookie =
                 await controller.runJavaScriptReturningResult('document.cookie')
                     as String;
-            cookies = cookies.replaceAll("\"", "");
-            cookies = cookies.replaceAll("\'", "");
-            if (cookies.isNotEmpty &&
-                cookie != cookies &&
-                cookies.contains("connect.sid")) {
-              if (cookies.contains(" connect.sid")) {
-                cookie = " connect.sid" + cookies.split(" connect.sid")[1];
-              } else {
-                cookie = cookies;
+            cookie = cookie.replaceAll("\"", "");
+            cookie = cookie.replaceAll("\'", "");
+            print("cookies =  $cookie");
+            if (cookie.isNotEmpty && cookie.contains("connect.sid")) {
+              if (cookie.contains(" connect.sid")) {
+                cookie = "connect.sid" + cookie.split(" connect.sid")[1];
               }
-              requestNotificationPermission();
+              if (this.cookie != cookie) {
+                this.updatedToken = false;
+                this.cookie = cookie;
+                getLocalUserInfo();
+                requestNotificationPermission();
+              }
             }
             String language =
                 await controller.runJavaScriptReturningResult(
@@ -485,19 +560,26 @@ class _WebViewExampleState extends State<WebViewExample> {
     // #docregion platform_features
     if (controller.platform is AndroidWebViewController) {
       AndroidWebViewController.enableDebugging(true);
-      AndroidWebViewController androidWebViewController = (controller.platform as AndroidWebViewController);
+      AndroidWebViewController androidWebViewController =
+          (controller.platform as AndroidWebViewController);
       androidWebViewController.setMediaPlaybackRequiresUserGesture(false);
       androidWebViewController.setAllowFileAccess(true);
     }
-    if (controller.platform  is WebKitWebViewController) {
-      (controller.platform as WebKitWebViewController).setAllowsBackForwardNavigationGestures(true);
+    if (controller.platform is WebKitWebViewController) {
+      (controller.platform as WebKitWebViewController)
+          .setAllowsBackForwardNavigationGestures(true);
     }
     _controller = controller;
+  }
+
+  Future<void> setPreferences() async {
+    _prefs = await SharedPreferences.getInstance();
   }
 
   @override
   void initState() {
     super.initState();
+    setPreferences();
     setupWebview();
     setupView();
   }
