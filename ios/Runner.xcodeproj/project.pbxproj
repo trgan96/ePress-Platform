@@ -23,12 +23,28 @@
 		8EDCD2A02DB88CBA00D668BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD29E2DB88CBA00D668BA /* Constants.swift */; };
 		8EDCD2A12DB88E3A00D668BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD29E2DB88CBA00D668BA /* Constants.swift */; };
 		8EDCD2A72DB89ACC00D668BA /* Localizable.xcstrings in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA85BB2DAE4FC6006581F4 /* Localizable.xcstrings */; };
-		8EFC13202DAD615400B5B5BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC131F2DAD615400B5B5BF /* GoogleService-Info.plist */; };
-		8EFC13212DAD615400B5B5BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC131F2DAD615400B5B5BF /* GoogleService-Info.plist */; };
+		8EF7F5C02DC91ABC0052ACA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		8EF7F5C12DC91ABC0052ACA9 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2912DB885B100D668BA /* LanguageManager.swift */; };
+		8EF7F5C22DC91ABC0052ACA9 /* LanguageManagerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2922DB885B100D668BA /* LanguageManagerModels.swift */; };
+		8EF7F5C32DC91ABC0052ACA9 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		8EF7F5C42DC91ABC0052ACA9 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2962DB8860300D668BA /* StringExtensions.swift */; };
+		8EF7F5C52DC91ABC0052ACA9 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2972DB8860300D668BA /* BundleExtension.swift */; };
+		8EF7F5C62DC91ABC0052ACA9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD29E2DB88CBA00D668BA /* Constants.swift */; };
+		8EF7F5CA2DC91ABC0052ACA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		8EF7F5CB2DC91ABC0052ACA9 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8EAA85BB2DAE4FC6006581F4 /* Localizable.xcstrings */; };
+		8EF7F5CC2DC91ABC0052ACA9 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		8EF7F5CD2DC91ABC0052ACA9 /* ePressPlatform-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */; };
+		8EF7F5CE2DC91ABC0052ACA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		8EF7F5CF2DC91ABC0052ACA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		8EF7F5D12DC91ABC0052ACA9 /* LocalizePushNotification.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8E5192DD2DB7F8F800B9246C /* LocalizePushNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8EF7F5F92DC9EEAF0052ACA9 /* P2P-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7F5F82DC9EEAF0052ACA9 /* P2P-GoogleService-Info.plist */; };
+		8EFC13202DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */; };
+		8EFC13212DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		C8AD1996CBF0DC825ADEB5D3 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050C6CB93290DA35FD7CDDAD /* Pods_Runner.framework */; };
+		C8AD1996CBF0DC825ADEB5D3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		CBA5695F5A13EA21DCC9F8AD /* Pods_RunnerP2P.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C810EDBC63F4989FB15E1B1F /* Pods_RunnerP2P.framework */; };
 		D5965F24C052E37425907D47 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09CC7AA76D20F6086B402A6 /* Pods_RunnerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,18 +70,53 @@
 			remoteGlobalIDString = 8E5192DC2DB7F8F800B9246C;
 			remoteInfo = LocalizePushNotification;
 		};
+		8EF7F5BA2DC91ABC0052ACA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5192DC2DB7F8F800B9246C;
+			remoteInfo = LocalizePushNotification;
+		};
+		8EF7F5BC2DC91ABC0052ACA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5192DC2DB7F8F800B9246C;
+			remoteInfo = LocalizePushNotification;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8ED06C5E2DBB9BA3003AE47A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
 				8ED06C5B2DBB9BA3003AE47A /* LocalizePushNotification.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF7F5D02DC91ABC0052ACA9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8EF7F5D12DC91ABC0052ACA9 /* LocalizePushNotification.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8EF7F5D22DC91ABC0052ACA9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
@@ -81,13 +132,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		050C6CB93290DA35FD7CDDAD /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		16FC5332E4B87B9617E7FF31 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		4B634596AE2B9AB15ECC4743 /* Pods-RunnerP2P.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerP2P.release.xcconfig"; path = "Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P.release.xcconfig"; sourceTree = "<group>"; };
 		4CAF44792132287A39FD42C4 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		5CC514F670EBAC63B0434DD0 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -102,7 +153,10 @@
 		8EDCD29E2DB88CBA00D668BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8EDCD2A22DB8951100D668BA /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
 		8EDCD2A32DB8951300D668BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		8EFC131F2DAD615400B5B5BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8EF7F5DA2DC91ABC0052ACA9 /* RunnerP2P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunnerP2P.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF7F5DB2DC91ABC0052ACA9 /* Runner copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy-Info.plist"; path = "/Users/annguyen/Documents/appvity/EP2/ePress-Platform/ios/Runner copy-Info.plist"; sourceTree = "<absolute>"; };
+		8EF7F5F82DC9EEAF0052ACA9 /* P2P-GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "P2P-GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ePressPlatform-GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8EFC13222DAD625D00B5B5BF /* RunnerProfile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunnerProfile.entitlements; sourceTree = "<group>"; };
 		8EFC13232DAD68D200B5B5BF /* RunnerDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunnerDebug.entitlements; sourceTree = "<group>"; };
 		8EFC13242DAD68D700B5B5BF /* RunnerRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunnerRelease.entitlements; sourceTree = "<group>"; };
@@ -114,9 +168,12 @@
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A09CC7AA76D20F6086B402A6 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4086E53F31E4497007B23FD /* Pods-RunnerP2P.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerP2P.profile.xcconfig"; path = "Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P.profile.xcconfig"; sourceTree = "<group>"; };
 		B557A92B4491020AF7224C82 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		C810EDBC63F4989FB15E1B1F /* Pods_RunnerP2P.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerP2P.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE180EB0D24676350813F91D /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		CEC929E1EC5BD9D8CF7F2593 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
+		D4DE6552BA337945B14457DD /* Pods-RunnerP2P.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerP2P.debug.xcconfig"; path = "Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -164,11 +221,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EF7F5C72DC91ABC0052ACA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA5695F5A13EA21DCC9F8AD /* Pods_RunnerP2P.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EB1CF9000F007C117D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AD1996CBF0DC825ADEB5D3 /* Pods_Runner.framework in Frameworks */,
+				C8AD1996CBF0DC825ADEB5D3 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +296,7 @@
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				B1B7DCBA73531774ADD62BDE /* Pods */,
 				B65908EAD5FFAB918ED629C1 /* Frameworks */,
+				8EF7F5DB2DC91ABC0052ACA9 /* Runner copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,6 +306,7 @@
 				97C146EE1CF9000F007C117D /* Runner.app */,
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
 				8E5192DD2DB7F8F800B9246C /* LocalizePushNotification.appex */,
+				8EF7F5DA2DC91ABC0052ACA9 /* RunnerP2P.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,7 +324,8 @@
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
 				97C147021CF9000F007C117D /* Info.plist */,
-				8EFC131F2DAD615400B5B5BF /* GoogleService-Info.plist */,
+				8EF7F5F82DC9EEAF0052ACA9 /* P2P-GoogleService-Info.plist */,
+				8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */,
 				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
@@ -275,6 +343,9 @@
 				16FC5332E4B87B9617E7FF31 /* Pods-RunnerTests.debug.xcconfig */,
 				4CAF44792132287A39FD42C4 /* Pods-RunnerTests.release.xcconfig */,
 				CEC929E1EC5BD9D8CF7F2593 /* Pods-RunnerTests.profile.xcconfig */,
+				D4DE6552BA337945B14457DD /* Pods-RunnerP2P.debug.xcconfig */,
+				4B634596AE2B9AB15ECC4743 /* Pods-RunnerP2P.release.xcconfig */,
+				B4086E53F31E4497007B23FD /* Pods-RunnerP2P.profile.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -282,8 +353,8 @@
 		B65908EAD5FFAB918ED629C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				050C6CB93290DA35FD7CDDAD /* Pods_Runner.framework */,
 				A09CC7AA76D20F6086B402A6 /* Pods_RunnerTests.framework */,
+				C810EDBC63F4989FB15E1B1F /* Pods_RunnerP2P.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -326,11 +397,35 @@
 				8E5192DE2DB7F8F800B9246C /* LocalizePushNotification */,
 			);
 			name = LocalizePushNotification;
-			packageProductDependencies = (
-			);
 			productName = LocalizePushNotification;
 			productReference = 8E5192DD2DB7F8F800B9246C /* LocalizePushNotification.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		8EF7F5B82DC91ABC0052ACA9 /* RunnerP2P */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF7F5D62DC91ABC0052ACA9 /* Build configuration list for PBXNativeTarget "RunnerP2P" */;
+			buildPhases = (
+				8EF7F5BD2DC91ABC0052ACA9 /* [CP] Check Pods Manifest.lock */,
+				8EF7F5BE2DC91ABC0052ACA9 /* Run Script */,
+				8EF7F5BF2DC91ABC0052ACA9 /* Sources */,
+				8EF7F5D52DC91ABC0052ACA9 /* [CP] Copy Pods Resources */,
+				8EF7F5C72DC91ABC0052ACA9 /* Frameworks */,
+				8EF7F5C92DC91ABC0052ACA9 /* Resources */,
+				8EF7F5D02DC91ABC0052ACA9 /* Embed Foundation Extensions */,
+				8EF7F5D22DC91ABC0052ACA9 /* Embed Frameworks */,
+				8EF7F5D32DC91ABC0052ACA9 /* Thin Binary */,
+				8EF7F5D42DC91ABC0052ACA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF7F5B92DC91ABC0052ACA9 /* PBXTargetDependency */,
+				8EF7F5BB2DC91ABC0052ACA9 /* PBXTargetDependency */,
+			);
+			name = RunnerP2P;
+			productName = Runner;
+			productReference = 8EF7F5DA2DC91ABC0052ACA9 /* RunnerP2P.app */;
+			productType = "com.apple.product-type.application";
 		};
 		97C146ED1CF9000F007C117D /* Runner */ = {
 			isa = PBXNativeTarget;
@@ -399,6 +494,7 @@
 				97C146ED1CF9000F007C117D /* Runner */,
 				331C8080294A63A400263BE5 /* RunnerTests */,
 				8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */,
+				8EF7F5B82DC91ABC0052ACA9 /* RunnerP2P */,
 			);
 		};
 /* End PBXProject section */
@@ -408,7 +504,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFC13202DAD615400B5B5BF /* GoogleService-Info.plist in Resources */,
+				8EFC13202DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist in Resources */,
 				8EAA85BC2DAE4FC6006581F4 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +516,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EF7F5C92DC91ABC0052ACA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF7F5CA2DC91ABC0052ACA9 /* LaunchScreen.storyboard in Resources */,
+				8EF7F5CB2DC91ABC0052ACA9 /* Localizable.xcstrings in Resources */,
+				8EF7F5CC2DC91ABC0052ACA9 /* AppFrameworkInfo.plist in Resources */,
+				8EF7F5CD2DC91ABC0052ACA9 /* ePressPlatform-GoogleService-Info.plist in Resources */,
+				8EF7F5CE2DC91ABC0052ACA9 /* Assets.xcassets in Resources */,
+				8EF7F5CF2DC91ABC0052ACA9 /* Main.storyboard in Resources */,
+				8EF7F5F92DC9EEAF0052ACA9 /* P2P-GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EC1CF9000F007C117D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,7 +537,7 @@
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				8EAA85BD2DAE4FC6006581F4 /* Localizable.xcstrings in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
-				8EFC13212DAD615400B5B5BF /* GoogleService-Info.plist in Resources */,
+				8EFC13212DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
@@ -494,6 +604,93 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF7F5BD2DC91ABC0052ACA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunnerP2P-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF7F5BE2DC91ABC0052ACA9 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+		};
+		8EF7F5D32DC91ABC0052ACA9 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+		};
+		8EF7F5D42DC91ABC0052ACA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF7F5D52DC91ABC0052ACA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RunnerP2P/Pods-RunnerP2P-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		91FA7D98870AC2FB8FD12A7D /* [CP] Copy Pods Resources */ = {
@@ -567,6 +764,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EF7F5BF2DC91ABC0052ACA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF7F5C02DC91ABC0052ACA9 /* AppDelegate.swift in Sources */,
+				8EF7F5C12DC91ABC0052ACA9 /* LanguageManager.swift in Sources */,
+				8EF7F5C22DC91ABC0052ACA9 /* LanguageManagerModels.swift in Sources */,
+				8EF7F5C32DC91ABC0052ACA9 /* GeneratedPluginRegistrant.m in Sources */,
+				8EF7F5C42DC91ABC0052ACA9 /* StringExtensions.swift in Sources */,
+				8EF7F5C52DC91ABC0052ACA9 /* BundleExtension.swift in Sources */,
+				8EF7F5C62DC91ABC0052ACA9 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EA1CF9000F007C117D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,6 +809,16 @@
 			isa = PBXTargetDependency;
 			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
 			targetProxy = 8ED06C5F2DBB9BAA003AE47A /* PBXContainerItemProxy */;
+		};
+		8EF7F5B92DC91ABC0052ACA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
+			targetProxy = 8EF7F5BA2DC91ABC0052ACA9 /* PBXContainerItemProxy */;
+		};
+		8EF7F5BB2DC91ABC0052ACA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
+			targetProxy = 8EF7F5BC2DC91ABC0052ACA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -686,10 +907,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/RunnerProfile.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.0.11;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
+				FIREBASE_CONFIG_FILE = "ePressPlatform-GoogleService-Info";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "ePress Platform";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -700,6 +924,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = truyenhinh;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -718,7 +943,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				DEVELOPMENT_TEAM = 3TR58S4RRD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh;
@@ -737,7 +962,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				DEVELOPMENT_TEAM = 3TR58S4RRD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh;
@@ -754,7 +979,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				DEVELOPMENT_TEAM = 3TR58S4RRD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh;
@@ -893,6 +1118,118 @@
 			};
 			name = Profile;
 		};
+		8EF7F5D72DC91ABC0052ACA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_P2P;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/RunnerDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.11;
+				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				ENABLE_BITCODE = NO;
+				FIREBASE_CONFIG_FILE = "P2P-GoogleService-Info";
+				INFOPLIST_FILE = "Runner copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = P2P;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		8EF7F5D82DC91ABC0052ACA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_P2P;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/RunnerRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.11;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
+				ENABLE_BITCODE = NO;
+				FIREBASE_CONFIG_FILE = "P2P-GoogleService-Info";
+				INFOPLIST_FILE = "Runner copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = P2P;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = truyenhinhp2p;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		8EF7F5D92DC91ABC0052ACA9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_P2P;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/RunnerProfile.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.11;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
+				ENABLE_BITCODE = NO;
+				FIREBASE_CONFIG_FILE = "P2P-GoogleService-Info";
+				INFOPLIST_FILE = "Runner copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = P2P;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = truyenhinhp2p;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
 		97C147031CF9000F007C117D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1021,6 +1358,7 @@
 				CURRENT_PROJECT_VERSION = 1.0.11;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
+				FIREBASE_CONFIG_FILE = "ePressPlatform-GoogleService-Info";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "ePress Platform";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1052,10 +1390,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/RunnerRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.0.11;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
+				FIREBASE_CONFIG_FILE = "ePressPlatform-GoogleService-Info";
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "ePress Platform";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1066,6 +1407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = truyenhinh;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -1096,6 +1438,16 @@
 				8E5192E62DB7F8F800B9246C /* Debug */,
 				8E5192E72DB7F8F800B9246C /* Release */,
 				8E5192E82DB7F8F800B9246C /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF7F5D62DC91ABC0052ACA9 /* Build configuration list for PBXNativeTarget "RunnerP2P" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF7F5D72DC91ABC0052ACA9 /* Debug */,
+				8EF7F5D82DC91ABC0052ACA9 /* Release */,
+				8EF7F5D92DC91ABC0052ACA9 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
