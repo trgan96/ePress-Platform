@@ -93,8 +93,8 @@ android {
             targetSdk = 34
             dimension = "default"
             applicationId = "com.appvity.ptth"
-            versionCode = 7
-            versionName = "1.7"
+            versionCode = 9
+            versionName = "1.9"
             signingConfig = signingConfigs.getByName("release")
             matchingFallbacks += listOf("")
         }
