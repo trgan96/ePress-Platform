@@ -266,7 +266,7 @@ class Utils {
         redirect = "/broadcast-schedule/${id}/${tabRouting}";
         break;
       case 'onlineapproval':
-        tabRouting = (action == "mention") ? "comment" : "overview";
+        tabRouting = (action == "mention") ? "preview" : "overview";
         redirect = "/online-approval/${id}/${tabRouting}";
         break;
       case "royalties":
