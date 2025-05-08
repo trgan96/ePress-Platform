@@ -595,7 +595,7 @@ class _WebViewExampleState extends State<WebViewExample> {
   Widget build(BuildContext context) {
     double maxHeight = MediaQuery.sizeOf(context).height;
     var padding = MediaQuery.paddingOf(context);
-    height = maxHeight - padding.top - padding.bottom;
+    height = maxHeight - padding.top;
 
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
