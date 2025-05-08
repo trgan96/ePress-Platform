@@ -11,6 +11,7 @@ import io.flutter.plugin.common.MethodChannel
 import java.util.Locale
 import android.util.Log
 import androidx.annotation.RequiresApi
+import androidx.core.view.WindowCompat
 
 class MainActivity : FlutterActivity() {
     private val CHANNEL = "config_channel"

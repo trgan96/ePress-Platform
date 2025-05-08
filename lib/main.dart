@@ -1,9 +1,7 @@
 import 'dart:convert' as convert;
+import 'dart:convert';
 import 'dart:io';
-import 'dart:math' as math;
 
-import 'package:custom_refresh_indicator/custom_refresh_indicator.dart';
-import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -22,9 +20,11 @@ import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart';
 
 import 'firebase_options.dart';
 import 'model/User.dart';
-import 'dart:convert';
 
-void main() => runApp(WebViewExample());
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(WebViewExample());
+}
 
 class WebViewExample extends StatefulWidget {
   const WebViewExample({super.key});
@@ -34,7 +34,7 @@ class WebViewExample extends StatefulWidget {
 }
 
 class _WebViewExampleState extends State<WebViewExample> {
-  late final  SharedPreferences _prefs;
+  late final SharedPreferences _prefs;
   late final WebViewController _controller;
   late final DarwinInitializationSettings initializationSettingsDarwin;
 
@@ -65,7 +65,11 @@ class _WebViewExampleState extends State<WebViewExample> {
   late PackageInfo packageInfo;
   String iconPath = "";
   User user = new User("", "");
+<<<<<<< HEAD
   IndicatorController indicatorController = IndicatorController();
+=======
+  double height = 0;
+>>>>>>> a5f72bfc4afe5a5a625389f7ef7b0abe23e45fe7
 
   final DarwinNotificationDetails darwinNotificationDetails =
       DarwinNotificationDetails(categoryIdentifier: 'textCategory');
@@ -248,7 +252,7 @@ class _WebViewExampleState extends State<WebViewExample> {
       var url = Uri.parse('$rootURL/api/v2/ups/users/$userId/device/remove');
       Map<String, String> headers = {
         "Content-Type": "application/json",
-        "charset": "utf-8"
+        "charset": "utf-8",
       };
       Map<String, String> body = {"fcmToken": token};
       print("removeToken ${convert.json.encode(body)}");
@@ -337,7 +341,11 @@ class _WebViewExampleState extends State<WebViewExample> {
     }
   }
 
-  Future<void> checkLocalUserInfo(String userId, String email, String token) async {
+  Future<void> checkLocalUserInfo(
+    String userId,
+    String email,
+    String token,
+  ) async {
     if (!user.unknow()) {
       if (user.userId == userId) {
         if (user.token != token || user.token.isEmpty) {
@@ -367,8 +375,7 @@ class _WebViewExampleState extends State<WebViewExample> {
 
   void getLocalUserInfo() {
     final Map<String, dynamic> info = json.decode(
-      _prefs.getString("User") ??
-          "{\"userId\":\"\", \"token\": \"\"}",
+      _prefs.getString("User") ?? "{\"userId\":\"\", \"token\": \"\"}",
     );
     user.setData(User.fromJson(info));
   }
@@ -493,7 +500,8 @@ class _WebViewExampleState extends State<WebViewExample> {
               this.cookie = "";
               setState(() => isLoading = true);
             }
-            if (url.contains("https://www.appvity.com") && this.cookie.isEmpty) {
+            if (url.contains("https://www.appvity.com") &&
+                this.cookie.isEmpty) {
               controller.loadRequest(Uri.parse(this.loadUrl));
             }
             print("onPageFinished url: " + url);
@@ -589,6 +597,10 @@ class _WebViewExampleState extends State<WebViewExample> {
 
   @override
   Widget build(BuildContext context) {
+    double maxHeight = MediaQuery.sizeOf(context).height;
+    var padding = MediaQuery.paddingOf(context);
+    height = maxHeight - padding.top - padding.bottom;
+
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown,
@@ -599,28 +611,31 @@ class _WebViewExampleState extends State<WebViewExample> {
     return MaterialApp(
       locale: Locale(language),
       home: AnnotatedRegion(
-        value: SystemUiOverlayStyle.dark, // < any style you want >
+        value: SystemUiOverlayStyle(
+          systemNavigationBarColor: Colors.transparent,
+          statusBarIconBrightness: Brightness.dark, // status bar icons' color
+          systemNavigationBarIconBrightness:
+          Brightness.light, //navigation bar icons' color
+        ), // < any style you want >
         child: Scaffold(
           backgroundColor: Colors.white,
           body: Stack(
             alignment: Alignment.center,
             children: [
               SafeArea(
-                child:
-          CustomMaterialIndicator(
-          onRefresh: onRefresh, // Your refresh logic
-            backgroundColor: Colors.white,
-            indicatorBuilder: (context, controller) {
-              indicatorController = controller;
-              return Padding(
-                padding: const EdgeInsets.all(6.0),
-                child: CircularProgressIndicator(
-                  color: Colors.redAccent,
-                  value: indicatorController.state.isLoading ? null : math.min(indicatorController.value, 1.0),
+                child: RefreshIndicator(
+                  onRefresh: onRefresh,
+                  child: ListView.builder(
+                    physics: AlwaysScrollableScrollPhysics(),
+                    itemCount: 1,
+                    itemBuilder: (context, position) {
+                      return Container(
+                        height: height,
+                        child: WebViewWidget(controller: _controller),
+                      );
+                    },
+                  ),
                 ),
-              );
-            },
-            child: WebViewWidget(controller: _controller),),
                 bottom: false,
                 /*minimum : EdgeInsets.only(bottom: 20.0)*/
               ),
@@ -642,6 +657,10 @@ class _WebViewExampleState extends State<WebViewExample> {
   }
 
   Future<void> onRefresh() async {
-    _controller.loadRequest(Uri.parse(_controller.currentUrl() as String));
+    await Future.delayed(const Duration(seconds: 3));
+    String url = await _controller.currentUrl() ?? "";
+    if (url.isNotEmpty) {
+      _controller.loadRequest(Uri.parse(url));
+    }
   }
 }
