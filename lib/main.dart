@@ -65,11 +65,7 @@ class _WebViewExampleState extends State<WebViewExample> {
   late PackageInfo packageInfo;
   String iconPath = "";
   User user = new User("", "");
-<<<<<<< HEAD
-  IndicatorController indicatorController = IndicatorController();
-=======
   double height = 0;
->>>>>>> a5f72bfc4afe5a5a625389f7ef7b0abe23e45fe7
 
   final DarwinNotificationDetails darwinNotificationDetails =
       DarwinNotificationDetails(categoryIdentifier: 'textCategory');
