@@ -1,6 +1,8 @@
 import 'dart:convert' as convert;
 import 'dart:io';
+import 'dart:math' as math;
 
+import 'package:custom_refresh_indicator/custom_refresh_indicator.dart';
 import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -63,6 +65,7 @@ class _WebViewExampleState extends State<WebViewExample> {
   late PackageInfo packageInfo;
   String iconPath = "";
   User user = new User("", "");
+  IndicatorController indicatorController = null;
 
   final DarwinNotificationDetails darwinNotificationDetails =
       DarwinNotificationDetails(categoryIdentifier: 'textCategory');
@@ -603,7 +606,21 @@ class _WebViewExampleState extends State<WebViewExample> {
             alignment: Alignment.center,
             children: [
               SafeArea(
-                child: WebViewWidget(controller: _controller),
+                child:
+          CustomMaterialIndicator(
+          onRefresh: onRefresh, // Your refresh logic
+            backgroundColor: Colors.white,
+            indicatorBuilder: (context, controller) {
+              indicatorController = controller;
+              return Padding(
+                padding: const EdgeInsets.all(6.0),
+                child: CircularProgressIndicator(
+                  color: Colors.redAccent,
+                  value: indicatorController.state.isLoading ? null : math.min(indicatorController.value, 1.0),
+                ),
+              );
+            },
+            child: WebViewWidget(controller: _controller),),
                 bottom: false,
                 /*minimum : EdgeInsets.only(bottom: 20.0)*/
               ),
@@ -622,5 +639,9 @@ class _WebViewExampleState extends State<WebViewExample> {
       supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
     );
+  }
+
+  Future<void> onRefresh() async {
+    _controller.loadRequest(Uri.parse(_controller.currentUrl() as String));
   }
 }
