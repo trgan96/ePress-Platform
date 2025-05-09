@@ -824,7 +824,7 @@ abstract class AppLocalizations {
   /// No description provided for @expenseproposal_reject.
   ///
   /// In en, this message translates to:
-  /// **'Expense Proposal %s has been rejected.'**
+  /// **'Expense Proposal %s has been cancelled.'**
   String get expenseproposal_reject;
 }
 

@@ -135,5 +135,5 @@
     "expenseproposal_fully_approved": "Expense Proposal %s has been approved successfully.",
     "expenseproposal_mention": "%s has mentioned you in a comment of Expense Proposal %s.",
     "expenseproposal_cancel": "Expense Proposal %s has been rejected.",
-    "expenseproposal_reject": "Expense Proposal %s has been rejected."
+    "expenseproposal_reject": "Expense Proposal %s has been cancelled."
 }

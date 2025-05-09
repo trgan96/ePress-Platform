@@ -369,7 +369,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get expenseproposal_mention => '%s đã nhắc đến bạn trong một bình luận của Phiếu Đề xuất kinh phí %s.';
 
   @override
-  String get expenseproposal_cancel => 'Phiếu Đề xuất kinh phí %s[EPRef] đã bị từ chối.';
+  String get expenseproposal_cancel => 'Phiếu Đề xuất kinh phí %s đã được hủy.';
 
   @override
   String get expenseproposal_reject => 'Phiếu Đề xuất kinh phí %s đã bị từ chối.';

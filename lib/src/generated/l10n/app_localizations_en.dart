@@ -372,5 +372,5 @@ class AppLocalizationsEn extends AppLocalizations {
   String get expenseproposal_cancel => 'Expense Proposal %s has been rejected.';
 
   @override
-  String get expenseproposal_reject => 'Expense Proposal %s has been rejected.';
+  String get expenseproposal_reject => 'Expense Proposal %s has been cancelled.';
 }

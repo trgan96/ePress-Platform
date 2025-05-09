@@ -152,5 +152,5 @@
     <string name="ExpenseProposal_fully_approved" translatable="false" tools:ignore="ExtraTranslation">Phiếu Đề xuất kinh phí %s đã được duyệt thành công.</string>
     <string name="ExpenseProposal_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã nhắc đến bạn trong một bình luận của Phiếu Đề xuất kinh phí %s.</string>
     <string name="ExpenseProposal_reject" translatable="false" tools:ignore="ExtraTranslation">Phiếu Đề xuất kinh phí %s đã bị từ chối.</string>
-    <string name="ExpenseProposal_cancel" translatable="false" tools:ignore="ExtraTranslation">Phiếu Đề xuất kinh phí %s đã bị từ chối.</string>
+    <string name="ExpenseProposal_cancel" translatable="false" tools:ignore="ExtraTranslation">Phiếu Đề xuất kinh phí %s đã được hủy.</string>
 </resources>
