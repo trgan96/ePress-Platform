@@ -619,19 +619,7 @@ class _WebViewExampleState extends State<WebViewExample> {
             alignment: Alignment.center,
             children: [
               SafeArea(
-                child: RefreshIndicator(
-                  onRefresh: onRefresh,
-                  child: ListView.builder(
-                    physics: AlwaysScrollableScrollPhysics(),
-                    itemCount: 1,
-                    itemBuilder: (context, position) {
-                      return Container(
-                        height: height,
-                        child: WebViewWidget(controller: _controller),
-                      );
-                    },
-                  ),
-                ),
+                child: WebViewWidget(controller: _controller),
                 bottom: false,
                 /*minimum : EdgeInsets.only(bottom: 20.0)*/
               ),
