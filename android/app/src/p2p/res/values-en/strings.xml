@@ -14,7 +14,10 @@
     <string name="Statement" translatable="false" tools:ignore="ExtraTranslation">Statement</string>
     <string name="Royalties" translatable="false" tools:ignore="ExtraTranslation">Royalty</string>
     <string name="OnlineApproval" translatable="false" tools:ignore="ExtraTranslation">OnlineApproval</string>
-
+    <string name="Payment" translatable="false" tools:ignore="ExtraTranslation">Payment</string>
+    <string name="BudgetRequest" translatable="false" tools:ignore="ExtraTranslation">BudgetRequest</string>
+    <string name="ExpenseProposal" translatable="false" tools:ignore="ExtraTranslation">ExpenseProposal</string>
+    
     <!--    Action-->
     <string name="withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
     <string name="delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
@@ -122,4 +125,30 @@
     <string name="OnlineApproval_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
     <string name="OnlineApproval_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
 
+    <!--    Payment-->
+    <string name="Payment_create" translatable="false" tools:ignore="ExtraTranslation">%s created Payment Request %s.</string>
+    <string name="Payment_submit" translatable="false" tools:ignore="ExtraTranslation">%s submitted Payment Request %s.</string>
+    <string name="Payment_fully_approved" translatable="false" tools:ignore="ExtraTranslation">Payment Request %s has been approved successfully.</string>
+    <string name="Payment_reject" translatable="false" tools:ignore="ExtraTranslation">Payment Request %s has been rejected.</string>
+    <string name="Payment_cancel" translatable="false" tools:ignore="ExtraTranslation">Payment Request %s has been cancelled.</string>
+    <string name="Payment_paid" translatable="false" tools:ignore="ExtraTranslation">Payment Request %s has been paid successfully.</string>
+    <string name="Payment_posted" translatable="false" tools:ignore="ExtraTranslation">Payment Request %s has been posted to eBankTransfer successfully.</string>
+    <string name="Payment_mention" translatable="false" tools:ignore="ExtraTranslation">%s has mentioned you in a comment of Payment Request %s.</string>
+
+    <!--    BudgetRequest-->
+    <string name="BudgetRequest_mention" translatable="false" tools:ignore="ExtraTranslation">%s has mentioned you in a comment of Budget Request %s.</string>
+    <string name="BudgetRequest_reject" translatable="false" tools:ignore="ExtraTranslation">Budget Request %s has been rejected.</string>
+    <string name="BudgetRequest_cancel" translatable="false" tools:ignore="ExtraTranslation">Budget Request %s has been cancelled.</string>
+    <string name="BudgetRequest_create" translatable="false" tools:ignore="ExtraTranslation">%s created Budget Request %s for Budget %s.</string>
+    <string name="BudgetRequest_submit" translatable="false" tools:ignore="ExtraTranslation">%s submitted Budget Request %s.</string>
+    <string name="BudgetRequest_fully_approved" translatable="false" tools:ignore="ExtraTranslation">Budget Request %s has been approved successfully.</string>
+    <string name="BudgetRequest_budget_adjustment_request_created" translatable="false" tools:ignore="ExtraTranslation">%s created adjustment Budget Request %s for Budget %s.</string>
+
+    <!--    ExpenseProposal-->
+    <string name="ExpenseProposal_create" translatable="false" tools:ignore="ExtraTranslation">%s created Expense Proposal %s.</string>
+    <string name="ExpenseProposal_submit" translatable="false" tools:ignore="ExtraTranslation">%s submitted Expense Proposal %s.</string>
+    <string name="ExpenseProposal_fully_approved" translatable="false" tools:ignore="ExtraTranslation">Expense Proposal %s has been approved successfully.</string>
+    <string name="ExpenseProposal_mention" translatable="false" tools:ignore="ExtraTranslation">%s has mentioned you in a comment of Expense Proposal %s.</string>
+    <string name="ExpenseProposal_cancel" translatable="false" tools:ignore="ExtraTranslation">Expense Proposal %s has been rejected.</string>
+    <string name="ExpenseProposal_reject" translatable="false" tools:ignore="ExtraTranslation">Expense Proposal %s has been rejected.</string>
 </resources>

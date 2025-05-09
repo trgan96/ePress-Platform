@@ -161,6 +161,24 @@ abstract class AppLocalizations {
   /// **'OnlineApproval'**
   String get onlineApproval;
 
+  /// No description provided for @payment.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment'**
+  String get payment;
+
+  /// No description provided for @budgetrequest.
+  ///
+  /// In en, this message translates to:
+  /// **'BudgetRequest'**
+  String get budgetrequest;
+
+  /// No description provided for @expenseproposal.
+  ///
+  /// In en, this message translates to:
+  /// **'ExpenseProposal'**
+  String get expenseproposal;
+
   /// No description provided for @withdraw.
   ///
   /// In en, this message translates to:
@@ -682,6 +700,132 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'%s sent back to you the item %s'**
   String get onlineApproval_send_back;
+
+  /// No description provided for @payment_create.
+  ///
+  /// In en, this message translates to:
+  /// **'%s created Payment Request %s.'**
+  String get payment_create;
+
+  /// No description provided for @payment_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'%s submitted Payment Request %s.'**
+  String get payment_submit;
+
+  /// No description provided for @payment_fully_approved.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Request %s has been approved successfully.'**
+  String get payment_fully_approved;
+
+  /// No description provided for @payment_reject.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Request %s has been rejected.'**
+  String get payment_reject;
+
+  /// No description provided for @payment_cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Request %s has been cancelled.'**
+  String get payment_cancel;
+
+  /// No description provided for @payment_paid.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Request %s has been paid successfully.'**
+  String get payment_paid;
+
+  /// No description provided for @payment_posted.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Request %s has been posted to eBankTransfer successfully.'**
+  String get payment_posted;
+
+  /// No description provided for @payment_mention.
+  ///
+  /// In en, this message translates to:
+  /// **'%s has mentioned you in a comment of Payment Request %s.'**
+  String get payment_mention;
+
+  /// No description provided for @budgetrequest_mention.
+  ///
+  /// In en, this message translates to:
+  /// **'%s has mentioned you in a comment of Budget Request %s.'**
+  String get budgetrequest_mention;
+
+  /// No description provided for @budgetrequest_reject.
+  ///
+  /// In en, this message translates to:
+  /// **'Budget Request %s has been rejected.'**
+  String get budgetrequest_reject;
+
+  /// No description provided for @budgetrequest_cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Budget Request %s has been cancelled.'**
+  String get budgetrequest_cancel;
+
+  /// No description provided for @budgetrequest_create.
+  ///
+  /// In en, this message translates to:
+  /// **'%s created Budget Request %s for Budget %s.'**
+  String get budgetrequest_create;
+
+  /// No description provided for @budgetrequest_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'%s submitted Budget Request %s.'**
+  String get budgetrequest_submit;
+
+  /// No description provided for @budgetrequest_fully_approved.
+  ///
+  /// In en, this message translates to:
+  /// **'Budget Request %s has been approved successfully.'**
+  String get budgetrequest_fully_approved;
+
+  /// No description provided for @budgetrequest_budget_adjustment_request_created.
+  ///
+  /// In en, this message translates to:
+  /// **'%s created adjustment Budget Request %s for Budget %s.'**
+  String get budgetrequest_budget_adjustment_request_created;
+
+  /// No description provided for @expenseproposal_create.
+  ///
+  /// In en, this message translates to:
+  /// **'%s created Expense Proposal %s.'**
+  String get expenseproposal_create;
+
+  /// No description provided for @expenseproposal_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'%s submitted Expense Proposal %s.'**
+  String get expenseproposal_submit;
+
+  /// No description provided for @expenseproposal_fully_approved.
+  ///
+  /// In en, this message translates to:
+  /// **'Expense Proposal %s has been approved successfully.'**
+  String get expenseproposal_fully_approved;
+
+  /// No description provided for @expenseproposal_mention.
+  ///
+  /// In en, this message translates to:
+  /// **'%s has mentioned you in a comment of Expense Proposal %s.'**
+  String get expenseproposal_mention;
+
+  /// No description provided for @expenseproposal_cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Expense Proposal %s has been rejected.'**
+  String get expenseproposal_cancel;
+
+  /// No description provided for @expenseproposal_reject.
+  ///
+  /// In en, this message translates to:
+  /// **'Expense Proposal %s has been rejected.'**
+  String get expenseproposal_reject;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

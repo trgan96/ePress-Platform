@@ -10,6 +10,10 @@
     "statement": "Statement",
     "royalties": "Royalty",
     "onlineApproval": "OnlineApproval",
+    "payment": "Payment",
+    "budgetrequest": "BudgetRequest",
+    "expenseproposal": "ExpenseProposal",
+
 
     "withdraw": "%s withdrawn their item %s",
     "delegate_": "%s delegated approval in item %s",
@@ -107,5 +111,29 @@
     "onlineApproval_withdraw": "%s withdrawn their item %s",
     "onlineApproval_recall": "%s recalled their item %s",
     "onlineApproval_delegate": "%s delegated approval in item %s",
-    "onlineApproval_send_back": "%s sent back to you the item %s"
+    "onlineApproval_send_back": "%s sent back to you the item %s",
+
+    "payment_create": "%s created Payment Request %s.",
+    "payment_submit": "%s submitted Payment Request %s.",
+    "payment_fully_approved": "Payment Request %s has been approved successfully.",
+    "payment_reject": "Payment Request %s has been rejected.",
+    "payment_cancel": "Payment Request %s has been cancelled.",
+    "payment_paid": "Payment Request %s has been paid successfully.",
+    "payment_posted": "Payment Request %s has been posted to eBankTransfer successfully.",
+    "payment_mention": "%s has mentioned you in a comment of Payment Request %s.",
+
+    "budgetrequest_mention": "%s has mentioned you in a comment of Budget Request %s.",
+    "budgetrequest_reject": "Budget Request %s has been rejected.",
+    "budgetrequest_cancel": "Budget Request %s has been cancelled.",
+    "budgetrequest_create": "%s created Budget Request %s for Budget %s.",
+    "budgetrequest_submit": "%s submitted Budget Request %s.",
+    "budgetrequest_fully_approved": "Budget Request %s has been approved successfully.",
+    "budgetrequest_budget_adjustment_request_created": "%s created adjustment Budget Request %s for Budget %s.",
+
+    "expenseproposal_create": "%s created Expense Proposal %s.",
+    "expenseproposal_submit": "%s submitted Expense Proposal %s.",
+    "expenseproposal_fully_approved": "Expense Proposal %s has been approved successfully.",
+    "expenseproposal_mention": "%s has mentioned you in a comment of Expense Proposal %s.",
+    "expenseproposal_cancel": "Expense Proposal %s has been rejected.",
+    "expenseproposal_reject": "Expense Proposal %s has been rejected."
 }

@@ -42,6 +42,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get onlineApproval => 'OnlineApproval';
 
   @override
+  String get payment => 'Payment';
+
+  @override
+  String get budgetrequest => 'BudgetRequest';
+
+  @override
+  String get expenseproposal => 'ExpenseProposal';
+
+  @override
   String get withdraw => '%s withdrawn their item %s';
 
   @override
@@ -301,4 +310,67 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get onlineApproval_send_back => '%s sent back to you the item %s';
+
+  @override
+  String get payment_create => '%s created Payment Request %s.';
+
+  @override
+  String get payment_submit => '%s submitted Payment Request %s.';
+
+  @override
+  String get payment_fully_approved => 'Payment Request %s has been approved successfully.';
+
+  @override
+  String get payment_reject => 'Payment Request %s has been rejected.';
+
+  @override
+  String get payment_cancel => 'Payment Request %s has been cancelled.';
+
+  @override
+  String get payment_paid => 'Payment Request %s has been paid successfully.';
+
+  @override
+  String get payment_posted => 'Payment Request %s has been posted to eBankTransfer successfully.';
+
+  @override
+  String get payment_mention => '%s has mentioned you in a comment of Payment Request %s.';
+
+  @override
+  String get budgetrequest_mention => '%s has mentioned you in a comment of Budget Request %s.';
+
+  @override
+  String get budgetrequest_reject => 'Budget Request %s has been rejected.';
+
+  @override
+  String get budgetrequest_cancel => 'Budget Request %s has been cancelled.';
+
+  @override
+  String get budgetrequest_create => '%s created Budget Request %s for Budget %s.';
+
+  @override
+  String get budgetrequest_submit => '%s submitted Budget Request %s.';
+
+  @override
+  String get budgetrequest_fully_approved => 'Budget Request %s has been approved successfully.';
+
+  @override
+  String get budgetrequest_budget_adjustment_request_created => '%s created adjustment Budget Request %s for Budget %s.';
+
+  @override
+  String get expenseproposal_create => '%s created Expense Proposal %s.';
+
+  @override
+  String get expenseproposal_submit => '%s submitted Expense Proposal %s.';
+
+  @override
+  String get expenseproposal_fully_approved => 'Expense Proposal %s has been approved successfully.';
+
+  @override
+  String get expenseproposal_mention => '%s has mentioned you in a comment of Expense Proposal %s.';
+
+  @override
+  String get expenseproposal_cancel => 'Expense Proposal %s has been rejected.';
+
+  @override
+  String get expenseproposal_reject => 'Expense Proposal %s has been rejected.';
 }

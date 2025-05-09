@@ -14,7 +14,10 @@
     <string name="Statement" translatable="false" tools:ignore="ExtraTranslation">Bảng kê nhuận bút</string>
     <string name="Royalties" translatable="false" tools:ignore="ExtraTranslation">Nhuận bút</string>
     <string name="OnlineApproval" translatable="false" tools:ignore="ExtraTranslation">Quy trình online</string>
-
+    <string name="Payment" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Thanh toán</string>
+    <string name="BudgetRequest" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Ngân sách</string>
+    <string name="ExpenseProposal" translatable="false" tools:ignore="ExtraTranslation">Phiếu Đề xuất kinh phí</string>
+    
     <!--    Action-->
     <string name="withdraw" translatable="false" tools:ignore="ExtraTranslation">%s đã rút mục của họ %s</string>
     <string name="delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
@@ -124,4 +127,30 @@
     <string name="OnlineApproval_delegate" translatable="false" tools:ignore="ExtraTranslation">%s đã ủy quyền phê duyệt trong mục %s</string>
     <string name="OnlineApproval_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
 
+    <!-- Payment -->
+    <string name="Payment_create" translatable="false" tools:ignore="ExtraTranslation">%s đã tạo Phiếu Y/C Thanh toán %s.</string>
+    <string name="Payment_submit" translatable="false" tools:ignore="ExtraTranslation">%s đã nộp Phiếu Y/C Thanh toán %s.</string>
+    <string name="Payment_fully_approved" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Thanh toán %s đã được duyệt thành công.</string>
+    <string name="Payment_reject" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Thanh toán %s đã bị từ chối.</string>
+    <string name="Payment_cancel" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Thanh toán %s đã được hủy.</string>
+    <string name="Payment_paid" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Thanh toán %s đã được thanh toán thành công.</string>
+    <string name="Payment_posted" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Thanh toán %s đã được đưa vào Cổng Thanh Toán thành công.</string>
+    <string name="Payment_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã nhắc đến bạn trong một bình luận của Phiếu Y/C Thanh toán %s.</string>
+
+    <!-- Budget Request -->
+    <string name="BudgetRequest_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã nhắc đến bạn trong một bình luận của Phiếu Y/C Ngân sách %s.</string>
+    <string name="BudgetRequest_reject" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Ngân sách %s đã bị từ chối.</string>
+    <string name="BudgetRequest_cancel" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Ngân sách %s đã được hủy.</string>
+    <string name="BudgetRequest_create" translatable="false" tools:ignore="ExtraTranslation">%s đã tạo Phiếu Y/C %s cho Ngân sách %s.</string>
+    <string name="BudgetRequest_submit" translatable="false" tools:ignore="ExtraTranslation">%s đã nộp Phiếu Y/C Ngân sách %s.</string>
+    <string name="BudgetRequest_fully_approved" translatable="false" tools:ignore="ExtraTranslation">Phiếu Y/C Ngân sách %s đã được duyệt thành công.</string>
+    <string name="BudgetRequest_budget_adjustment_request_created" translatable="false" tools:ignore="ExtraTranslation">%s đã tạo Phiếu Y/C điều chỉnh %s cho Ngân sách %s.</string>
+
+    <!-- expenseproposal -->
+    <string name="ExpenseProposal_create" translatable="false" tools:ignore="ExtraTranslation">%s đã tạo Phiếu Đề xuất kinh phí %s.</string>
+    <string name="ExpenseProposal_submit" translatable="false" tools:ignore="ExtraTranslation">%s đã nộp Phiếu Đề xuất kinh phí %s.</string>
+    <string name="ExpenseProposal_fully_approved" translatable="false" tools:ignore="ExtraTranslation">Phiếu Đề xuất kinh phí %s đã được duyệt thành công.</string>
+    <string name="ExpenseProposal_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã nhắc đến bạn trong một bình luận của Phiếu Đề xuất kinh phí %s.</string>
+    <string name="ExpenseProposal_reject" translatable="false" tools:ignore="ExtraTranslation">Phiếu Đề xuất kinh phí %s đã bị từ chối.</string>
+    <string name="ExpenseProposal_cancel" translatable="false" tools:ignore="ExtraTranslation">Phiếu Đề xuất kinh phí %s đã bị từ chối.</string>
 </resources>

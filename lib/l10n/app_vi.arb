@@ -10,6 +10,9 @@
    "statement": "Bảng kê nhuận bút",
    "royalties": "Nhuận bút",
    "onlineApproval": "Quy trình online",
+   "payment": "Phiếu Y/C Thanh toán ",
+   "budgetrequest": "Phiếu Y/C Ngân sách",
+   "expenseproposal": "Phiếu Đề xuất kinh phí",
 
    "withdraw": "%s đã rút mục của họ %s",
    "delegate_": "%s đã ủy quyền phê duyệt trong mục %s",
@@ -112,5 +115,29 @@
   "onlineApproval_withdraw": "%s đã rút mục của họ %s",
   "onlineApproval_recall": "%s đã thu hồi mục của họ %s",
   "onlineApproval_delegate": "%s đã ủy quyền phê duyệt trong mục %s",
-  "onlineApproval_send_back": "%s đã trả lại mục %s cho bạn."
+  "onlineApproval_send_back": "%s đã trả lại mục %s cho bạn.",
+
+  "payment_create": "%s đã tạo Phiếu Y/C Thanh toán %s.",
+  "payment_submit": "%s đã nộp Phiếu Y/C Thanh toán %s.",
+  "payment_fully_approved": "Phiếu Y/C Thanh toán %s đã được duyệt thành công.",
+  "payment_reject": "Phiếu Y/C Thanh toán %s đã bị từ chối.",
+  "payment_cancel": "Phiếu Y/C Thanh toán %s đã được hủy.",
+  "payment_paid": "Phiếu Y/C Thanh toán %s đã được thanh toán thành công.",
+  "payment_posted": "Phiếu Y/C Thanh toán %s đã được đưa vào Cổng Thanh Toán thành công.",
+  "payment_mention": "%s đã nhắc đến bạn trong một bình luận của Phiếu Y/C Thanh toán %s.",
+
+  "budgetrequest_mention": "%s đã nhắc đến bạn trong một bình luận của Phiếu Y/C Ngân sách %s.",
+  "budgetrequest_reject": "Phiếu Y/C Ngân sách %s đã bị từ chối.",
+  "budgetrequest_cancel": "Phiếu Y/C Ngân sách %s đã được hủy.",
+  "budgetrequest_create": "%s đã tạo Phiếu Y/C %s cho Ngân sách %s.",
+  "budgetrequest_submit": "%s đã nộp Phiếu Y/C Ngân sách %s.",
+  "budgetrequest_fully_approved": "Phiếu Y/C Ngân sách %s đã được duyệt thành công.",
+  "budgetrequest_budget_adjustment_request_created": "%s đã tạo Phiếu Y/C điều chỉnh %s cho Ngân sách %s.",
+
+  "expenseproposal_create": "%s đã tạo Phiếu Đề xuất kinh phí %s.",
+  "expenseproposal_submit": "%s đã nộp Phiếu Đề xuất kinh phí %s.",
+  "expenseproposal_fully_approved": "Phiếu Đề xuất kinh phí %s đã được duyệt thành công.",
+  "expenseproposal_mention": "%s đã nhắc đến bạn trong một bình luận của Phiếu Đề xuất kinh phí %s.",
+  "expenseproposal_reject": "Phiếu Đề xuất kinh phí %s đã bị từ chối.",
+  "expenseproposal_cancel": "Phiếu Đề xuất kinh phí %s đã bị từ chối."
 }

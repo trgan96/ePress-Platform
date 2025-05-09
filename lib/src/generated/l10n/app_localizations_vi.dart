@@ -42,6 +42,15 @@ class AppLocalizationsVi extends AppLocalizations {
   String get onlineApproval => 'Quy trình online';
 
   @override
+  String get payment => 'Phiếu Y/C Thanh toán ';
+
+  @override
+  String get budgetrequest => 'Phiếu Y/C Ngân sách';
+
+  @override
+  String get expenseproposal => 'Phiếu Đề xuất kinh phí';
+
+  @override
   String get withdraw => '%s đã rút mục của họ %s';
 
   @override
@@ -301,4 +310,67 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get onlineApproval_send_back => '%s đã trả lại mục %s cho bạn.';
+
+  @override
+  String get payment_create => '%s đã tạo Phiếu Y/C Thanh toán %s.';
+
+  @override
+  String get payment_submit => '%s đã nộp Phiếu Y/C Thanh toán %s.';
+
+  @override
+  String get payment_fully_approved => 'Phiếu Y/C Thanh toán %s đã được duyệt thành công.';
+
+  @override
+  String get payment_reject => 'Phiếu Y/C Thanh toán %s đã bị từ chối.';
+
+  @override
+  String get payment_cancel => 'Phiếu Y/C Thanh toán %s đã được hủy.';
+
+  @override
+  String get payment_paid => 'Phiếu Y/C Thanh toán %s đã được thanh toán thành công.';
+
+  @override
+  String get payment_posted => 'Phiếu Y/C Thanh toán %s đã được đưa vào Cổng Thanh Toán thành công.';
+
+  @override
+  String get payment_mention => '%s đã nhắc đến bạn trong một bình luận của Phiếu Y/C Thanh toán %s.';
+
+  @override
+  String get budgetrequest_mention => '%s đã nhắc đến bạn trong một bình luận của Phiếu Y/C Ngân sách %s.';
+
+  @override
+  String get budgetrequest_reject => 'Phiếu Y/C Ngân sách %s đã bị từ chối.';
+
+  @override
+  String get budgetrequest_cancel => 'Phiếu Y/C Ngân sách %s đã được hủy.';
+
+  @override
+  String get budgetrequest_create => '%s đã tạo Phiếu Y/C %s cho Ngân sách %s.';
+
+  @override
+  String get budgetrequest_submit => '%s đã nộp Phiếu Y/C Ngân sách %s.';
+
+  @override
+  String get budgetrequest_fully_approved => 'Phiếu Y/C Ngân sách %s đã được duyệt thành công.';
+
+  @override
+  String get budgetrequest_budget_adjustment_request_created => '%s đã tạo Phiếu Y/C điều chỉnh %s cho Ngân sách %s.';
+
+  @override
+  String get expenseproposal_create => '%s đã tạo Phiếu Đề xuất kinh phí %s.';
+
+  @override
+  String get expenseproposal_submit => '%s đã nộp Phiếu Đề xuất kinh phí %s.';
+
+  @override
+  String get expenseproposal_fully_approved => 'Phiếu Đề xuất kinh phí %s đã được duyệt thành công.';
+
+  @override
+  String get expenseproposal_mention => '%s đã nhắc đến bạn trong một bình luận của Phiếu Đề xuất kinh phí %s.';
+
+  @override
+  String get expenseproposal_cancel => 'Phiếu Đề xuất kinh phí %s[EPRef] đã bị từ chối.';
+
+  @override
+  String get expenseproposal_reject => 'Phiếu Đề xuất kinh phí %s đã bị từ chối.';
 }
