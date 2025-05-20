@@ -69,23 +69,23 @@
         }
       }
     },
-     "BroadcastSchedule_approve" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_approve{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_approve{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "BroadcastSchedule_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_approve{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "broadcastschedule_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -103,23 +103,23 @@
         }
       }
     },
-     "BroadcastSchedule_assign" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_assign{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_assign{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "BroadcastSchedule_assign" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_assign{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_assign{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "broadcastschedule_delegate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -137,23 +137,23 @@
         }
       }
     },
-     "BroadcastSchedule_delegate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_delegate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_delegate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "BroadcastSchedule_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "broadcastschedule_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -171,23 +171,23 @@
         }
       }
     },
-     "BroadcastSchedule_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "BroadcastSchedule_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "broadcastschedule_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -205,23 +205,23 @@
         }
       }
     },
-     "BroadcastSchedule_recall" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_recall{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_recall{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "BroadcastSchedule_recall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "broadcastschedule_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -239,23 +239,23 @@
         }
       }
     },
-     "BroadcastSchedule_reject" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_reject{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_reject{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "BroadcastSchedule_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "broadcastschedule_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -273,23 +273,23 @@
         }
       }
     },
-     "BroadcastSchedule_send_back" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_send_back{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_send_back{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "BroadcastSchedule_send_back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_send_back{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "broadcastschedule_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -307,23 +307,278 @@
         }
       }
     },
-     "BroadcastSchedule_withdraw" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_withdraw{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "BroadcastSchedule_withdraw{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "BroadcastSchedule_withdraw" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_withdraw{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BroadcastSchedule_withdraw{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "budgetRequest" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Ngân sách"
+          }
+        }
+      }
+    },
+    "budgetrequest_budget_adjustment_request_created" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ created adjustment Budget Request %s for Budget %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã tạo Phiếu Y/C điều chỉnh %s cho Ngân sách %@."
+          }
+        }
+      }
+    },
+    "BudgetRequest_budget_adjustment_request_created" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_budget_adjustment_request_created{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_budget_adjustment_request_created{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "budgetrequest_cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Budget Request %@ has been cancelled."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Ngân sách %@ đã được hủy."
+          }
+        }
+      }
+    },
+    "BudgetRequest_cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_cancel{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_cancel{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "budgetrequest_create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ created Budget Request %s for Budget %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã tạo Phiếu Y/C %s cho Ngân sách %@."
+          }
+        }
+      }
+    },
+    "BudgetRequest_create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_create{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_create{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "budgetrequest_fully_approved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Budget Request %@ has been approved successfully."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Ngân sách %@ đã được duyệt thành công."
+          }
+        }
+      }
+    },
+    "BudgetRequest_fully_approved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_fully_approved{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_fully_approved{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "budgetrequest_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ has mentioned you in a comment of Budget Request %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã nhắc đến bạn trong một bình luận của Phiếu Y/C Ngân sách %@."
+          }
+        }
+      }
+    },
+    "BudgetRequest_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "budgetrequest_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Budget Request %@ has been rejected."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Ngân sách %@ đã bị từ chối."
+          }
+        }
+      }
+    },
+    "BudgetRequest_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "budgetrequest_submit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ submitted Budget Request %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã nộp Phiếu Y/C Ngân sách %@."
+          }
+        }
+      }
+    },
+    "BudgetRequest_submit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_submit{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BudgetRequest_submit{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "change_status_task" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -409,23 +664,23 @@
         }
       }
     },
-     "eRequest_approve" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_approve{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_approve{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "eRequest_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_approve{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "erequest_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -443,23 +698,23 @@
         }
       }
     },
-     "eRequest_assign" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_assign{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_assign{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "eRequest_assign" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_assign{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_assign{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "erequest_delegate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -477,23 +732,23 @@
         }
       }
     },
-     "eRequest_delegate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_delegate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_delegate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "eRequest_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "erequest_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -511,23 +766,23 @@
         }
       }
     },
-     "eRequest_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "eRequest_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "erequest_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -545,23 +800,23 @@
         }
       }
     },
-     "eRequest_recall" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_recall{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_recall{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "eRequest_recall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "erequest_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -579,23 +834,23 @@
         }
       }
     },
-     "eRequest_reject" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_reject{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_reject{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "eRequest_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "erequest_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -613,23 +868,23 @@
         }
       }
     },
-     "eRequest_send_back" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_send_back{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_send_back{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "eRequest_send_back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_send_back{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "erequest_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -647,23 +902,23 @@
         }
       }
     },
-     "eRequest_withdraw" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_withdraw{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "eRequest_withdraw{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "eRequest_withdraw" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_withdraw{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eRequest_withdraw{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "evaluate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -677,6 +932,227 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ change_status_task %@"
+          }
+        }
+      }
+    },
+    "expenseProposal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Đề xuất kinh phí"
+          }
+        }
+      }
+    },
+    "expenseproposal_cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expense Proposal %@ has been cancelled."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Đề xuất kinh phí %@ đã được hủy."
+          }
+        }
+      }
+    },
+    "ExpenseProposal_cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_cancel{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_cancel{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "expenseproposal_create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ created Expense Proposal %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã tạo Phiếu Đề xuất kinh phí %@."
+          }
+        }
+      }
+    },
+    "ExpenseProposal_create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_create{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_create{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "expenseproposal_fully_approved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expense Proposal %@ has been approved successfully."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Đề xuất kinh phí %@ đã được duyệt thành công."
+          }
+        }
+      }
+    },
+    "ExpenseProposal_fully_approved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_fully_approved{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_fully_approved{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "expenseproposal_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ has mentioned you in a comment of Expense Proposal %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã nhắc đến bạn trong một bình luận của Phiếu Đề xuất kinh phí %@."
+          }
+        }
+      }
+    },
+    "ExpenseProposal_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "expenseproposal_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expense Proposal %@ has been rejected."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Đề xuất kinh phí %@ đã bị từ chối."
+          }
+        }
+      }
+    },
+    "ExpenseProposal_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "expenseproposal_submit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ submitted Expense Proposal %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã nộp Phiếu Đề xuất kinh phí %@."
+          }
+        }
+      }
+    },
+    "ExpenseProposal_submit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_submit{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpenseProposal_submit{;;}%@{;;}%@"
           }
         }
       }
@@ -715,23 +1191,23 @@
         }
       }
     },
-     "ExternalProduction_approve" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_approve{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_approve{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "ExternalProduction_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_approve{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "externalproduction_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -749,23 +1225,23 @@
         }
       }
     },
-     "ExternalProduction_assign" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_assign{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_assign{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "ExternalProduction_assign" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_assign{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_assign{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "externalproduction_delegate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -783,23 +1259,23 @@
         }
       }
     },
-     "ExternalProduction_delegate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_delegate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_delegate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "ExternalProduction_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "externalproduction_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -817,23 +1293,23 @@
         }
       }
     },
-     "ExternalProduction_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "ExternalProduction_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "externalproduction_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -851,23 +1327,23 @@
         }
       }
     },
-     "ExternalProduction_recall" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_recall{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_recall{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "ExternalProduction_recall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "externalproduction_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -885,23 +1361,23 @@
         }
       }
     },
-     "ExternalProduction_reject" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_reject{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_reject{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "ExternalProduction_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "externalproduction_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -919,23 +1395,23 @@
         }
       }
     },
-     "ExternalProduction_send_back" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_send_back{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_send_back{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "ExternalProduction_send_back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_send_back{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "externalproduction_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -953,23 +1429,23 @@
         }
       }
     },
-     "ExternalProduction_withdraw" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_withdraw{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "ExternalProduction_withdraw{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "ExternalProduction_withdraw" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_withdraw{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExternalProduction_withdraw{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "internalproduction" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1004,23 +1480,23 @@
         }
       }
     },
-     "InternalProduction_approve" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_approve{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_approve{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "InternalProduction_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_approve{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "internalproduction_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1038,23 +1514,23 @@
         }
       }
     },
-     "InternalProduction_assign" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_assign{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_assign{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "InternalProduction_assign" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_assign{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_assign{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "internalproduction_delegate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1072,23 +1548,23 @@
         }
       }
     },
-     "InternalProduction_delegate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_delegate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_delegate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "InternalProduction_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "internalproduction_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1106,23 +1582,23 @@
         }
       }
     },
-     "InternalProduction_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "InternalProduction_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "internalproduction_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1140,23 +1616,23 @@
         }
       }
     },
-     "InternalProduction_recall" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_recall{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_recall{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "InternalProduction_recall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "internalproduction_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1174,23 +1650,23 @@
         }
       }
     },
-     "InternalProduction_reject" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_reject{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_reject{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "InternalProduction_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "internalproduction_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1208,23 +1684,23 @@
         }
       }
     },
-     "InternalProduction_send_back" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_send_back{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_send_back{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "InternalProduction_send_back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_send_back{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "internalproduction_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1242,23 +1718,23 @@
         }
       }
     },
-     "InternalProduction_withdraw" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_withdraw{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "InternalProduction_withdraw{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "InternalProduction_withdraw" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_withdraw{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InternalProduction_withdraw{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1310,23 +1786,23 @@
         }
       }
     },
-     "OnlineApproval_approve" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_approve{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_approve{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "OnlineApproval_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_approve{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "onlineapproval_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1345,22 +1821,22 @@
       }
     },
     "OnlineApproval_assign" : {
-                    "extractionState" : "manual",
-                    "localizations" : {
-                      "en" : {
-                        "stringUnit" : {
-                          "state" : "translated",
-                          "value" : "OnlineApproval_assign{;;}%@{;;}%@"
-                        }
-                      },
-                      "vi" : {
-                        "stringUnit" : {
-                          "state" : "translated",
-                          "value" : "OnlineApproval_assign{;;}%@{;;}%@"
-                        }
-                      }
-                    }
-                  },
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_assign{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_assign{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "onlineapproval_delegate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1378,23 +1854,23 @@
         }
       }
     },
-     "OnlineApproval_delegate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_delegate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_delegate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "OnlineApproval_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "onlineapproval_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1412,23 +1888,23 @@
         }
       }
     },
-     "OnlineApproval_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "OnlineApproval_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "onlineapproval_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1446,23 +1922,23 @@
         }
       }
     },
-     "OnlineApproval_recall" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_recall{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_recall{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "OnlineApproval_recall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "onlineapproval_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1480,23 +1956,23 @@
         }
       }
     },
-     "OnlineApproval_reject" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_reject{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_reject{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "OnlineApproval_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "onlineapproval_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1514,23 +1990,23 @@
         }
       }
     },
-     "OnlineApproval_send_back" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_send_back{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_send_back{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "OnlineApproval_send_back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_send_back{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "onlineapproval_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1548,23 +2024,312 @@
         }
       }
     },
-     "OnlineApproval_withdraw" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_withdraw{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "OnlineApproval_withdraw{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "OnlineApproval_withdraw" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_withdraw{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OnlineApproval_withdraw{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "payment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Thanh toán"
+          }
+        }
+      }
+    },
+    "payment_cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment Request %@ has been cancelled."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Thanh toán %@ đã được hủy."
+          }
+        }
+      }
+    },
+    "Payment_cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_cancel{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_cancel{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "payment_create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ created Payment Request %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã tạo Phiếu Y/C Thanh toán %@."
+          }
+        }
+      }
+    },
+    "Payment_create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_create{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_create{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "payment_fully_approved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment Request %@ has been approved successfully."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Thanh toán %@ đã được duyệt thành công."
+          }
+        }
+      }
+    },
+    "Payment_fully_approved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_fully_approved{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_fully_approved{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "payment_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ has mentioned you in a comment of Payment Request %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã nhắc đến bạn trong một bình luận của Phiếu Y/C Thanh toán %@."
+          }
+        }
+      }
+    },
+    "Payment_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "payment_paid" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment Request %@ has been paid successfully."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Thanh toán %@ đã được thanh toán thành công."
+          }
+        }
+      }
+    },
+    "Payment_paid" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_paid{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_paid{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "payment_posted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment Request %@ has been posted to eBankTransfer successfully."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Thanh toán %@ đã được đưa vào Cổng Thanh Toán thành công."
+          }
+        }
+      }
+    },
+    "Payment_posted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_posted{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_posted{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "payment_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment Request %@ has been rejected."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu Y/C Thanh toán %@ đã bị từ chối."
+          }
+        }
+      }
+    },
+    "Payment_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
+    "payment_submit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ submitted Payment Request %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã nộp Phiếu Y/C Thanh toán %@."
+          }
+        }
+      }
+    },
+    "Payment_submit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_submit{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment_submit{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "postproduction" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1599,23 +2364,23 @@
         }
       }
     },
-     "PostProduction_approve" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_approve{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_approve{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "PostProduction_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_approve{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "postproduction_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1633,23 +2398,23 @@
         }
       }
     },
-     "PostProduction_assign" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_assign{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_assign{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "PostProduction_assign" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_assign{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_assign{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "postproduction_delegate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1667,23 +2432,23 @@
         }
       }
     },
-     "PostProduction_delegate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_delegate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_delegate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "PostProduction_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "postproduction_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1701,23 +2466,23 @@
         }
       }
     },
-     "PostProduction_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "PostProduction_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "postproduction_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1735,23 +2500,23 @@
         }
       }
     },
-     "PostProduction_recall" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_recall{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_recall{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "PostProduction_recall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "postproduction_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1769,23 +2534,23 @@
         }
       }
     },
-     "PostProduction_reject" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_reject{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_reject{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "PostProduction_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "postproduction_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1803,23 +2568,23 @@
         }
       }
     },
-     "PostProduction_send_back" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_send_back{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_send_back{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "PostProduction_send_back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_send_back{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "postproduction_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1837,23 +2602,23 @@
         }
       }
     },
-     "PostProduction_withdraw" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_withdraw{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "PostProduction_withdraw{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "PostProduction_withdraw" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_withdraw{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PostProduction_withdraw{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1922,40 +2687,40 @@
         }
       }
     },
-        "royalties_create" : {
-          "extractionState" : "manual",
-          "localizations" : {
-            "en" : {
-              "stringUnit" : {
-                "state" : "translated",
-                "value" : "%@ created your royalty %@."
-              }
-            },
-            "vi" : {
-              "stringUnit" : {
-                "state" : "translated",
-                "value" : "%@ đã tạo Nhuận Bút cho bạn %@."
-              }
-            }
+    "royalties_create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ created your royalty %@."
           }
         },
-         "Royalties_create" : {
-                      "extractionState" : "manual",
-                      "localizations" : {
-                        "en" : {
-                          "stringUnit" : {
-                            "state" : "translated",
-                            "value" : "Royalties_create{;;}%@{;;}%@"
-                          }
-                        },
-                        "vi" : {
-                          "stringUnit" : {
-                            "state" : "translated",
-                            "value" : "Royalties_create{;;}%@{;;}%@"
-                          }
-                        }
-                      }
-                    },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã tạo Nhuận Bút cho bạn %@."
+          }
+        }
+      }
+    },
+    "Royalties_create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Royalties_create{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Royalties_create{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "royalties_evaluate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1973,23 +2738,23 @@
         }
       }
     },
-     "Royalties_evaluate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Royalties_evaluate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Royalties_evaluate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Royalties_evaluate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Royalties_evaluate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Royalties_evaluate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "royalties_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2007,23 +2772,23 @@
         }
       }
     },
-     "Royalties_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Royalties_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Royalties_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Royalties_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Royalties_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Royalties_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "royalties_reevaluate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2041,23 +2806,23 @@
         }
       }
     },
-     "Royalties_reevaluate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Royalties_reevaluate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Royalties_reevaluate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Royalties_reevaluate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Royalties_reevaluate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Royalties_reevaluate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "script" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2092,23 +2857,23 @@
         }
       }
     },
-     "Script_approve" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_approve{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_approve{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Script_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_approve{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "script_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2126,23 +2891,23 @@
         }
       }
     },
-     "Script_assign" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_assign{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_assign{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Script_assign" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_assign{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_assign{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "script_delegate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2160,23 +2925,23 @@
         }
       }
     },
-     "Script_delegate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_delegate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_delegate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Script_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "script_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2194,23 +2959,23 @@
         }
       }
     },
-     "Script_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Script_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "script_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2228,23 +2993,23 @@
         }
       }
     },
-     "Script_recall" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_recall{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_recall{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Script_recall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "script_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2262,23 +3027,23 @@
         }
       }
     },
-     "Script_reject" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_reject{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_reject{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Script_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "script_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2296,23 +3061,23 @@
         }
       }
     },
-     "Script_send_back" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_send_back{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_send_back{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Script_send_back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_send_back{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "script_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2330,23 +3095,23 @@
         }
       }
     },
-     "Script_withdraw" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_withdraw{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Script_withdraw{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Script_withdraw" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_withdraw{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script_withdraw{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2398,23 +3163,23 @@
         }
       }
     },
-     "Statement_approve" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_approve{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_approve{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Statement_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_approve{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "statement_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2432,23 +3197,23 @@
         }
       }
     },
-     "Statement_assign" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_assign{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_assign{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Statement_assign" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_assign{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_assign{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "statement_delegate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2466,23 +3231,23 @@
         }
       }
     },
-     "Statement_delegate" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_delegate{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_delegate{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Statement_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "statement_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2500,23 +3265,23 @@
         }
       }
     },
-     "Statement_mention" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_mention{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_mention{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Statement_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "statement_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2534,23 +3299,23 @@
         }
       }
     },
-     "Statement_recall" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_recall{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_recall{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Statement_recall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "statement_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2568,23 +3333,23 @@
         }
       }
     },
-     "Statement_reject" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_reject{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_reject{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Statement_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "statement_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2602,23 +3367,23 @@
         }
       }
     },
-     "Statement_send_back" : {
-                  "extractionState" : "manual",
-                  "localizations" : {
-                    "en" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_send_back{;;}%@{;;}%@"
-                      }
-                    },
-                    "vi" : {
-                      "stringUnit" : {
-                        "state" : "translated",
-                        "value" : "Statement_send_back{;;}%@{;;}%@"
-                      }
-                    }
-                  }
-                },
+    "Statement_send_back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_send_back{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "statement_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2636,23 +3401,23 @@
         }
       }
     },
-     "Statement_withdraw" : {
-              "extractionState" : "manual",
-              "localizations" : {
-                "en" : {
-                  "stringUnit" : {
-                    "state" : "translated",
-                    "value" : "Statement_withdraw{;;}%@{;;}%@"
-                  }
-                },
-                "vi" : {
-                  "stringUnit" : {
-                    "state" : "translated",
-                    "value" : "Statement_withdraw{;;}%@{;;}%@"
-                  }
-                }
-              }
-            },
+    "Statement_withdraw" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_withdraw{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statement_withdraw{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "task" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2704,23 +3469,23 @@
         }
       }
     },
-        "Topic_approve" : {
-          "extractionState" : "manual",
-          "localizations" : {
-            "en" : {
-              "stringUnit" : {
-                "state" : "translated",
-                "value" : "Topic_approve{;;}%@{;;}%@"
-              }
-            },
-            "vi" : {
-              "stringUnit" : {
-                "state" : "translated",
-                "value" : "Topic_approve{;;}%@{;;}%@"
-              }
-            }
+    "Topic_approve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_approve{;;}%@{;;}%@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_approve{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "topic_assign" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2772,23 +3537,23 @@
         }
       }
     },
-     "Topic_delegate" : {
-                         "extractionState" : "manual",
-                         "localizations" : {
-                           "en" : {
-                             "stringUnit" : {
-                               "state" : "translated",
-                               "value" : "Topic_delegate{;;}%@{;;}%@"
-                             }
-                           },
-                           "vi" : {
-                             "stringUnit" : {
-                               "state" : "translated",
-                              "value" : "Topic_delegate{;;}%@{;;}%@"
-                             }
-                           }
-                         }
-                       },
+    "Topic_delegate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_delegate{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_delegate{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "topic_mention" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2806,23 +3571,23 @@
         }
       }
     },
-     "Topic_mention" : {
-                     "extractionState" : "manual",
-                     "localizations" : {
-                       "en" : {
-                         "stringUnit" : {
-                           "state" : "translated",
-                           "value" : "Topic_mention{;;}%@{;;}%@"
-                         }
-                       },
-                       "vi" : {
-                         "stringUnit" : {
-                           "state" : "translated",
-                          "value" : "Topic_mention{;;}%@{;;}%@"
-                         }
-                       }
-                     }
-                   },
+    "Topic_mention" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_mention{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_mention{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "topic_recall" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2841,22 +3606,22 @@
       }
     },
     "Topic_recall" : {
-                 "extractionState" : "manual",
-                 "localizations" : {
-                   "en" : {
-                     "stringUnit" : {
-                       "state" : "translated",
-                       "value" : "Topic_recall{;;}%@{;;}%@"
-                     }
-                   },
-                   "vi" : {
-                     "stringUnit" : {
-                       "state" : "translated",
-                      "value" : "Topic_recall{;;}%@{;;}%@"
-                     }
-                   }
-                 }
-               },
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_recall{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_recall{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "topic_reject" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2874,23 +3639,23 @@
         }
       }
     },
-       "Topic_reject" : {
-             "extractionState" : "manual",
-             "localizations" : {
-               "en" : {
-                 "stringUnit" : {
-                   "state" : "translated",
-                   "value" : "Topic_reject{;;}%@{;;}%@"
-                 }
-               },
-               "vi" : {
-                 "stringUnit" : {
-                   "state" : "translated",
-                  "value" : "Topic_reject{;;}%@{;;}%@"
-                 }
-               }
-             }
-           },
+    "Topic_reject" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_reject{;;}%@{;;}%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_reject{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "topic_send_back" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2909,39 +3674,39 @@
       }
     },
     "Topic_send_back" : {
-          "extractionState" : "manual",
-          "localizations" : {
-            "en" : {
-              "stringUnit" : {
-                "state" : "translated",
-                "value" : "Topic_send_back{;;}%@{;;}%@"
-              }
-            },
-            "vi" : {
-              "stringUnit" : {
-                "state" : "translated",
-               "value" : "Topic_send_back{;;}%@{;;}%@"
-              }
-            }
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_send_back{;;}%@{;;}%@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topic_send_back{;;}%@{;;}%@"
+          }
+        }
+      }
+    },
     "topic_withdraw" : {
-          "extractionState" : "manual",
-          "localizations" : {
-            "en" : {
-              "stringUnit" : {
-                "state" : "translated",
-                "value" : "%@ withdrawn their item %@"
-              }
-            },
-            "vi" : {
-              "stringUnit" : {
-                "state" : "translated",
-                "value" : "%@ đã rút mục của họ %@"
-              }
-            }
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ withdrawn their item %@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đã rút mục của họ %@"
+          }
+        }
+      }
+    },
     "Topic_withdraw" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2954,7 +3719,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-           "value" : "Topic_withdraw{;;}%@{;;}%@"
+            "value" : "Topic_withdraw{;;}%@{;;}%@"
           }
         }
       }

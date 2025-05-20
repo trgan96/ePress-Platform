@@ -149,6 +149,6 @@
     <string name="ExpenseProposal_submit" translatable="false" tools:ignore="ExtraTranslation">%s submitted Expense Proposal %s.</string>
     <string name="ExpenseProposal_fully_approved" translatable="false" tools:ignore="ExtraTranslation">Expense Proposal %s has been approved successfully.</string>
     <string name="ExpenseProposal_mention" translatable="false" tools:ignore="ExtraTranslation">%s has mentioned you in a comment of Expense Proposal %s.</string>
-    <string name="ExpenseProposal_cancel" translatable="false" tools:ignore="ExtraTranslation">Expense Proposal %s has been rejected.</string>
-    <string name="ExpenseProposal_reject" translatable="false" tools:ignore="ExtraTranslation">Expense Proposal %s has been cancelled.</string>
+    <string name="ExpenseProposal_cancel" translatable="false" tools:ignore="ExtraTranslation">Expense Proposal %s has been cancelled.</string>
+    <string name="ExpenseProposal_reject" translatable="false" tools:ignore="ExtraTranslation">Expense Proposal %s has been rejected.</string>
 </resources>
