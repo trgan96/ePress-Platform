@@ -255,7 +255,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get eRequest_send_back => '%s đã trả lại mục %s cho bạn.';
 
   @override
-  String get royalties_evaluate => '%s đã đáng giá xong Nhuận Bút của bạn %s.';
+  String get royalties_evaluate => '%s đã đánh giá xong Nhuận Bút của bạn %s.';
 
   @override
   String get royalties_reevaluate => '%s đang đánh giá lại Nhuận Bút của bạn %s.';

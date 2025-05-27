@@ -103,7 +103,7 @@
     <string name="eRequest_send_back" translatable="false" tools:ignore="ExtraTranslation">%s đã trả lại mục %s cho bạn.</string>
 
     <!--    Royalties-->
-    <string name="Royalties_evaluate" translatable="false" tools:ignore="ExtraTranslation">%s đã đáng giá xong Nhuận Bút của bạn %s.</string>
+    <string name="Royalties_evaluate" translatable="false" tools:ignore="ExtraTranslation">%s đã đánh giá xong Nhuận Bút của bạn %s.</string>
     <string name="Royalties_reevaluate" translatable="false" tools:ignore="ExtraTranslation">%s đang đánh giá lại Nhuận Bút của bạn %s.</string>
     <string name="Royalties_mention" translatable="false" tools:ignore="ExtraTranslation">%s đã nhắc đến bạn trong một bình luận của nhuận bút %s.</string>
 

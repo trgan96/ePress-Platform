@@ -156,7 +156,7 @@
 "eRequest_send_back" = "eRequest_send_back{;;}%@{;;}%@";
 
 "royalties_create" = "%@ đã tạo Nhuận Bút cho bạn %@.";
-"royalties_evaluate" = "%@ đã đáng giá xong Nhuận Bút của bạn %@.";
+"royalties_evaluate" = "%@ đã đánh giá xong Nhuận Bút của bạn %@.";
 "royalties_reevaluate" = "%@ đang đánh giá lại Nhuận Bút của bạn %@.";
 "royalties_mention" = "%@ đã nhắc đến bạn trong một bình luận của nhuận bút %@.";
 

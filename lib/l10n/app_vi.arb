@@ -95,7 +95,7 @@
    "eRequest_delegate": "%s đã ủy quyền phê duyệt trong mục %s",
    "eRequest_send_back": "%s đã trả lại mục %s cho bạn.",
 
-   "royalties_evaluate": "%s đã đáng giá xong Nhuận Bút của bạn %s.",
+   "royalties_evaluate": "%s đã đánh giá xong Nhuận Bút của bạn %s.",
    "royalties_reevaluate": "%s đang đánh giá lại Nhuận Bút của bạn %s.",
    "royalties_mention": "%s đã nhắc đến bạn trong một bình luận của nhuận bút %s.",
 
