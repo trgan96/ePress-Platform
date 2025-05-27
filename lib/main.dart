@@ -188,9 +188,20 @@ class _WebViewExampleState extends State<WebViewExample> {
         return;
       body = sprintf(body, args);
       String id = data["id"];
+      String parentId = data["parentId"];
       String type = data["object"];
       String action = data["action"];
-      String url = rootURL + Utils.getUrl(id, type, action);
+      String payeeType = data["payeeType"];
+      String url =
+          rootURL +
+          Utils.getUrl(
+            id,
+            parentId,
+            type,
+            action,
+            payeeType,
+            packageInfo.appName.toLowerCase(),
+          );
 
       flutterLocalNotificationsPlugin.show(
         notification.hashCode,
@@ -290,24 +301,48 @@ class _WebViewExampleState extends State<WebViewExample> {
     FirebaseMessaging.onMessage.listen((mes) {
       if (Platform.isAndroid) showLocalNotification(mes);
     });
+
     FirebaseMessaging.instance.getInitialMessage().then((message) {
       if (message != null) {
         //something
         Map<String, dynamic> data = message.data;
         String id = data["id"];
+        String parentId = data["parentId"];
         String type = data["object"];
         String action = data["action"];
-        String url = rootURL + Utils.getUrl(id, type, action);
+        String payeeType = data["payeeType"];
+        String url =
+            rootURL +
+            Utils.getUrl(
+              id,
+              parentId,
+              type,
+              action,
+              payeeType,
+              packageInfo.appName.toLowerCase(),
+            );
         _controller.loadRequest(Uri.parse(url));
       }
     });
+
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
       //something
       Map<String, dynamic> data = message.data;
       String id = data["id"];
+      String parentId = data["parentId"];
       String type = data["object"];
       String action = data["action"];
-      String url = rootURL + Utils.getUrl(id, type, action);
+      String payeeType = data["payeeType"];
+      String url =
+          rootURL +
+          Utils.getUrl(
+            id,
+            parentId,
+            type,
+            action,
+            payeeType,
+            packageInfo.appName.toLowerCase(),
+          );
       _controller.loadRequest(Uri.parse(url));
     });
   }
@@ -611,7 +646,7 @@ class _WebViewExampleState extends State<WebViewExample> {
           systemNavigationBarColor: Colors.transparent,
           statusBarIconBrightness: Brightness.dark, // status bar icons' color
           systemNavigationBarIconBrightness:
-          Brightness.light, //navigation bar icons' color
+              Brightness.light, //navigation bar icons' color
         ), // < any style you want >
         child: Scaffold(
           backgroundColor: Colors.white,

@@ -233,7 +233,21 @@ class Utils {
     return "";
   }
 
-  static String getUrl(String id, String type, String action) {
+  static String getUrl(
+    String id,
+    String parentId,
+    String type,
+    String action,
+    String payeeType,
+    String appName,
+  ) {
+    if (appName == 'p2p') {
+      return getP2PRedirectUrl(id, parentId, type, action, payeeType);
+    }
+    return getRedirectUrl(id, type, action);
+  }
+
+  static String getRedirectUrl(String id, String type, String action) {
     String tabRouting = "";
     String redirect = "";
     switch (type.toLowerCase()) {
@@ -295,5 +309,46 @@ class Utils {
     }
     print("aaaaaaaaaa redirect = " + redirect);
     return redirect;
+  }
+
+  static String getRouteName(String payeeType) {
+    switch (payeeType.toLowerCase()) {
+      case 'vendor':
+        return 'vendor/vendor-detail';
+      case 'staff':
+        return 'staff/staff-detail';
+      case 'customer':
+        return 'customer/customer-detail';
+    }
+    return 'unknown';
+  }
+
+  static String getP2PRedirectUrl(
+    String id,
+    String parentId,
+    String type,
+    String action,
+    String payeeType,
+  ) {
+    String tabRouting = 'detail';
+    String markOpenDiscussion =
+        (action == 'mention') ? '?opendiscussion=true' : '';
+    String url = "";
+    switch (type.toLowerCase()) {
+      case 'budgetrequest':
+        url =
+            "/app/eBudget/team_budget/${parentId}/budgetrequest/${id}/${tabRouting}${markOpenDiscussion}";
+        break;
+      case 'expenseproposal':
+        url =
+            "/app/eBudget/expense_proposal/expense/${id}/${tabRouting}${markOpenDiscussion}";
+        break;
+      case 'payment':
+        tabRouting = 'general';
+        url =
+            "/app/ePayment/${getRouteName(payeeType)}/${id}/${tabRouting}${markOpenDiscussion}";
+        break;
+    }
+    return url;
   }
 }
