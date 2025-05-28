@@ -42,13 +42,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String get onlineApproval => 'Quy trình online';
 
   @override
-  String get payment => 'Phiếu Y/C Thanh toán ';
+  String get payment => 'Thanh toán ';
 
   @override
-  String get budgetrequest => 'Phiếu Y/C Ngân sách';
+  String get budgetrequest => 'Y/C Ngân sách';
 
   @override
-  String get expenseproposal => 'Phiếu Đề xuất kinh phí';
+  String get expenseproposal => 'Đề xuất kinh phí';
 
   @override
   String get withdraw => '%s đã rút mục của họ %s';

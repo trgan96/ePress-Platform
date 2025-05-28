@@ -32,6 +32,12 @@ class Utils {
         return appLocalizations.royalties;
       case "onlineapproval":
         return appLocalizations.onlineApproval;
+      case "payment":
+        return appLocalizations.payment;
+      case "budgetrequest":
+        return appLocalizations.budgetrequest;
+      case "expenseproposal":
+        return appLocalizations.expenseproposal;
     }
     return "";
   }
@@ -229,6 +235,51 @@ class Utils {
         return appLocalizations.onlineApproval_delegate;
       case "onlineapproval_send_back":
         return appLocalizations.onlineApproval_send_back;
+
+      case "payment_create":
+        return appLocalizations.payment_create;
+      case "payment_submit":
+        return appLocalizations.payment_submit;
+      case "payment_fully_approved":
+        return appLocalizations.payment_fully_approved;
+      case "payment_reject":
+        return appLocalizations.payment_reject;
+      case "payment_cancel":
+        return appLocalizations.payment_cancel;
+      case "payment_paid":
+        return appLocalizations.payment_paid;
+      case "payment_posted":
+        return appLocalizations.payment_posted;
+      case "payment_mention":
+        return appLocalizations.payment_mention;
+
+      case "budgetrequest_mention":
+        return appLocalizations.budgetrequest_mention;
+      case "budgetrequest_reject":
+        return appLocalizations.budgetrequest_reject;
+      case "budgetrequest_cancel":
+        return appLocalizations.budgetrequest_cancel;
+      case "budgetrequest_create":
+        return appLocalizations.budgetrequest_create;
+      case "budgetrequest_submit":
+        return appLocalizations.budgetrequest_submit;
+      case "budgetrequest_fully_approved":
+        return appLocalizations.budgetrequest_fully_approved;
+      case "budgetrequest_budget_adjustment_request_created":
+        return appLocalizations.budgetrequest_budget_adjustment_request_created;
+
+      case "expenseproposal_create":
+        return appLocalizations.expenseproposal_create;
+      case "expenseproposal_submit":
+        return appLocalizations.expenseproposal_submit;
+      case "expenseproposal_fully_approved":
+        return appLocalizations.expenseproposal_fully_approved;
+      case "expenseproposal_mention":
+        return appLocalizations.expenseproposal_mention;
+      case "expenseproposal_reject":
+        return appLocalizations.expenseproposal_reject;
+      case "expenseproposal_cancel":
+        return appLocalizations.expenseproposal_cancel;
     }
     return "";
   }

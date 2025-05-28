@@ -10,9 +10,9 @@
    "statement": "Bảng kê nhuận bút",
    "royalties": "Nhuận bút",
    "onlineApproval": "Quy trình online",
-   "payment": "Phiếu Y/C Thanh toán ",
-   "budgetrequest": "Phiếu Y/C Ngân sách",
-   "expenseproposal": "Phiếu Đề xuất kinh phí",
+   "payment": "Thanh toán ",
+   "budgetrequest": "Y/C Ngân sách",
+   "expenseproposal": "Đề xuất kinh phí",
 
    "withdraw": "%s đã rút mục của họ %s",
    "delegate_": "%s đã ủy quyền phê duyệt trong mục %s",

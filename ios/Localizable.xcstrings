@@ -336,7 +336,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Phiếu Y/C Ngân sách"
+            "value" : "Y/C Ngân sách"
           }
         }
       }
@@ -948,7 +948,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Phiếu Đề xuất kinh phí"
+            "value" : "Đề xuất kinh phí"
           }
         }
       }
@@ -2053,7 +2053,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Phiếu Y/C Thanh toán"
+            "value" : "Thanh toán"
           }
         }
       }
