@@ -12,7 +12,6 @@
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		8E1396622DE702950076E881 /* P2P-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1396612DE702950076E881 /* P2P-GoogleService-Info.plist */; };
 		8E1396632DE702950076E881 /* P2P-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1396612DE702950076E881 /* P2P-GoogleService-Info.plist */; };
 		8EAA85BC2DAE4FC6006581F4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8EAA85BB2DAE4FC6006581F4 /* Localizable.xcstrings */; };
 		8EAA85BD2DAE4FC6006581F4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8EAA85BB2DAE4FC6006581F4 /* Localizable.xcstrings */; };
@@ -36,16 +35,19 @@
 		8EF7F5CA2DC91ABC0052ACA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		8EF7F5CB2DC91ABC0052ACA9 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8EAA85BB2DAE4FC6006581F4 /* Localizable.xcstrings */; };
 		8EF7F5CC2DC91ABC0052ACA9 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		8EF7F5CD2DC91ABC0052ACA9 /* ePressPlatform-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */; };
 		8EF7F5CE2DC91ABC0052ACA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		8EF7F5CF2DC91ABC0052ACA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
-		8EF7F5D12DC91ABC0052ACA9 /* LocalizePushNotification.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8E5192DD2DB7F8F800B9246C /* LocalizePushNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8EFC13202DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */; };
 		8EFC13212DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */; };
+		8EFDD0DE2DE8125400BD6ECC /* P2PLocalizePushNotification.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8EFDD0D72DE8125300BD6ECC /* P2PLocalizePushNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8EFDD0E72DE81B8D00BD6ECC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD29E2DB88CBA00D668BA /* Constants.swift */; };
+		8EFDD0EA2DE81BA100BD6ECC /* Localizable.xcstrings in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA85BB2DAE4FC6006581F4 /* Localizable.xcstrings */; };
+		8EFDD0EB2DE81BDA00BD6ECC /* LanguageManagerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2922DB885B100D668BA /* LanguageManagerModels.swift */; };
+		8EFDD0EC2DE81BDE00BD6ECC /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCD2912DB885B100D668BA /* LanguageManager.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		C8AD1996CBF0DC825ADEB5D3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		C8AD1996CBF0DC825ADEB5D3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		CBA5695F5A13EA21DCC9F8AD /* Pods_RunnerP2P.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C810EDBC63F4989FB15E1B1F /* Pods_RunnerP2P.framework */; };
 		D5965F24C052E37425907D47 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09CC7AA76D20F6086B402A6 /* Pods_RunnerTests.framework */; };
 /* End PBXBuildFile section */
@@ -58,37 +60,27 @@
 			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
 			remoteInfo = Runner;
 		};
-		8ED06C5C2DBB9BA3003AE47A /* PBXContainerItemProxy */ = {
+		8EFDD0DC2DE8125400BD6ECC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E5192DC2DB7F8F800B9246C;
-			remoteInfo = LocalizePushNotification;
-		};
-		8ED06C5F2DBB9BAA003AE47A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E5192DC2DB7F8F800B9246C;
-			remoteInfo = LocalizePushNotification;
-		};
-		8EF7F5BA2DC91ABC0052ACA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E5192DC2DB7F8F800B9246C;
-			remoteInfo = LocalizePushNotification;
-		};
-		8EF7F5BC2DC91ABC0052ACA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E5192DC2DB7F8F800B9246C;
-			remoteInfo = LocalizePushNotification;
+			remoteGlobalIDString = 8EFDD0D62DE8125300BD6ECC;
+			remoteInfo = P2PLocalizePushNotification;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8EC225002DE80E40008F3FA0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8EFDD0DE2DE8125400BD6ECC /* P2PLocalizePushNotification.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8ED06C5E2DBB9BA3003AE47A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
@@ -99,17 +91,6 @@
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EF7F5D02DC91ABC0052ACA9 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				8EF7F5D12DC91ABC0052ACA9 /* LocalizePushNotification.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8EF7F5D22DC91ABC0052ACA9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -157,11 +138,12 @@
 		8EDCD2A22DB8951100D668BA /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
 		8EDCD2A32DB8951300D668BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		8EF7F5DA2DC91ABC0052ACA9 /* RunnerP2P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunnerP2P.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EF7F5DB2DC91ABC0052ACA9 /* Runner copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy-Info.plist"; path = "/Users/annguyen/Documents/appvity/EP2/ePress-Platform/ios/Runner copy-Info.plist"; sourceTree = "<absolute>"; };
+		8EF7F5DB2DC91ABC0052ACA9 /* P2P-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "P2P-Info.plist"; path = "/Users/annguyen/Documents/appvity/EP2/ePress-Platform/ios/Runner/P2P-Info.plist"; sourceTree = "<absolute>"; };
 		8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ePressPlatform-GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8EFC13222DAD625D00B5B5BF /* RunnerProfile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunnerProfile.entitlements; sourceTree = "<group>"; };
 		8EFC13232DAD68D200B5B5BF /* RunnerDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunnerDebug.entitlements; sourceTree = "<group>"; };
 		8EFC13242DAD68D700B5B5BF /* RunnerRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunnerRelease.entitlements; sourceTree = "<group>"; };
+		8EFDD0D72DE8125300BD6ECC /* P2PLocalizePushNotification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = P2PLocalizePushNotification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +176,20 @@
 			);
 			target = 97C146ED1CF9000F007C117D /* Runner */;
 		};
+		8EFDD0E32DE8125400BD6ECC /* Exceptions for "P2PLocalizePushNotification" folder in "P2PLocalizePushNotification" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8EFDD0D62DE8125300BD6ECC /* P2PLocalizePushNotification */;
+		};
+		8EFDD0E62DE81B0500BD6ECC /* Exceptions for "P2PLocalizePushNotification" folder in "RunnerP2P" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				NotificationService.swift,
+			);
+			target = 8EF7F5B82DC91ABC0052ACA9 /* RunnerP2P */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -204,6 +200,15 @@
 				8E5192E92DB7F8F800B9246C /* Exceptions for "LocalizePushNotification" folder in "LocalizePushNotification" target */,
 			);
 			path = LocalizePushNotification;
+			sourceTree = "<group>";
+		};
+		8EFDD0D82DE8125400BD6ECC /* P2PLocalizePushNotification */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8EFDD0E62DE81B0500BD6ECC /* Exceptions for "P2PLocalizePushNotification" folder in "RunnerP2P" target */,
+				8EFDD0E32DE8125400BD6ECC /* Exceptions for "P2PLocalizePushNotification" folder in "P2PLocalizePushNotification" target */,
+			);
+			path = P2PLocalizePushNotification;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -232,11 +237,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EFDD0D42DE8125300BD6ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EB1CF9000F007C117D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AD1996CBF0DC825ADEB5D3 /* BuildFile in Frameworks */,
+				C8AD1996CBF0DC825ADEB5D3 /* (null) in Frameworks */,
 				1DE667C7B7264DCB94E64E1F /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,11 +308,11 @@
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				8E5192DE2DB7F8F800B9246C /* LocalizePushNotification */,
+				8EFDD0D82DE8125400BD6ECC /* P2PLocalizePushNotification */,
 				97C146EF1CF9000F007C117D /* Products */,
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				B1B7DCBA73531774ADD62BDE /* Pods */,
 				B65908EAD5FFAB918ED629C1 /* Frameworks */,
-				8EF7F5DB2DC91ABC0052ACA9 /* Runner copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -311,6 +323,7 @@
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
 				8E5192DD2DB7F8F800B9246C /* LocalizePushNotification.appex */,
 				8EF7F5DA2DC91ABC0052ACA9 /* RunnerP2P.app */,
+				8EFDD0D72DE8125300BD6ECC /* P2PLocalizePushNotification.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,6 +341,7 @@
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
 				97C147021CF9000F007C117D /* Info.plist */,
+				8EF7F5DB2DC91ABC0052ACA9 /* P2P-Info.plist */,
 				8E1396612DE702950076E881 /* P2P-GoogleService-Info.plist */,
 				8EFC131F2DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist */,
 				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
@@ -416,7 +430,7 @@
 				8EF7F5D52DC91ABC0052ACA9 /* [CP] Copy Pods Resources */,
 				8EF7F5C72DC91ABC0052ACA9 /* Frameworks */,
 				8EF7F5C92DC91ABC0052ACA9 /* Resources */,
-				8EF7F5D02DC91ABC0052ACA9 /* Embed Foundation Extensions */,
+				8EC225002DE80E40008F3FA0 /* Embed Foundation Extensions */,
 				8EF7F5D22DC91ABC0052ACA9 /* Embed Frameworks */,
 				8EF7F5D32DC91ABC0052ACA9 /* Thin Binary */,
 				8EF7F5D42DC91ABC0052ACA9 /* [CP] Embed Pods Frameworks */,
@@ -424,13 +438,34 @@
 			buildRules = (
 			);
 			dependencies = (
-				8EF7F5B92DC91ABC0052ACA9 /* PBXTargetDependency */,
-				8EF7F5BB2DC91ABC0052ACA9 /* PBXTargetDependency */,
+				8EFDD0DD2DE8125400BD6ECC /* PBXTargetDependency */,
 			);
 			name = RunnerP2P;
 			productName = Runner;
 			productReference = 8EF7F5DA2DC91ABC0052ACA9 /* RunnerP2P.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8EFDD0D62DE8125300BD6ECC /* P2PLocalizePushNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFDD0DF2DE8125400BD6ECC /* Build configuration list for PBXNativeTarget "P2PLocalizePushNotification" */;
+			buildPhases = (
+				8EFDD0D32DE8125300BD6ECC /* Sources */,
+				8EFDD0D42DE8125300BD6ECC /* Frameworks */,
+				8EFDD0D52DE8125300BD6ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8EFDD0D82DE8125400BD6ECC /* P2PLocalizePushNotification */,
+			);
+			name = P2PLocalizePushNotification;
+			packageProductDependencies = (
+			);
+			productName = P2PLocalizePushNotification;
+			productReference = 8EFDD0D72DE8125300BD6ECC /* P2PLocalizePushNotification.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		97C146ED1CF9000F007C117D /* Runner */ = {
 			isa = PBXNativeTarget;
@@ -450,8 +485,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				8ED06C5D2DBB9BA3003AE47A /* PBXTargetDependency */,
-				8ED06C602DBB9BAA003AE47A /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
@@ -474,6 +507,9 @@
 						TestTargetID = 97C146ED1CF9000F007C117D;
 					};
 					8E5192DC2DB7F8F800B9246C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8EFDD0D62DE8125300BD6ECC = {
 						CreatedOnToolsVersion = 16.0;
 					};
 					97C146ED1CF9000F007C117D = {
@@ -500,6 +536,7 @@
 				331C8080294A63A400263BE5 /* RunnerTests */,
 				8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */,
 				8EF7F5B82DC91ABC0052ACA9 /* RunnerP2P */,
+				8EFDD0D62DE8125300BD6ECC /* P2PLocalizePushNotification */,
 			);
 		};
 /* End PBXProject section */
@@ -528,10 +565,16 @@
 				8EF7F5CA2DC91ABC0052ACA9 /* LaunchScreen.storyboard in Resources */,
 				8EF7F5CB2DC91ABC0052ACA9 /* Localizable.xcstrings in Resources */,
 				8EF7F5CC2DC91ABC0052ACA9 /* AppFrameworkInfo.plist in Resources */,
-				8EF7F5CD2DC91ABC0052ACA9 /* ePressPlatform-GoogleService-Info.plist in Resources */,
 				8E1396632DE702950076E881 /* P2P-GoogleService-Info.plist in Resources */,
 				8EF7F5CE2DC91ABC0052ACA9 /* Assets.xcassets in Resources */,
 				8EF7F5CF2DC91ABC0052ACA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFDD0D52DE8125300BD6ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +586,6 @@
 				8EAA85BD2DAE4FC6006581F4 /* Localizable.xcstrings in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				8EFC13212DAD615400B5B5BF /* ePressPlatform-GoogleService-Info.plist in Resources */,
-				8E1396622DE702950076E881 /* P2P-GoogleService-Info.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
@@ -647,7 +689,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
 		};
 		8EF7F5D32DC91ABC0052ACA9 /* Thin Binary */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -729,7 +771,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
 		};
 		BCCA2CC1F2D0CB9D8B74D063 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -784,6 +826,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EFDD0D32DE8125300BD6ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFDD0EC2DE81BDE00BD6ECC /* LanguageManager.swift in Sources */,
+				8EFDD0EB2DE81BDA00BD6ECC /* LanguageManagerModels.swift in Sources */,
+				8EFDD0EA2DE81BA100BD6ECC /* Localizable.xcstrings in Sources */,
+				8EFDD0E72DE81B8D00BD6ECC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EA1CF9000F007C117D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -806,25 +859,10 @@
 			target = 97C146ED1CF9000F007C117D /* Runner */;
 			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
 		};
-		8ED06C5D2DBB9BA3003AE47A /* PBXTargetDependency */ = {
+		8EFDD0DD2DE8125400BD6ECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
-			targetProxy = 8ED06C5C2DBB9BA3003AE47A /* PBXContainerItemProxy */;
-		};
-		8ED06C602DBB9BAA003AE47A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
-			targetProxy = 8ED06C5F2DBB9BAA003AE47A /* PBXContainerItemProxy */;
-		};
-		8EF7F5B92DC91ABC0052ACA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
-			targetProxy = 8EF7F5BA2DC91ABC0052ACA9 /* PBXContainerItemProxy */;
-		};
-		8EF7F5BB2DC91ABC0052ACA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8E5192DC2DB7F8F800B9246C /* LocalizePushNotification */;
-			targetProxy = 8EF7F5BC2DC91ABC0052ACA9 /* PBXContainerItemProxy */;
+			target = 8EFDD0D62DE8125300BD6ECC /* P2PLocalizePushNotification */;
+			targetProxy = 8EFDD0DC2DE8125400BD6ECC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1051,9 +1089,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = LocalizePushNotification/LocalizePushNotification.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 11;
-				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1071,6 +1111,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh.LocalizePushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "PTTH Localized Push Notification App Store";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1093,9 +1135,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = LocalizePushNotification/LocalizePushNotification.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 11;
-				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1113,6 +1157,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinh.LocalizePushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "PTTH Localized Push Notification App Store";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1134,17 +1180,19 @@
 				CODE_SIGN_ENTITLEMENTS = Runner/RunnerDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.11;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
 				FIREBASE_CONFIG_FILE = "P2P-GoogleService-Info";
-				INFOPLIST_FILE = "Runner copy-Info.plist";
+				FLUTTER_BUILD_NAME = 1.0.1;
+				FLUTTER_BUILD_NUMBER = 1.0.1;
+				INFOPLIST_FILE = "Runner/P2P-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = P2P;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 11;
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1171,18 +1219,20 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.11;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
 				FIREBASE_CONFIG_FILE = "P2P-GoogleService-Info";
-				INFOPLIST_FILE = "Runner copy-Info.plist";
+				FLUTTER_BUILD_NAME = 1.0.1;
+				FLUTTER_BUILD_NUMBER = 1.0.1;
+				INFOPLIST_FILE = "Runner/P2P-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = P2P;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 11;
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1209,18 +1259,20 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.11;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
 				ENABLE_BITCODE = NO;
 				FIREBASE_CONFIG_FILE = "P2P-GoogleService-Info";
-				INFOPLIST_FILE = "Runner copy-Info.plist";
+				FLUTTER_BUILD_NAME = 1.0.1;
+				FLUTTER_BUILD_NUMBER = 1.0.1;
+				INFOPLIST_FILE = "Runner/P2P-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = P2P;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 11;
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1233,6 +1285,130 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
+		8EFDD0E02DE8125400BD6ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = P2PLocalizePushNotification/P2PLocalizePushNotificationDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X854Z8NU7;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = P2PLocalizePushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = P2PLocalizePushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p.P2PLocalizePushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EFDD0E12DE8125400BD6ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = P2PLocalizePushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = P2PLocalizePushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p.P2PLocalizePushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "P2P Localized Push Notification App Store";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EFDD0E22DE8125400BD6ECC /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8X854Z8NU7;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = P2PLocalizePushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = P2PLocalizePushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appvity.truyenhinhp2p.P2PLocalizePushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "P2P Localized Push Notification App Store";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Profile;
 		};
@@ -1454,6 +1630,16 @@
 				8EF7F5D72DC91ABC0052ACA9 /* Debug */,
 				8EF7F5D82DC91ABC0052ACA9 /* Release */,
 				8EF7F5D92DC91ABC0052ACA9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFDD0DF2DE8125400BD6ECC /* Build configuration list for PBXNativeTarget "P2PLocalizePushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFDD0E02DE8125400BD6ECC /* Debug */,
+				8EFDD0E12DE8125400BD6ECC /* Release */,
+				8EFDD0E22DE8125400BD6ECC /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -324,7 +324,7 @@
         }
       }
     },
-    "budgetRequest" : {
+    "budgetrequest" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -936,7 +936,7 @@
         }
       }
     },
-    "expenseProposal" : {
+    "expenseproposal" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
