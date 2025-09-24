@@ -38,6 +38,14 @@ class Utils {
         return appLocalizations.budgetrequest;
       case "expenseproposal":
         return appLocalizations.expenseproposal;
+      case "ott":
+        return appLocalizations.ott;
+      case "broadcasting":
+        return appLocalizations.broadcasting;
+      case "e_newspaper":
+        return appLocalizations.e_newspaper;
+      case "p_newspaper":
+        return appLocalizations.p_newspaper;
     }
     return "";
   }
@@ -280,6 +288,74 @@ class Utils {
         return appLocalizations.expenseproposal_reject;
       case "expenseproposal_cancel":
         return appLocalizations.expenseproposal_cancel;
+
+      case "ott_approve":
+        return appLocalizations.ott_approve;
+      case "ott_assign":
+        return appLocalizations.ott_assign;
+      case "ott_delegate":
+        return appLocalizations.ott_delegate;
+      case "ott_mention":
+        return appLocalizations.ott_mention;
+      case "ott_recall":
+        return appLocalizations.ott_recall;
+      case "ott_reject":
+        return appLocalizations.ott_reject;
+      case "ott_send_back":
+        return appLocalizations.ott_send_back;
+      case "ott_withdraw":
+        return appLocalizations.ott_withdraw;
+
+      case "broadcasting_approve":
+        return appLocalizations.broadcasting_approve;
+      case "broadcasting_assign":
+        return appLocalizations.broadcasting_assign;
+      case "broadcasting_delegate":
+        return appLocalizations.broadcasting_delegate;
+      case "broadcasting_mention":
+        return appLocalizations.broadcasting_mention;
+      case "broadcasting_recall":
+        return appLocalizations.broadcasting_recall;
+      case "broadcasting_reject":
+        return appLocalizations.broadcasting_reject;
+      case "broadcasting_send_back":
+        return appLocalizations.broadcasting_send_back;
+      case "broadcasting_withdraw":
+        return appLocalizations.broadcasting_withdraw;
+
+      case "e_newspaper_approve":
+        return appLocalizations.e_newspaper_approve;
+      case "e_newspaper_assign":
+        return appLocalizations.e_newspaper_assign;
+      case "e_newspaper_delegate":
+        return appLocalizations.e_newspaper_delegate;
+      case "e_newspaper_mention":
+        return appLocalizations.e_newspaper_mention;
+      case "e_newspaper_recall":
+        return appLocalizations.e_newspaper_recall;
+      case "e_newspaper_reject":
+        return appLocalizations.e_newspaper_reject;
+      case "e_newspaper_send_back":
+        return appLocalizations.e_newspaper_send_back;
+      case "e_newspaper_withdraw":
+        return appLocalizations.e_newspaper_withdraw;
+
+      case "p_newspaper_approve":
+        return appLocalizations.p_newspaper_approve;
+      case "p_newspaper_assign":
+        return appLocalizations.p_newspaper_assign;
+      case "p_newspaper_delegate":
+        return appLocalizations.p_newspaper_delegate;
+      case "p_newspaper_mention":
+        return appLocalizations.p_newspaper_mention;
+      case "p_newspaper_recall":
+        return appLocalizations.p_newspaper_recall;
+      case "p_newspaper_reject":
+        return appLocalizations.p_newspaper_reject;
+      case "p_newspaper_send_back":
+        return appLocalizations.p_newspaper_send_back;
+      case "p_newspaper_withdraw":
+        return appLocalizations.p_newspaper_withdraw;
     }
     return "";
   }
@@ -344,6 +420,21 @@ class Utils {
         redirect = "/royalty-statement/${id}/${tabRouting}";
         break;
       case "task":
+        break;
+      case "ott":
+        redirect = "/publication/ott/${id}/information";
+        break;
+      case "broadcasting":
+        tabRouting = (action == "mention") ? "comment" : "overview";
+        redirect = "/publication/broadcast-transmission/${id}/${tabRouting}";
+        break;
+      case "e_newspaper":
+        tabRouting = (action == "mention") ? "comment" : "overview";
+        redirect = "/publication/electronic-newspaper/${id}/${tabRouting}";
+        break;
+      case "p_newspaper":
+        tabRouting = (action == "mention") ? "comment" : "overview";
+        redirect = "/publication/paper-newspaper/${id}/${tabRouting}";
         break;
     }
     switch (type.toLowerCase()) {

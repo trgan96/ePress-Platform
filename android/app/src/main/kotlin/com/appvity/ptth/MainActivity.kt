@@ -33,11 +33,13 @@ class MainActivity : FlutterActivity() {
                             ).applicationLocales = LocaleList(Locale.forLanguageTag("vi-VN"))
                         }
                     }
-                    "en" -> if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                        getSystemService(
-                            LocaleManager::class.java
-                        ).applicationLocales = LocaleList(Locale.forLanguageTag("en-US"))
-                    }
+                    "en" ->
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                            getSystemService(
+                                LocaleManager::class.java
+                            ).applicationLocales = LocaleList(Locale.forLanguageTag("en-US"))
+                        }
+
                 }
             } else {
                 result.notImplemented()

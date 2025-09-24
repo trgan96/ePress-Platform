@@ -13,7 +13,10 @@
     "payment": "Payment",
     "budgetrequest": "BudgetRequest",
     "expenseproposal": "ExpenseProposal",
-
+    "ott": "Over-the-top Media Service",
+    "broadcasting": "Broadcast Transmission",
+    "e_newspaper": "Electronic Newspaper",
+    "p_newspaper": "Paper Newspaper",
 
     "withdraw": "%s withdrawn their item %s",
     "delegate_": "%s delegated approval in item %s",
@@ -135,5 +138,41 @@
     "expenseproposal_fully_approved": "Expense Proposal %s has been approved successfully.",
     "expenseproposal_mention": "%s has mentioned you in a comment of Expense Proposal %s.",
     "expenseproposal_cancel": "Expense Proposal %s has been rejected.",
-    "expenseproposal_reject": "Expense Proposal %s has been cancelled."
+    "expenseproposal_reject": "Expense Proposal %s has been cancelled.",
+    
+    "ott_mention": "%s mentioned you in a comment in item %s.",
+    "ott_assign": "%s submitted item %s and need your approval.",
+    "ott_approve": "%s approved your item %s.",
+    "ott_reject": "%s rejected your item %s.",
+    "ott_withdraw": "%s withdrawn their item %s.",
+    "ott_recall": "%s recalled their item %s.",
+    "ott_delegate": "%s delegated approval in item %s.",
+    "ott_send_back": "%s sent back to you the item %s.",
+
+    "broadcasting_mention": "%s mentioned you in a comment in item %s.",
+    "broadcasting_assign": "%s submitted item %s and need your approval.",
+    "broadcasting_approve": "%s approved your item %s.",
+    "broadcasting_reject": "%s rejected your item %s.",
+    "broadcasting_withdraw": "%s withdrawn their item %s.",
+    "broadcasting_recall": "%s recalled their item %s.",
+    "broadcasting_delegate": "%s delegated approval in item %s.",
+    "broadcasting_send_back": "%s sent back to you the item %s.",
+
+    "e_newspaper_mention": "%s mentioned you in a comment in item %s.",
+    "e_newspaper_assign": "%s submitted item %s and need your approval.",
+    "e_newspaper_approve": "%s approved your item %s.",
+    "e_newspaper_reject": "%s rejected your item %s.",
+    "e_newspaper_withdraw": "%s withdrawn their item %s.",
+    "e_newspaper_recall": "%s recalled their item %s.",
+    "e_newspaper_delegate": "%s delegated approval in item %s.",
+    "e_newspaper_send_back": "%s sent back to you the item %s.",
+
+    "p_newspaper_mention": "%s mentioned you in a comment in item %s.",
+    "p_newspaper_assign": "%s submitted item %s and need your approval.",
+    "p_newspaper_approve": "%s approved your item %s.",
+    "p_newspaper_reject": "%s rejected your item %s.",
+    "p_newspaper_withdraw": "%s withdrawn their item %s.",
+    "p_newspaper_recall": "%s recalled their item %s.",
+    "p_newspaper_delegate": "%s delegated approval in item %s.",
+    "p_newspaper_send_back": "%s sent back to you the item %s."
 }

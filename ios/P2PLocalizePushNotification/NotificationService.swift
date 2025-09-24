@@ -15,7 +15,6 @@ class NotificationService: UNNotificationServiceExtension {
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
         self.contentHandler = contentHandler
         bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
-        
         if let bestAttemptContent = bestAttemptContent {
             bestAttemptContent.title = localized(value: bestAttemptContent.title, type: "title")
             bestAttemptContent.body = localized(value: bestAttemptContent.body, type: "body")
@@ -55,7 +54,7 @@ class NotificationService: UNNotificationServiceExtension {
             return NSLocalizedString(value.lowercased(), tableName: nil, bundle: langBundle!, comment: type)
         } else {
             //type = "body"
-            let keys: [Substring] = value.split(separator: "{;;}")
+            let keys: [Substring] = value.split(separator: "~")
             guard let key = keys.first else {
                 return ""
             }

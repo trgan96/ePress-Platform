@@ -62,7 +62,8 @@ import 'app_localizations_vi.dart';
 /// be consistent with the languages listed in the AppLocalizations.supportedLocales
 /// property.
 abstract class AppLocalizations {
-  AppLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+  AppLocalizations(String locale)
+    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -70,7 +71,8 @@ abstract class AppLocalizations {
     return Localizations.of<AppLocalizations>(context, AppLocalizations);
   }
 
-  static const LocalizationsDelegate<AppLocalizations> delegate = _AppLocalizationsDelegate();
+  static const LocalizationsDelegate<AppLocalizations> delegate =
+      _AppLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -82,17 +84,18 @@ abstract class AppLocalizations {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
-    delegate,
-    GlobalMaterialLocalizations.delegate,
-    GlobalCupertinoLocalizations.delegate,
-    GlobalWidgetsLocalizations.delegate,
-  ];
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
+        delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ];
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
-    Locale('vi')
+    Locale('vi'),
   ];
 
   /// No description provided for @script.
@@ -178,6 +181,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'ExpenseProposal'**
   String get expenseproposal;
+
+  /// No description provided for @ott.
+  ///
+  /// In en, this message translates to:
+  /// **'Over-the-top Media Service'**
+  String get ott;
+
+  /// No description provided for @broadcasting.
+  ///
+  /// In en, this message translates to:
+  /// **'Broadcast Transmission'**
+  String get broadcasting;
+
+  /// No description provided for @e_newspaper.
+  ///
+  /// In en, this message translates to:
+  /// **'Electronic Newspaper'**
+  String get e_newspaper;
+
+  /// No description provided for @p_newspaper.
+  ///
+  /// In en, this message translates to:
+  /// **'Paper Newspaper'**
+  String get p_newspaper;
 
   /// No description provided for @withdraw.
   ///
@@ -826,9 +853,202 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Expense Proposal %s has been cancelled.'**
   String get expenseproposal_reject;
+
+  /// No description provided for @ott_mention.
+  ///
+  /// In en, this message translates to:
+  /// **'%s mentioned you in a comment in item %s.'**
+  String get ott_mention;
+
+  /// No description provided for @ott_assign.
+  ///
+  /// In en, this message translates to:
+  /// **'%s submitted item %s and need your approval.'**
+  String get ott_assign;
+
+  /// No description provided for @ott_approve.
+  ///
+  /// In en, this message translates to:
+  /// **'%s approved your item %s.'**
+  String get ott_approve;
+
+  /// No description provided for @ott_reject.
+  ///
+  /// In en, this message translates to:
+  /// **'%s rejected your item %s.'**
+  String get ott_reject;
+
+  /// No description provided for @ott_withdraw.
+  ///
+  /// In en, this message translates to:
+  /// **'%s withdrawn their item %s.'**
+  String get ott_withdraw;
+
+  /// No description provided for @ott_recall.
+  ///
+  /// In en, this message translates to:
+  /// **'%s recalled their item %s.'**
+  String get ott_recall;
+
+  /// No description provided for @ott_delegate.
+  ///
+  /// In en, this message translates to:
+  /// **'%s delegated approval in item %s.'**
+  String get ott_delegate;
+
+  /// No description provided for @ott_send_back.
+  ///
+  /// In en, this message translates to:
+  /// **'%s sent back to you the item %s.'**
+  String get ott_send_back;
+
+  /// No description provided for @broadcasting_mention.
+  ///
+  /// In en, this message translates to:
+  /// **'%s mentioned you in a comment in item %s.'**
+  String get broadcasting_mention;
+
+  /// No description provided for @broadcasting_assign.
+  ///
+  /// In en, this message translates to:
+  /// **'%s submitted item %s and need your approval.'**
+  String get broadcasting_assign;
+
+  /// No description provided for @broadcasting_approve.
+  ///
+  /// In en, this message translates to:
+  /// **'%s approved your item %s.'**
+  String get broadcasting_approve;
+
+  /// No description provided for @broadcasting_reject.
+  ///
+  /// In en, this message translates to:
+  /// **'%s rejected your item %s.'**
+  String get broadcasting_reject;
+
+  /// No description provided for @broadcasting_withdraw.
+  ///
+  /// In en, this message translates to:
+  /// **'%s withdrawn their item %s.'**
+  String get broadcasting_withdraw;
+
+  /// No description provided for @broadcasting_recall.
+  ///
+  /// In en, this message translates to:
+  /// **'%s recalled their item %s.'**
+  String get broadcasting_recall;
+
+  /// No description provided for @broadcasting_delegate.
+  ///
+  /// In en, this message translates to:
+  /// **'%s delegated approval in item %s.'**
+  String get broadcasting_delegate;
+
+  /// No description provided for @broadcasting_send_back.
+  ///
+  /// In en, this message translates to:
+  /// **'%s sent back to you the item %s.'**
+  String get broadcasting_send_back;
+
+  /// No description provided for @e_newspaper_mention.
+  ///
+  /// In en, this message translates to:
+  /// **'%s mentioned you in a comment in item %s.'**
+  String get e_newspaper_mention;
+
+  /// No description provided for @e_newspaper_assign.
+  ///
+  /// In en, this message translates to:
+  /// **'%s submitted item %s and need your approval.'**
+  String get e_newspaper_assign;
+
+  /// No description provided for @e_newspaper_approve.
+  ///
+  /// In en, this message translates to:
+  /// **'%s approved your item %s.'**
+  String get e_newspaper_approve;
+
+  /// No description provided for @e_newspaper_reject.
+  ///
+  /// In en, this message translates to:
+  /// **'%s rejected your item %s.'**
+  String get e_newspaper_reject;
+
+  /// No description provided for @e_newspaper_withdraw.
+  ///
+  /// In en, this message translates to:
+  /// **'%s withdrawn their item %s.'**
+  String get e_newspaper_withdraw;
+
+  /// No description provided for @e_newspaper_recall.
+  ///
+  /// In en, this message translates to:
+  /// **'%s recalled their item %s.'**
+  String get e_newspaper_recall;
+
+  /// No description provided for @e_newspaper_delegate.
+  ///
+  /// In en, this message translates to:
+  /// **'%s delegated approval in item %s.'**
+  String get e_newspaper_delegate;
+
+  /// No description provided for @e_newspaper_send_back.
+  ///
+  /// In en, this message translates to:
+  /// **'%s sent back to you the item %s.'**
+  String get e_newspaper_send_back;
+
+  /// No description provided for @p_newspaper_mention.
+  ///
+  /// In en, this message translates to:
+  /// **'%s mentioned you in a comment in item %s.'**
+  String get p_newspaper_mention;
+
+  /// No description provided for @p_newspaper_assign.
+  ///
+  /// In en, this message translates to:
+  /// **'%s submitted item %s and need your approval.'**
+  String get p_newspaper_assign;
+
+  /// No description provided for @p_newspaper_approve.
+  ///
+  /// In en, this message translates to:
+  /// **'%s approved your item %s.'**
+  String get p_newspaper_approve;
+
+  /// No description provided for @p_newspaper_reject.
+  ///
+  /// In en, this message translates to:
+  /// **'%s rejected your item %s.'**
+  String get p_newspaper_reject;
+
+  /// No description provided for @p_newspaper_withdraw.
+  ///
+  /// In en, this message translates to:
+  /// **'%s withdrawn their item %s.'**
+  String get p_newspaper_withdraw;
+
+  /// No description provided for @p_newspaper_recall.
+  ///
+  /// In en, this message translates to:
+  /// **'%s recalled their item %s.'**
+  String get p_newspaper_recall;
+
+  /// No description provided for @p_newspaper_delegate.
+  ///
+  /// In en, this message translates to:
+  /// **'%s delegated approval in item %s.'**
+  String get p_newspaper_delegate;
+
+  /// No description provided for @p_newspaper_send_back.
+  ///
+  /// In en, this message translates to:
+  /// **'%s sent back to you the item %s.'**
+  String get p_newspaper_send_back;
 }
 
-class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
+class _AppLocalizationsDelegate
+    extends LocalizationsDelegate<AppLocalizations> {
   const _AppLocalizationsDelegate();
 
   @override
@@ -837,25 +1057,26 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'vi'].contains(locale.languageCode);
+  bool isSupported(Locale locale) =>
+      <String>['en', 'vi'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
-
-
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'en': return AppLocalizationsEn();
-    case 'vi': return AppLocalizationsVi();
+    case 'en':
+      return AppLocalizationsEn();
+    case 'vi':
+      return AppLocalizationsVi();
   }
 
   throw FlutterError(
     'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
     'an issue with the localizations generation tool. Please file an issue '
     'on GitHub with a reproducible sample app and the gen-l10n configuration '
-    'that was used.'
+    'that was used.',
   );
 }

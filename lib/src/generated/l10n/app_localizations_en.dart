@@ -51,6 +51,18 @@ class AppLocalizationsEn extends AppLocalizations {
   String get expenseproposal => 'ExpenseProposal';
 
   @override
+  String get ott => 'Over-the-top Media Service';
+
+  @override
+  String get broadcasting => 'Broadcast Transmission';
+
+  @override
+  String get e_newspaper => 'Electronic Newspaper';
+
+  @override
+  String get p_newspaper => 'Paper Newspaper';
+
+  @override
   String get withdraw => '%s withdrawn their item %s';
 
   @override
@@ -135,10 +147,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get topic_send_back => '%s sent back to you the item %s';
 
   @override
-  String get externalProduction_mention => '%s mentioned you in a comment in item %s';
+  String get externalProduction_mention =>
+      '%s mentioned you in a comment in item %s';
 
   @override
-  String get externalProduction_assign => '%s submitted item %s and need your approval.';
+  String get externalProduction_assign =>
+      '%s submitted item %s and need your approval.';
 
   @override
   String get externalProduction_approve => '%s approved your item %s';
@@ -159,10 +173,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get externalProduction_send_back => '%s sent back to you the item %s';
 
   @override
-  String get internalProduction_mention => '%s mentioned you in a comment in item %s';
+  String get internalProduction_mention =>
+      '%s mentioned you in a comment in item %s';
 
   @override
-  String get internalProduction_assign => '%s submitted item %s and need your approval.';
+  String get internalProduction_assign =>
+      '%s submitted item %s and need your approval.';
 
   @override
   String get internalProduction_approve => '%s approved your item %s';
@@ -183,10 +199,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get internalProduction_send_back => '%s sent back to you the item %s';
 
   @override
-  String get postProduction_mention => '%s mentioned you in a comment in item %s';
+  String get postProduction_mention =>
+      '%s mentioned you in a comment in item %s';
 
   @override
-  String get postProduction_assign => '%s submitted item %s and need your approval.';
+  String get postProduction_assign =>
+      '%s submitted item %s and need your approval.';
 
   @override
   String get postProduction_approve => '%s approved your item %s';
@@ -207,10 +225,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get postProduction_send_back => '%s sent back to you the item %s';
 
   @override
-  String get broadcastSchedule_mention => '%s mentioned you in a comment in item %s';
+  String get broadcastSchedule_mention =>
+      '%s mentioned you in a comment in item %s';
 
   @override
-  String get broadcastSchedule_assign => '%s submitted item %s and need your approval.';
+  String get broadcastSchedule_assign =>
+      '%s submitted item %s and need your approval.';
 
   @override
   String get broadcastSchedule_approve => '%s approved your item %s';
@@ -261,7 +281,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get royalties_reevaluate => '%s re-evaluated your royalty %s.';
 
   @override
-  String get royalties_mention => '%s has mentioned you in a comment of royalty %s.';
+  String get royalties_mention =>
+      '%s has mentioned you in a comment of royalty %s.';
 
   @override
   String get statement_mention => '%s mentioned you in a comment in item %s';
@@ -288,10 +309,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get statement_send_back => '%s sent back to you the item %s';
 
   @override
-  String get onlineApproval_mention => '%s mentioned you in a comment in item %s';
+  String get onlineApproval_mention =>
+      '%s mentioned you in a comment in item %s';
 
   @override
-  String get onlineApproval_assign => '%s submitted item %s and need your approval.';
+  String get onlineApproval_assign =>
+      '%s submitted item %s and need your approval.';
 
   @override
   String get onlineApproval_approve => '%s approved your item %s';
@@ -318,7 +341,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get payment_submit => '%s submitted Payment Request %s.';
 
   @override
-  String get payment_fully_approved => 'Payment Request %s has been approved successfully.';
+  String get payment_fully_approved =>
+      'Payment Request %s has been approved successfully.';
 
   @override
   String get payment_reject => 'Payment Request %s has been rejected.';
@@ -330,13 +354,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get payment_paid => 'Payment Request %s has been paid successfully.';
 
   @override
-  String get payment_posted => 'Payment Request %s has been posted to eBankTransfer successfully.';
+  String get payment_posted =>
+      'Payment Request %s has been posted to eBankTransfer successfully.';
 
   @override
-  String get payment_mention => '%s has mentioned you in a comment of Payment Request %s.';
+  String get payment_mention =>
+      '%s has mentioned you in a comment of Payment Request %s.';
 
   @override
-  String get budgetrequest_mention => '%s has mentioned you in a comment of Budget Request %s.';
+  String get budgetrequest_mention =>
+      '%s has mentioned you in a comment of Budget Request %s.';
 
   @override
   String get budgetrequest_reject => 'Budget Request %s has been rejected.';
@@ -345,16 +372,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get budgetrequest_cancel => 'Budget Request %s has been cancelled.';
 
   @override
-  String get budgetrequest_create => '%s created Budget Request %s for Budget %s.';
+  String get budgetrequest_create =>
+      '%s created Budget Request %s for Budget %s.';
 
   @override
   String get budgetrequest_submit => '%s submitted Budget Request %s.';
 
   @override
-  String get budgetrequest_fully_approved => 'Budget Request %s has been approved successfully.';
+  String get budgetrequest_fully_approved =>
+      'Budget Request %s has been approved successfully.';
 
   @override
-  String get budgetrequest_budget_adjustment_request_created => '%s created adjustment Budget Request %s for Budget %s.';
+  String get budgetrequest_budget_adjustment_request_created =>
+      '%s created adjustment Budget Request %s for Budget %s.';
 
   @override
   String get expenseproposal_create => '%s created Expense Proposal %s.';
@@ -363,14 +393,117 @@ class AppLocalizationsEn extends AppLocalizations {
   String get expenseproposal_submit => '%s submitted Expense Proposal %s.';
 
   @override
-  String get expenseproposal_fully_approved => 'Expense Proposal %s has been approved successfully.';
+  String get expenseproposal_fully_approved =>
+      'Expense Proposal %s has been approved successfully.';
 
   @override
-  String get expenseproposal_mention => '%s has mentioned you in a comment of Expense Proposal %s.';
+  String get expenseproposal_mention =>
+      '%s has mentioned you in a comment of Expense Proposal %s.';
 
   @override
   String get expenseproposal_cancel => 'Expense Proposal %s has been rejected.';
 
   @override
-  String get expenseproposal_reject => 'Expense Proposal %s has been cancelled.';
+  String get expenseproposal_reject =>
+      'Expense Proposal %s has been cancelled.';
+
+  @override
+  String get ott_mention => '%s mentioned you in a comment in item %s.';
+
+  @override
+  String get ott_assign => '%s submitted item %s and need your approval.';
+
+  @override
+  String get ott_approve => '%s approved your item %s.';
+
+  @override
+  String get ott_reject => '%s rejected your item %s.';
+
+  @override
+  String get ott_withdraw => '%s withdrawn their item %s.';
+
+  @override
+  String get ott_recall => '%s recalled their item %s.';
+
+  @override
+  String get ott_delegate => '%s delegated approval in item %s.';
+
+  @override
+  String get ott_send_back => '%s sent back to you the item %s.';
+
+  @override
+  String get broadcasting_mention =>
+      '%s mentioned you in a comment in item %s.';
+
+  @override
+  String get broadcasting_assign =>
+      '%s submitted item %s and need your approval.';
+
+  @override
+  String get broadcasting_approve => '%s approved your item %s.';
+
+  @override
+  String get broadcasting_reject => '%s rejected your item %s.';
+
+  @override
+  String get broadcasting_withdraw => '%s withdrawn their item %s.';
+
+  @override
+  String get broadcasting_recall => '%s recalled their item %s.';
+
+  @override
+  String get broadcasting_delegate => '%s delegated approval in item %s.';
+
+  @override
+  String get broadcasting_send_back => '%s sent back to you the item %s.';
+
+  @override
+  String get e_newspaper_mention => '%s mentioned you in a comment in item %s.';
+
+  @override
+  String get e_newspaper_assign =>
+      '%s submitted item %s and need your approval.';
+
+  @override
+  String get e_newspaper_approve => '%s approved your item %s.';
+
+  @override
+  String get e_newspaper_reject => '%s rejected your item %s.';
+
+  @override
+  String get e_newspaper_withdraw => '%s withdrawn their item %s.';
+
+  @override
+  String get e_newspaper_recall => '%s recalled their item %s.';
+
+  @override
+  String get e_newspaper_delegate => '%s delegated approval in item %s.';
+
+  @override
+  String get e_newspaper_send_back => '%s sent back to you the item %s.';
+
+  @override
+  String get p_newspaper_mention => '%s mentioned you in a comment in item %s.';
+
+  @override
+  String get p_newspaper_assign =>
+      '%s submitted item %s and need your approval.';
+
+  @override
+  String get p_newspaper_approve => '%s approved your item %s.';
+
+  @override
+  String get p_newspaper_reject => '%s rejected your item %s.';
+
+  @override
+  String get p_newspaper_withdraw => '%s withdrawn their item %s.';
+
+  @override
+  String get p_newspaper_recall => '%s recalled their item %s.';
+
+  @override
+  String get p_newspaper_delegate => '%s delegated approval in item %s.';
+
+  @override
+  String get p_newspaper_send_back => '%s sent back to you the item %s.';
 }

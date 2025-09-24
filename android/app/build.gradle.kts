@@ -11,20 +11,20 @@ plugins {
 android {
     signingConfigs {
         getByName("debug") {
-            storeFile = file("D:\\appvity\\PTTH1\\ptth\\keystore\\debug.jks")
+            storeFile = file("../keystore/debug.jks")
             keyAlias = "debug"
             storePassword = "appvity2012"
             keyPassword = "appvity2012"
         }
         create("release") {
-            storeFile = file("D:\\appvity\\PTTH1\\ptth\\keystore\\release.jks")
+            storeFile = file("../keystore/release.jks")
             keyAlias = "release"
             storePassword = "appvity2012"
             keyPassword = "appvity2012"
         }
     }
     namespace = "com.appvity.ptth"
-    compileSdk = 35
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
     ndkVersion = "27.0.12077973"
 
@@ -93,8 +93,8 @@ android {
             targetSdk = 34
             dimension = "default"
             applicationId = "com.appvity.ptth"
-            versionCode = 10
-            versionName = "1.10"
+            versionCode = 12
+            versionName = "1.12"
             signingConfig = signingConfigs.getByName("release")
             matchingFallbacks += listOf("")
         }

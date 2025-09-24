@@ -14,6 +14,10 @@
     <string name="Statement" translatable="false" tools:ignore="ExtraTranslation">Statement</string>
     <string name="Royalties" translatable="false" tools:ignore="ExtraTranslation">Royalty</string>
     <string name="OnlineApproval" translatable="false" tools:ignore="ExtraTranslation">OnlineApproval</string>
+    <string name="OTT" translatable="false" tools:ignore="ExtraTranslation">Over-the-top Media Service</string>
+    <string name="Broadcasting" translatable="false" tools:ignore="ExtraTranslation">Broadcast Transmission</string>
+    <string name="E_Newspaper" translatable="false" tools:ignore="ExtraTranslation">Electronic Newspaper</string>
+    <string name="P_Newspaper" translatable="false" tools:ignore="ExtraTranslation">Paper Newspaper</string>
 
     <!--    Action-->
     <string name="withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
@@ -121,5 +125,45 @@
     <string name="OnlineApproval_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
     <string name="OnlineApproval_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
     <string name="OnlineApproval_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+
+    <!--    OTT-->
+    <string name="OTT_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="OTT_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="OTT_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="OTT_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="OTT_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="OTT_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="OTT_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="OTT_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+
+    <!--    Broadcasting-->
+    <string name="Broadcasting_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="Broadcasting_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="Broadcasting_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="Broadcasting_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="Broadcasting_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="Broadcasting_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="Broadcasting_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="Broadcasting_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+
+    <!--    E-Newspaper-->
+    <string name="E_Newspaper_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="E_Newspaper_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="E_Newspaper_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="E_Newspaper_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="E_Newspaper_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="E_Newspaper_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="E_Newspaper_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="E_Newspaper_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
+
+    <!--    P-Newspaper-->
+    <string name="P_Newspaper_mention" translatable="false" tools:ignore="ExtraTranslation">%s mentioned you in a comment in item %s </string>
+    <string name="P_Newspaper_assign" translatable="false" tools:ignore="ExtraTranslation">%s submitted item %s and need your approval.</string>
+    <string name="P_Newspaper_approve" translatable="false" tools:ignore="ExtraTranslation">%s approved your item %s</string>
+    <string name="P_Newspaper_reject" translatable="false" tools:ignore="ExtraTranslation">%s rejected your item %s</string>
+    <string name="P_Newspaper_withdraw" translatable="false" tools:ignore="ExtraTranslation">%s withdrawn their item %s</string>
+    <string name="P_Newspaper_recall" translatable="false" tools:ignore="ExtraTranslation">%s recalled their item %s</string>
+    <string name="P_Newspaper_delegate" translatable="false" tools:ignore="ExtraTranslation">%s delegated approval in item %s</string>
+    <string name="P_Newspaper_send_back" translatable="false" tools:ignore="ExtraTranslation">%s sent back to you the item %s</string>
 
 </resources>

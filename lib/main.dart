@@ -187,11 +187,11 @@ class _WebViewExampleState extends State<WebViewExample> {
       if (args.isEmpty || args.length < 2 || args[0].isEmpty || args[1].isEmpty)
         return;
       body = sprintf(body, args);
-      String id = data["id"];
-      String parentId = data["parentId"];
-      String type = data["object"];
-      String action = data["action"];
-      String payeeType = data["payeeType"];
+      String id = data["id"] ?? "";
+      String parentId = data["parentId"] ?? "";
+      String type = data["object"] ?? "";
+      String action = data["action"] ?? "";
+      String payeeType = data["payeeType"] ?? "";
       String url =
           rootURL +
           Utils.getUrl(
@@ -306,11 +306,11 @@ class _WebViewExampleState extends State<WebViewExample> {
       if (message != null) {
         //something
         Map<String, dynamic> data = message.data;
-        String id = data["id"];
-        String parentId = data["parentId"];
-        String type = data["object"];
-        String action = data["action"];
-        String payeeType = data["payeeType"];
+        String id = data["id"] ?? "";
+        String parentId = data["parentId"] ?? "";
+        String type = data["object"] ?? "";
+        String action = data["action"] ?? "";
+        String payeeType = data["payeeType"] ?? "";
         String url =
             rootURL +
             Utils.getUrl(
@@ -326,13 +326,12 @@ class _WebViewExampleState extends State<WebViewExample> {
     });
 
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-      //something
       Map<String, dynamic> data = message.data;
-      String id = data["id"];
-      String parentId = data["parentId"];
-      String type = data["object"];
-      String action = data["action"];
-      String payeeType = data["payeeType"];
+      String id = data["id"] ?? "";
+      String parentId = data["parentId"] ?? "";
+      String type = data["object"] ?? "";
+      String action = data["action"] ?? "";
+      String payeeType = data["payeeType"] ?? "";
       String url =
           rootURL +
           Utils.getUrl(
