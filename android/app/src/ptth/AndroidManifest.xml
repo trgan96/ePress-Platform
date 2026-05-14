@@ -45,8 +45,12 @@
             android:value="2" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@mipmap/ic_launcher_ptth"
+            android:resource="@drawable/ic_epressplatform_notification"
             tools:replace="android:resource" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            tools:replace="android:resource"
+            android:resource="@color/my_notification_color" />
         <meta-data
             android:name="firebase_messaging_auto_init_enabled"
             android:value="true" />
